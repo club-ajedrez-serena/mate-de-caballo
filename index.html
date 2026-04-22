@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mate de Caballo | Club de Ajedrez - La Serena</title>
-    <meta name="description" content="Club de Ajedrez Mate de Caballo en La Serena. Torneos oficiales, valores institucionales, galería y toda la información de nuestra comunidad ajedrecística.">
-    <meta name="keywords" content="ajedrez, La Serena, club de ajedrez, torneos, Copa La Serena, Mate de Caballo">
+    <meta name="description" content="Club de Ajedrez Mate de Caballo en La Serena. Torneos oficiales, valores institucionales, biblioteca gratuita de ajedrez en PDF y galería.">
+    <meta name="keywords" content="ajedrez, La Serena, club de ajedrez, torneos, Copa La Serena, Mate de Caballo, libros de ajedrez PDF">
     <meta name="author" content="Club Deportivo Social y Cultural Mate de Caballo">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='50' y='50' font-size='80' text-anchor='middle' dominant-baseline='middle' fill='%23600000'%3E♘%3C/text%3E%3C/svg%3E">
     
@@ -26,7 +26,7 @@
             --dorado-claro: #f0d78c;
             --negro: #1a1a1a;
             --gris-oscuro: #2d2d2d;
-            --gris: #4a4a4a;      /* Mejor contraste */
+            --gris: #4a4a4a;
             --gris-claro: #f5f5f5;
             --blanco: #ffffff;
         }
@@ -79,13 +79,18 @@
 
         .logo-container {
             position: relative;
-            width: 80px;
-            height: 80px;
+            width: 110px;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .club-logo {
             width: 100%;
-            height: 100%;
+            height: auto;
+            max-height: 80px;
+            object-fit: contain;
             filter: drop-shadow(0 4px 8px rgba(96,0,0,0.2));
             transition: transform 0.3s ease;
         }
@@ -110,7 +115,6 @@
             letter-spacing: 3px;
         }
 
-        /* Navegación desktop */
         nav {
             display: flex;
             gap: 30px;
@@ -145,7 +149,6 @@
             width: 100%;
         }
 
-        /* Botón hamburguesa (móvil) */
         .menu-toggle {
             display: none;
             flex-direction: column;
@@ -278,7 +281,6 @@
             box-shadow: 0 12px 35px rgba(212,175,55,0.4);
         }
 
-        /* SECCIONES */
         section {
             padding: 100px 5%;
         }
@@ -315,7 +317,6 @@
             margin: 20px auto 0;
         }
 
-        /* EVENTOS */
         #eventos {
             background: var(--gris-claro);
         }
@@ -394,7 +395,6 @@
             color: var(--dorado);
         }
 
-        /* VALORES */
         .valores-grid {
             max-width: 1200px;
             margin: 0 auto;
@@ -442,7 +442,6 @@
             line-height: 1.8;
         }
 
-        /* GALERÍA */
         #galeria {
             background: var(--gris-claro);
         }
@@ -494,7 +493,70 @@
             box-shadow: 0 12px 35px rgba(96,0,0,0.3);
         }
 
-        /* FOOTER */
+        #biblioteca {
+            background: var(--blanco);
+        }
+
+        .biblioteca-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+        }
+
+        .recurso-card {
+            background: var(--gris-claro);
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(0,0,0,0.05);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+        }
+
+        .recurso-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            border-color: var(--dorado);
+        }
+
+        .recurso-icono {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .recurso-card h3 {
+            font-family: 'Playfair Display', serif;
+            color: var(--granate);
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+        }
+
+        .recurso-card p {
+            color: var(--gris);
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .recurso-enlace {
+            display: inline-block;
+            background: var(--granate);
+            color: var(--blanco);
+            padding: 10px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .recurso-enlace:hover {
+            background: var(--granate-claro);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(96,0,0,0.3);
+        }
+
         footer {
             background: linear-gradient(135deg, var(--granate-oscuro) 0%, var(--granate) 100%);
             color: var(--blanco);
@@ -558,7 +620,6 @@
             font-size: 0.9rem;
         }
 
-        /* ANIMACIONES ON SCROLL */
         .animate-on-scroll {
             opacity: 0;
             transform: translateY(30px);
@@ -570,7 +631,6 @@
             transform: translateY(0);
         }
 
-        /* RESPONSIVE */
         @media (max-width: 768px) {
             .menu-toggle {
                 display: flex;
@@ -622,7 +682,8 @@
             }
 
             .eventos-grid,
-            .valores-grid {
+            .valores-grid,
+            .biblioteca-grid {
                 grid-template-columns: 1fr;
             }
 
@@ -639,32 +700,8 @@
     <div class="header-content">
         <div class="logo-section">
             <div class="logo-container">
-                <svg class="club-logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-labelledby="logoTitle logoDesc">
-                    <title id="logoTitle">Escudo Club Mate de Caballo</title>
-                    <desc id="logoDesc">Escudo en forma de tablero con un caballo de ajedrez dorado y las iniciales MdC</desc>
-                    <defs>
-                        <linearGradient id="shield-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                            <stop offset="0%" style="stop-color:#8b0000;stop-opacity:1" />
-                            <stop offset="100%" style="stop-color:#4a0000;stop-opacity:1" />
-                        </linearGradient>
-                        <linearGradient id="gold-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                            <stop offset="0%" style="stop-color:#f0d78c;stop-opacity:1" />
-                            <stop offset="100%" style="stop-color:#d4af37;stop-opacity:1" />
-                        </linearGradient>
-                    </defs>
-                    <path d="M 100 20 L 170 50 L 170 120 Q 170 180 100 190 Q 30 180 30 120 L 30 50 Z" fill="url(#shield-gradient)" stroke="url(#gold-gradient)" stroke-width="4"/>
-                    <path d="M 100 30 L 160 55 L 160 120 Q 160 170 100 178 Q 40 170 40 120 L 40 55 Z" fill="none" stroke="url(#gold-gradient)" stroke-width="2" opacity="0.5"/>
-                    <g transform="translate(100, 95)">
-                        <path d="M -25 -30 Q -30 -35 -28 -45 Q -25 -50 -20 -52 Q -15 -55 -8 -53 L -5 -50 L 0 -55 L 5 -50 Q 8 -48 10 -45 Q 15 -42 18 -35 L 20 -25 Q 22 -15 20 -5 L 18 5 Q 15 15 8 20 L -8 20 Q -15 15 -18 5 L -20 -5 Q -22 -15 -20 -25 Z" fill="url(#gold-gradient)"/>
-                        <circle cx="-10" cy="-35" r="2.5" fill="#4a0000"/>
-                        <ellipse cx="0" cy="25" rx="22" ry="8" fill="url(#gold-gradient)" opacity="0.9"/>
-                        <rect x="-20" y="20" width="40" height="5" fill="url(#gold-gradient)"/>
-                    </g>
-                    <circle cx="100" cy="35" r="3" fill="url(#gold-gradient)"/>
-                    <circle cx="45" cy="70" r="2" fill="url(#gold-gradient)" opacity="0.6"/>
-                    <circle cx="155" cy="70" r="2" fill="url(#gold-gradient)" opacity="0.6"/>
-                    <text x="100" y="165" font-family="'Playfair Display', serif" font-size="20" font-weight="bold" fill="url(#gold-gradient)" text-anchor="middle">MdC</text>
-                </svg>
+                <!-- CAMBIA "tu-logo-aqui.png" por el nombre real de tu archivo de imagen -->
+                <img src="tu-logo-aqui.png" alt="Logo del Club Mate de Caballo" class="club-logo">
             </div>
             <div class="brand-text">
                 <h1>MATE DE CABALLO</h1>
@@ -679,6 +716,7 @@
             <a href="#eventos">TORNEOS</a>
             <a href="#nosotros">NOSOTROS</a>
             <a href="#galeria">GALERÍA</a>
+            <a href="#biblioteca">BIBLIOTECA</a>
         </nav>
     </div>
 </header>
@@ -779,6 +817,63 @@
     </div>
 </section>
 
+<section id="biblioteca">
+    <div class="section-title">
+        <h2>Biblioteca de Ajedrez</h2>
+        <p>Recursos gratuitos en PDF para aprender y mejorar tu juego</p>
+    </div>
+    <div class="biblioteca-grid">
+        <div class="recurso-card animate-on-scroll">
+            <div class="recurso-icono">📚</div>
+            <h3>Más de 38 Libros</h3>
+            <p>Colección de guías y tratados de ajedrez para todos los niveles. Desde reglas básicas hasta estrategias complejas.</p>
+            <a href="https://sololibros.org/libros-de-ajedrez/" class="recurso-enlace" target="_blank" rel="noopener noreferrer">Acceder a la colección →</a>
+        </div>
+        <div class="recurso-card animate-on-scroll">
+            <div class="recurso-icono">📖</div>
+            <h3>15 Libros ¡Gratis!</h3>
+            <p>Recopilación de títulos como "Fundamentos del ajedrez" y "Ajedrez para todos". Excelente punto de partida.</p>
+            <a href="https://infolibros.org/libros-pdf-gratis/deportes/ajedrez/" class="recurso-enlace" target="_blank" rel="noopener noreferrer">Ver los 15 libros →</a>
+        </div>
+        <div class="recurso-card animate-on-scroll">
+            <div class="recurso-icono">♟️</div>
+            <h3>Kasandra para Ajedrez</h3>
+            <p>Manual completo dividido en cuatro capítulos: historia, técnicas de juego y más. Ideal para principiantes.</p>
+            <a href="https://www.seducoahuila.gob.mx/leer/assets/kasandra-para-ajedrez-libro-completo.pdf" class="recurso-enlace" target="_blank" rel="noopener noreferrer">Descargar PDF →</a>
+        </div>
+        <div class="recurso-card animate-on-scroll">
+            <div class="recurso-icono">🎯</div>
+            <h3>Elementos de Táctica</h3>
+            <p>PDF enfocado en la relación entre táctica y estrategia, con ejemplos prácticos para mejorar tu juego.</p>
+            <a href="https://www.tigre.gob.ar/public/files/educacion/AJEDREZ-ELEMENTOS-DE-TACTICA.pdf" class="recurso-enlace" target="_blank" rel="noopener noreferrer">Descargar PDF →</a>
+        </div>
+        <div class="recurso-card animate-on-scroll">
+            <div class="recurso-icono">👶</div>
+            <h3>Ajedrez desde Cero</h3>
+            <p>Explica las reglas y el movimiento de las piezas de manera sencilla. Perfecto para quienes son nuevos en el juego.</p>
+            <a href="http://red.ilce.edu.mx/sitios/proyectos/ajedrez_oto15/pdf/ajedrez_desde_cero.pdf" class="recurso-enlace" target="_blank" rel="noopener noreferrer">Descargar PDF →</a>
+        </div>
+        <div class="recurso-card animate-on-scroll">
+            <div class="recurso-icono">🧠</div>
+            <h3>Cartilla "Pienso, luego juego"</h3>
+            <p>Documento que busca fomentar el aprendizaje del ajedrez y sus beneficios para el desarrollo mental.</p>
+            <a href="https://www.conabip.gob.ar/sites/default/files/CARTILLA%20AJEDREZ.pdf" class="recurso-enlace" target="_blank" rel="noopener noreferrer">Descargar PDF →</a>
+        </div>
+        <div class="recurso-card animate-on-scroll">
+            <div class="recurso-icono">🏫</div>
+            <h3>Ajedrez para Todos</h3>
+            <p>Colección de 6 libros divididos en niveles: iniciación, intermedio y avanzado. Cubren apertura, medio juego y finales.</p>
+            <a href="https://www.educachess.org/" class="recurso-enlace" target="_blank" rel="noopener noreferrer">Visitar educachess →</a>
+        </div>
+        <div class="recurso-card animate-on-scroll">
+            <div class="recurso-icono">⭐</div>
+            <h3>Ajedrez Elemental</h3>
+            <p>Excelente guía para aprender desde cero, con capítulos temáticos y numerosos ejemplos prácticos.</p>
+            <a href="https://feriadelibrosanjuan.com.ar/ajedrez-elemental-ajedrez-para-principiantes-por-los-grandes-mae-stros/#content" class="recurso-enlace" target="_blank" rel="noopener noreferrer">Ver más información →</a>
+        </div>
+    </div>
+</section>
+
 <footer>
     <div class="footer-content">
         <div class="footer-chess" aria-hidden="true">♘ ♔ ♗ ♖ ♕ ♘</div>
@@ -794,7 +889,6 @@
 
 <script>
     (function() {
-        // Header scroll con requestAnimationFrame
         let ticking = false;
         const header = document.getElementById('main-header');
         window.addEventListener('scroll', () => {
@@ -808,7 +902,6 @@
             }
         });
 
-        // Smooth scroll para enlaces internos
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 const targetId = this.getAttribute('href');
@@ -817,7 +910,6 @@
                 if (target) {
                     e.preventDefault();
                     target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                    // Cerrar menú móvil si está abierto
                     const nav = document.getElementById('main-nav');
                     if (nav && nav.classList.contains('open')) {
                         nav.classList.remove('open');
@@ -828,7 +920,6 @@
             });
         });
 
-        // Menú hamburguesa
         const toggleBtn = document.querySelector('.menu-toggle');
         const navMenu = document.getElementById('main-nav');
         if (toggleBtn && navMenu) {
@@ -836,7 +927,6 @@
                 const isOpen = navMenu.classList.toggle('open');
                 toggleBtn.setAttribute('aria-expanded', isOpen);
             });
-            // Cerrar menú al hacer click fuera
             document.addEventListener('click', (e) => {
                 if (!navMenu.contains(e.target) && !toggleBtn.contains(e.target) && navMenu.classList.contains('open')) {
                     navMenu.classList.remove('open');
@@ -845,7 +935,6 @@
             });
         }
 
-        // Intersection Observer para animaciones on-scroll
         const animatedElements = document.querySelectorAll('.animate-on-scroll');
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
