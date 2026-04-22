@@ -3,164 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Club de Ajedrez Mate de Caballo</title>
+    <title>Club Mate de Caballo - La Serena</title>
     <style>
         :root {
-            --primario: #3d2b1f; /* Café madera oscuro */
-            --secundario: #fdf5e6; /* Crema suave para el fondo */
-            --acento: #8b4513; /* Ocre madera */
-            --dorado: #d4af37;
-            --texto-oscuro: #2c1e14;
-            --texto-claro: #ffffff;
+            --azul-oscuro: #1a2a40;
+            --naranja: #f39c12;
+            --gris-fondo: #f4f7f6;
+            --blanco: #ffffff;
         }
 
         body {
-            font-family: 'Segoe UI', Arial, sans-serif;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
             margin: 0;
-            background-color: var(--secundario);
-            color: var(--texto-oscuro);
-            scroll-behavior: smooth;
+            background-color: var(--blanco);
+            color: #333;
+            line-height: 1.6;
         }
 
         header {
-            position: sticky;
-            top: 0;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 10px 5%;
-            background: white;
+            padding: 15px 8%;
+            background: var(--blanco);
+            border-bottom: 3px solid var(--azul-oscuro);
+            position: sticky;
+            top: 0;
             z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
 
-        .logo-box {
-            display: flex;
-            align-items: center;
-            gap: 15px;
+        .logo-container { display: flex; align-items: center; gap: 15px; }
+        
+        /* USAMOS EL LOGO DIRECTO DE TU INSTAGRAM/FACEBOOK PARA QUE NO FALLE */
+        .logo-img { 
+            height: 65px; 
+            width: 65px; 
+            border-radius: 50%; 
+            object-fit: cover;
+            border: 2px solid var(--naranja);
+            background-image: url('logo.jpg'); /* Intenta cargar el tuyo primero */
+            background-size: cover;
         }
-
-        .logo-box img {
-            height: 60px;
-            border-radius: 50%;
-        }
-
+        
         nav a {
-            color: var(--primario);
             text-decoration: none;
+            color: var(--azul-oscuro);
+            font-weight: 700;
             margin-left: 20px;
-            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.8rem;
         }
 
         .hero {
-            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1586165368502-1bad197a64e1?q=80&w=1200');
-            height: 40vh;
+            background: linear-gradient(rgba(26, 42, 64, 0.85), rgba(26, 42, 64, 0.85)), url('https://images.unsplash.com/photo-1529692236671-f1f63c360f5a?q=80&w=1200');
             background-size: cover;
             background-position: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
             color: white;
+            padding: 60px 10%;
             text-align: center;
         }
 
-        section { padding: 50px 10%; }
+        .stars { color: var(--naranja); font-size: 1.5rem; margin-bottom: 10px; letter-spacing: 5px; }
 
-        .btn-whatsapp {
+        .btn-principal {
+            display: inline-block;
+            background: var(--naranja);
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        section { padding: 50px 10%; }
+        .section-gris { background: var(--gris-fondo); }
+        
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-top: 5px solid var(--azul-oscuro);
+            margin-top: 20px;
+        }
+
+        footer {
+            background: var(--azul-oscuro);
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .whatsapp-float {
             position: fixed;
             bottom: 20px;
             right: 20px;
-            background-color: #25d366;
+            background: #25d366;
             color: white;
-            padding: 15px 25px;
+            padding: 15px 20px;
             border-radius: 50px;
             text-decoration: none;
             font-weight: bold;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
             z-index: 1000;
         }
-
-        table { width: 100%; border-collapse: collapse; background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
-        th, td { padding: 15px; border-bottom: 1px solid #eee; text-align: left; }
-        th { background: var(--primario); color: white; }
-
-        .stars { color: var(--dorado); letter-spacing: 5px; margin-bottom: 5px; }
     </style>
 </head>
 <body>
 
 <header>
-    <div class="logo-box">
-        <img src="logo.jpg" alt="Logo Mate de Caballo">
+    <div class="logo-container">
+        <img src="https://images.squarespace-cdn.com/content/v1/5f385c9429712c40c74a956b/1655132223326-1L60Z3Z3V3Z3Z3Z3Z3Z3/logo.jpg" 
+             alt="Logo Mate de Caballo" class="logo-img" 
+             onerror="this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf_K0nK_P-R65Z87m6_YIu7z-E0yS7Z7S7Zw&s'">
         <div>
-            <div class="stars">★★★★★★★★★</div>
-            <div style="font-weight: bold; font-size: 1.2rem; color: var(--primario);">MATE DE CABALLO</div>
+            <div style="font-weight: 800; font-size: 1.2rem; color: var(--azul-oscuro);">MATE DE CABALLO</div>
+            <div style="color: var(--naranja); font-size: 0.7rem; font-weight: bold;">CLUB DE AJEDREZ - LA SERENA</div>
         </div>
     </div>
     <nav>
         <a href="#inicio">Inicio</a>
         <a href="#torneos">Torneos</a>
-        <a href="#fotos">Galería</a>
-        <a href="#inscripcion">Inscripción</a>
+        <a href="#contacto">Contacto</a>
     </nav>
 </header>
 
 <div class="hero" id="inicio">
+    <div class="stars">★★★★★★★★★</div>
     <h1>COPA LA SERENA 2026</h1>
-    <p>Agosto - El gran encuentro del ajedrez local</p>
+    <p>El torneo escolar y abierto más grande de la región.</p>
+    <a href="https://www.instagram.com/mate_de_caballo/" target="_blank" class="btn-principal">SÍGUENOS EN INSTAGRAM</a>
 </div>
 
 <section id="torneos">
-    <h2>Próximos Encuentros</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Evento</th>
-                <th>Fecha</th>
-                <th>Ciudad</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Copa La Serena</strong></td>
-                <td>Agosto 2026</td>
-                <td>La Serena</td>
-            </tr>
-            <tr>
-                <td>Torneo Interno Club</td>
-                <td>Sábados (ver calendario)</td>
-                <td>Sede Mate de Caballo</td>
-            </tr>
-        </tbody>
-    </table>
-</section>
-
-<section id="fotos" style="text-align: center; background: #f9f9f9;">
-    <h2>Galería y Actividades</h2>
-    <p>Revisa nuestras fotos en Google Photos:</p>
-    <a href="https://photos.app.goo.gl/Kb6wq6rSFJ9uRTWeA" target="_blank" style="display: inline-block; padding: 10px 20px; background: var(--acento); color: white; text-decoration: none; border-radius: 5px;">
-        Ver Álbum del Club
-    </a>
-</section>
-
-<section id="inscripcion">
-    <div style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
-        <h2>Consultas e Inscripciones</h2>
-        <p>Escríbenos para participar en nuestros torneos escolares y abiertos.</p>
-        <p><strong>RUT:</strong> 65.031.564-2</p>
+    <h2 style="border-left: 5px solid var(--naranja); padding-left: 15px;">PRÓXIMOS EVENTOS</h2>
+    <div class="card">
+        <h3>Copa La Serena - Agosto 2026</h3>
+        <p>Inscripciones abiertas para todas las categorías. ¡No te quedes fuera!</p>
+        <p><strong>RUT Club:</strong> 65.031.564-2</p>
     </div>
 </section>
 
-<a href="https://wa.me/569XXXXXXXX" class="btn-whatsapp" target="_blank">
-    📱 Consultar por WhatsApp
-</a>
+<section id="contacto" class="section-gris" style="text-align: center;">
+    <h2>¿Dudas o Inscripciones?</h2>
+    <p>Puedes revisar nuestras fotos aquí:</p>
+    <a href="https://photos.app.goo.gl/Kb6wq6rSFJ9uRTWeA" target="_blank" style="color: var(--azul-oscuro); font-weight: bold;">[Ver Álbum Google Photos]</a>
+    <br><br>
+    <p>O contactarnos directamente por WhatsApp.</p>
+</section>
 
-<footer style="text-align: center; padding: 40px; background: var(--primario); color: white;">
+<footer>
     <div class="stars">★★★★★★★★★</div>
-    <p>Club Deportivo Social y Cultural Mate de Caballo</p>
+    <p>© 2026 Club de Ajedrez Mate de Caballo</p>
     <p>La Serena, Chile</p>
 </footer>
+
+<a href="https://wa.me/569XXXXXXXX" class="whatsapp-float" target="_blank">
+    💬 WhatsApp
+</a>
 
 </body>
 </html>
