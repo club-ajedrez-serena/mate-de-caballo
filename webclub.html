@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club de Ajedrez Mate de Caballo</title>
+    <style>
+        :root {
+            --primario: #1a1a2e;
+            --secundario: #16213e;
+            --acento: #e94560;
+            --dorado: #ffd700;
+            --texto: #ffffff;
+            --gris-luz: #f4f4f4;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            background-color: var(--primario);
+            color: var(--texto);
+            scroll-behavior: smooth;
+        }
+
+        /* Navegación */
+        header {
+            position: sticky;
+            top: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 5%;
+            background: var(--secundario);
+            z-index: 1000;
+            border-bottom: 2px solid #0f3460;
+        }
+
+        .logo-area {
+            text-align: center;
+        }
+
+        .stars {
+            color: var(--dorado);
+            font-size: 1.1rem;
+            letter-spacing: 4px;
+            margin-bottom: 4px;
+        }
+
+        nav a {
+            color: var(--texto);
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            transition: color 0.3s;
+        }
+
+        nav a:hover { color: var(--acento); }
+
+        /* Secciones Generales */
+        section {
+            padding: 80px 10%;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            border-bottom: 3px solid var(--acento);
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 70vh;
+            background: linear-gradient(rgba(26,26,46,0.7), rgba(26,26,46,0.7)), 
+                        url('https://images.unsplash.com/photo-1586165368502-1bad197a64e1?q=80&w=2000') no-repeat center center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Tablas de Torneos */
+        .tabla-contenedor {
+            overflow-x: auto;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--secundario);
+        }
+
+        th, td {
+            padding: 15px;
+            border: 1px solid #0f3460;
+            text-align: left;
+        }
+
+        th { background-color: var(--acento); }
+
+        /* Footer */
+        footer {
+            background: #0f0f1b;
+            padding: 40px 10%;
+            font-size: 0.9rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo-area">
+        <div class="stars">★★★★★★★★★</div>
+        <div style="font-weight: bold; font-size: 1.4rem; letter-spacing: 2px;">MATE DE CABALLO</div>
+    </div>
+    <nav>
+        <a href="#club">El Club</a>
+        <a href="#torneos">Torneos</a>
+        <a href="#clases">Clases</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1 style="font-size: 4rem; margin: 0;">ESTRATEGIA Y HONOR</h1>
+    <p style="font-size: 1.2rem; max-width: 600px;">Fomentando el ajedrez competitivo y formativo en la Región de Coquimbo.</p>
+</section>
+
+<section id="club">
+    <h2>Nuestra Identidad</h2>
+    <p style="max-width: 800px; margin: 0 auto; font-size: 1.1rem;">
+        El Club de Ajedrez Mate de Caballo es un referente regional dedicado a la difusión del juego ciencia. 
+        Con una trayectoria marcada por la excelencia, nuestro objetivo es formar nuevas generaciones 
+        de jugadores y organizar competencias de alto nivel que pongan a nuestra zona en el mapa nacional.
+    </p>
+</section>
+
+<section id="torneos" style="background-color: var(--secundario);">
+    <h2>Calendario de Torneos</h2>
+    <div class="tabla-contenedor">
+        <table>
+            <thead>
+                <tr>
+                    <th>Evento</th>
+                    <th>Fecha</th>
+                    <th>Modalidad</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Torneo Escolar La Serena</td>
+                    <td>Sábado 15 de Mayo</td>
+                    <td>Suizo - 15+5</td>
+                    <td>Inscripciones Abiertas</td>
+                </tr>
+                <tr>
+                    <td>Abierto Blitz "Mate de Caballo"</td>
+                    <td>Viernes 28 de Mayo</td>
+                    <td>Blitz - 3+2</td>
+                    <td>Próximamente</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section id="clases">
+    <h2>Escuela de Ajedrez</h2>
+    <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+        <div style="background: var(--secundario); padding: 30px; border-radius: 10px; width: 250px;">
+            <h3>Iniciación</h3>
+            <p>Para quienes dan sus primeros pasos en el tablero.</p>
+        </div>
+        <div style="background: var(--secundario); padding: 30px; border-radius: 10px; width: 250px;">
+            <h3>Intermedio</h3>
+            <p>Táctica, finales básicos y análisis de partidas clásicas.</p>
+        </div>
+        <div style="background: var(--secundario); padding: 30px; border-radius: 10px; width: 250px;">
+            <h3>Avanzado</h3>
+            <p>Preparación para torneos y profundización en teoría de aperturas.</p>
+        </div>
+    </div>
+</section>
+
+<footer id="contacto">
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+        <div>
+            <h3 style="color: white;">Contacto</h3>
+            <p>La Serena, Chile</p>
+            <p>Email: contacto@matedecaballo.cl</p>
+        </div>
+        <div style="text-align: right;">
+            <div class="stars" style="text-align: right;">★★★★★★★★★</div>
+            <p>© 2026 Club de Ajedrez Mate de Caballo</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
