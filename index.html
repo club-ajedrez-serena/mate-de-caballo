@@ -228,32 +228,32 @@
         }
     }
     async function cargarRevista(num) {
-        const url = `${BASE_PGN_URL}${num}${EXT}`;
-        const statusDiv = document.getElementById('visor-status');
-        try {
-            if (statusDiv) statusDiv.innerText = `Cargando revista nº ${num}...`;
-            const resp = await fetch(url);
-            if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-            const texto = await resp.text();
-            if (typeof processPGN === 'function') {
-                processPGN(texto);
-                if (statusDiv) statusDiv.innerText = `✅ Revista nº ${num} cargada. Use ← → para navegar.`;
-                // Desplazar la página hacia el visor
-                const visorElement = document.getElementById('visor');
-                if (visorElement) {
-                    visorElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                    visorElement.style.transition = 'box-shadow 0.3s';
-                    visorElement.style.boxShadow = '0 0 0 2px #d4af37, 0 0 0 4px rgba(212,175,55,0.5)';
-                    setTimeout(() => { visorElement.style.boxShadow = ''; }, 1000);
-                }
-            } else {
-                alert("Error: visor no listo");
+    const url = `${BASE_PGN_URL}${num}${EXT}`;
+    const statusDiv = document.getElementById('visor-status');
+    try {
+        if (statusDiv) statusDiv.innerText = `Cargando revista nº ${num}...`;
+        const resp = await fetch(url);
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const texto = await resp.text();
+        if (typeof processPGN === 'function') {
+            processPGN(texto);
+            if (statusDiv) statusDiv.innerText = `✅ Revista nº ${num} cargada. Use ← → para navegar.`;
+            // Desplazar la página hacia el visor
+            const visorElement = document.getElementById('visor');
+            if (visorElement) {
+                visorElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                visorElement.style.transition = 'box-shadow 0.3s';
+                visorElement.style.boxShadow = '0 0 0 2px #d4af37, 0 0 0 4px rgba(212,175,55,0.5)';
+                setTimeout(() => { visorElement.style.boxShadow = ''; }, 1000);
             }
-        } catch (err) {
-            alert(`No se pudo cargar nº ${num}. Verifica que el archivo existe:\n${url}`);
-            if (statusDiv) statusDiv.innerText = `❌ Error: nº ${num}`;
+        } else {
+            alert("Error: visor no listo");
         }
+    } catch (err) {
+        alert(`No se pudo cargar nº ${num}. Verifica que el archivo existe:\n${url}`);
+        if (statusDiv) statusDiv.innerText = `❌ Error: nº ${num}`;
     }
+}
     if (document.getElementById('revistaButtons')) generarBotonesRevista();
 </script>
 </body>
