@@ -72,6 +72,12 @@
         .move-btn{display:inline-block;background:#25232e;padding:4px 10px;border-radius:20px;margin:0 4px 8px 0;cursor:pointer;transition:0.2s;font-weight:500;}
         .move-btn.active{background:#d4af37;color:#000;}
         .comment-text{font-size:0.75rem;color:#aaa;font-style:italic;background:rgba(0,0,0,0.3);padding:8px 10px;margin:6px 0 6px 20px;border-left:3px solid #d4af37;border-radius:0 8px 8px 0;}
+        /* Estilo para variantes dentro del comentario (opcional) */
+        .comment-text .variante {
+            color: #d4af37;
+            font-style: italic;
+            font-size: 0.75rem;
+        }
         .vbtn{background:#2c2c3a;border:1px solid #4a4a5a;color:#ddd;border-radius:8px;padding:6px 14px;cursor:pointer;transition:0.2s;}
         .vbtn:hover{background:#d4af37;color:#000;}
         @media (max-width: 860px) {
@@ -174,9 +180,9 @@
     document.getElementById('newsletterForm').addEventListener('submit',(e)=>{e.preventDefault();document.getElementById('newsMensaje').innerHTML='✅ Suscripción realizada.';e.target.reset();setTimeout(()=>document.getElementById('newsMensaje').innerHTML='',3000);});
     document.getElementById('torneoForm').addEventListener('submit',(e)=>{e.preventDefault();document.getElementById('torneoMensaje').innerHTML='✅ Inscripción registrada.';e.target.reset();setTimeout(()=>document.getElementById('torneoMensaje').innerHTML='',4000);});
 
-    // ========== VISOR (con comentarios) ==========
+    // ========== VISOR (con comentarios y subvariantes) ==========
     let board=null, game=new Chess(), db=[], currentGameIdx=0, moveIdx=-1, history=[], comments={};
-    const DEMO_PGN = `[Event "Clase Magistral"]\n[White "GM Panno"]\n[Black "AI Academy"]\n\n1. e4 { Apertura central } 1... c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 { Siciliana Najdorf } 6. Be3 e5 7. Nb3 Be6 8. f3 Be7 9. Qd2 O-O 10. O-O-O Nbd7 11. g4 b5 12. g5 b4 13. Ne2 Ne8 14. f4 exf4 15. Bxf4 d5 16. exd5 Bxd5 17. Nbd4 Bxg5+ 18. Kb1 Bxf4 19. Qxf4 Nb6 20. Qg3 Nd5 21. Nxd5 Qxd5 22. c4 Qd6 23. Bh3 Rfc8 24. Bxe6 fxe6 25. Qg6 Qf8 26. Qxe6+ Kh8 27. Nf5 Qe8 28. Qxe8 Rxe8 29. Nd6 Rf8 30. Rhe1 Rf6 31. Re6 Rxe6 32. Nxe6 Nc5 33. Nxc5 Rxc5 34. Rxd7 Rxc4 35. b3 Rc5 36. Rxb7 a5 37. Kb2 Rc3 38. Rb6 Rc5 39. Rxa6 Rc3 40. Ra8+ Kh7 41. a4 Rxb3+ 42. Kxb3 g5 43. a5 Kh6 44. a6 Kh5 45. a7 Kh4 46. a8=Q Kg3 47. Qg8 Kf2 48. Qxg5 Ke3 49. Qg3+ Ke4 50. Qe1+ Kd5 51. Qd1+ Ke6 52. Qg4+ Kf6 53. Qd4+ Kg6 54. Qg4+ Kf6 55. Qd4+ Kg6 56. Qg4+ Kf6 57. Qd4+ Kg6 58. Qg4+ 1/2-1/2`;
+    const DEMO_PGN = `[Event "Clase Magistral"]\n[White "GM Panno"]\n[Black "AI Academy"]\n\n1. e4 { Apertura central } 1... c5 2. Nf3 (2. d4) d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 { Siciliana Najdorf } 6. Be3 e5 7. Nb3 Be6 8. f3 Be7 9. Qd2 O-O 10. O-O-O Nbd7 11. g4 b5 12. g5 b4 13. Ne2 Ne8 14. f4 exf4 15. Bxf4 d5 16. exd5 Bxd5 17. Nbd4 Bxg5+ 18. Kb1 Bxf4 19. Qxf4 Nb6 20. Qg3 Nd5 21. Nxd5 Qxd5 22. c4 Qd6 23. Bh3 Rfc8 24. Bxe6 fxe6 25. Qg6 Qf8 26. Qxe6+ Kh8 27. Nf5 Qe8 28. Qxe8 Rxe8 29. Nd6 Rf8 30. Rhe1 Rf6 31. Re6 Rxe6 32. Nxe6 Nc5 33. Nxc5 Rxc5 34. Rxd7 Rxc4 35. b3 Rc5 36. Rxb7 a5 37. Kb2 Rc3 38. Rb6 Rc5 39. Rxa6 Rc3 40. Ra8+ Kh7 41. a4 Rxb3+ 42. Kxb3 g5 43. a5 Kh6 44. a6 Kh5 45. a7 Kh4 46. a8=Q Kg3 47. Qg8 Kf2 48. Qxg5 Ke3 49. Qg3+ Ke4 50. Qe1+ Kd5 51. Qd1+ Ke6 52. Qg4+ Kf6 53. Qd4+ Kg6 54. Qg4+ Kf6 55. Qd4+ Kg6 56. Qg4+ Kf6 57. Qd4+ Kg6 58. Qg4+ 1/2-1/2`;
     function initBoard(){ board = Chessboard('mainBoard', { position: 'start', pieceTheme: 'https://lichess1.org/assets/piece/cburnett/{piece}.svg', draggable: false }); $(window).resize(board.resize); }
     function processPGN(pgn){
         let parts=[], regex=/\[Event\s+"[^"]*"\]/g, lastIndex=0, match;
@@ -189,23 +195,24 @@
     }
     function extractTitle(pgn){ let w=(pgn.match(/\[White\s+"([^"]*)"\]/)||[,"Blancas"])[1]; let b=(pgn.match(/\[Black\s+"([^"]*)"\]/)||[,"Negras"])[1]; return `${w} vs ${b}`; }
     function renderGameList(){ let listDiv=document.getElementById('gameList'); listDiv.innerHTML=db.map((g,i)=>`<div class="game-item ${i===currentGameIdx?'active':''}" onclick="loadGame(${i})"><i class="fas fa-chess"></i> ${g.title}</div>`).join(''); }
-        function parseComments(pgn){
+    
+    // Nueva función parseComments que captura comentarios {...} y variantes (...)
+    function parseComments(pgn){
         let res = {};
         let body = pgn.replace(/\[.*?\]/g, '');
-        // Extraer tokens: movimientos, comentarios {...} y variantes (...)
         let tokens = body.match(/(\{[^}]*\})|(\([^)]*\))|([A-Za-z0-9\+\-\=\#]+)/g);
         let mIdx = -1;
         if (tokens) {
             tokens.forEach(t => {
                 if (t.startsWith('{')) {
-                    // Comentario normal
-                    if (res[mIdx]) res[mIdx] += ' ' + t.slice(1, -1);
-                    else res[mIdx] = t.slice(1, -1);
+                    let comment = t.slice(1, -1);
+                    if (res[mIdx]) res[mIdx] += ' ' + comment;
+                    else res[mIdx] = comment;
                 } else if (t.startsWith('(')) {
-                    // Variante: la mostramos como "variante: ..."
-                    let variante = '[Variante: ' + t.slice(1, -1) + ']';
-                    if (res[mIdx]) res[mIdx] += ' ' + variante;
-                    else res[mIdx] = variante;
+                    let variante = t.slice(1, -1);
+                    let textoVariante = `[Variante: ${variante}]`;
+                    if (res[mIdx]) res[mIdx] += ' ' + textoVariante;
+                    else res[mIdx] = textoVariante;
                 } else if (!/^[0-9]/.test(t)) {
                     mIdx++;
                 }
@@ -213,6 +220,7 @@
         }
         return res;
     }
+    
     function loadGame(idx){ currentGameIdx=idx; renderGameList(); game.load_pgn(db[idx].pgn); document.getElementById('curTitle').innerText=db[idx].title; history=game.history({verbose:true}); comments=parseComments(db[idx].pgn); moveIdx=-1; game.reset(); board.start(); renderNotation(); updateNavButtons(); }
     function renderNotation(){ let html=''; for(let i=0;i<history.length;i+=2){ let num=Math.floor(i/2)+1,w=history[i],b=history[i+1]; html+=`<div class="move-wrap"><span style="color:#666;width:24px;display:inline-block;">${num}.</span><span class="move-btn ${moveIdx===i?'active':''}" onclick="jumpTo(${i})">${w.san}</span> `; if(b) html+=`<span class="move-btn ${moveIdx===i+1?'active':''}" onclick="jumpTo(${i+1})">${b.san}</span>`; if(comments[i]) html+=`<div class="comment-text">${comments[i]}</div>`; if(comments[i+1]) html+=`<div class="comment-text">${comments[i+1]}</div>`; html+=`</div>`; } document.getElementById('notationGrid').innerHTML=html; let active=document.querySelector('.move-btn.active'); if(active) active.scrollIntoView({behavior:'smooth',block:'nearest'}); }
     function jumpTo(i){ if(i<0){ moveIdx=-1; game.reset(); board.start(); renderNotation(); return; } if(i>=history.length) return; moveIdx=i; game.reset(); for(let j=0;j<=i;j++) game.move(history[j].san); board.position(game.fen()); renderNotation(); }
