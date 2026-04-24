@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>Mate de Caballo | Club de Ajedrez </title>
-    <meta name="description" content="Club de Ajedrez Mate de Caballo - La Serena. Torneos élite, ranking de jugadores, visor de partidas ChessBase, biblioteca digital y comunidad ajedrecista.">
+    <title>Mate de Caballo | Club de Ajedrez Futurista</title>
+    <meta name="description" content="Club de Ajedrez Mate de Caballo - La Serena. Torneos élite, ranking de jugadores, visor de partidas ChessBase, biblioteca digital y comunidad futurista.">
     <meta name="keywords" content="ajedrez futurista, club de ajedrez, La Serena, torneos, visor ChessBase, ranking ajedrez">
     <meta name="author" content="Mate de Caballo">
     
     <!-- Open Graph / Redes Sociales -->
-    <meta property="og:title" content="Mate de Caballo | Club de Ajedrez">
+    <meta property="og:title" content="Mate de Caballo | Club de Ajedrez Futurista">
     <meta property="og:description" content="Únete al club de ajedrez más vanguardista de La Serena. Torneos, ranking, partidas interactivas y mucho más.">
     <meta property="og:image" content="https://images.unsplash.com/photo-1529699211952-734e80c4d42b?w=1200&h=630&fit=crop&q=80">
     <meta property="og:url" content="https://www.matedecaballo.cl">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Mate de Caballo | Club de Ajedrez">
+    <meta name="twitter:title" content="Mate de Caballo | Club de Ajedrez Futurista">
     <meta name="twitter:description" content="Ajedrez de élite en La Serena. Visor ChessBase, ranking, torneos y comunidad.">
     
     <!-- Datos estructurados (Schema.org) -->
@@ -56,7 +56,7 @@
     <!-- Canonical -->
     <link rel="canonical" href="https://www.matedecaballo.cl">
     <!-- Google Analytics GA4 — reemplaza G-XXXXXXXXXX con tu ID real -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4GBQ0W05V1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -219,7 +219,7 @@
         .visor-player { font-size: 1rem; color: #e0e0e0; }
         .visor-res { font-family: 'Orbitron', monospace; color: #d4af37; font-size: 1.2rem; font-weight: bold; }
         #visor-inner { display: flex; gap: 24px; align-items: flex-start; flex-wrap: wrap; justify-content: center; }
-        #visor-board-col { flex: 0 0 auto; width: min(460px, 100%); }
+        #visor-board-col { flex: 0 0 auto; width: min(340px, 100%); }
         #visorBoard { width: 100% !important; }
         /* Colores del tablero */
         .board-b72b1 .black-3c85d { background-color: #b58863 !important; }
@@ -229,7 +229,13 @@
         .vbtn:hover { background: rgba(212,175,55,0.3); transform: scale(1.06); box-shadow: 0 0 8px rgba(212,175,55,0.3); }
         #visor-status { text-align: center; margin-top: 10px; color: #999; font-size: 0.82rem; min-height: 18px; }
         #visor-notation-col { flex: 1; min-width: 240px; max-width: 370px; }
-        #visor-notation-scroll { background: #0c0c16; border: 1px solid rgba(212,175,55,0.25); border-radius: 14px; padding: 14px; max-height: 500px; overflow-y: auto; }
+        #visor-notation-scroll { background: #0c0c16; border: 1px solid rgba(212,175,55,0.25); border-radius: 14px; padding: 14px; max-height: 360px; overflow-y: auto; }
+        /* PGN Loader */
+        #visor-loader { background: rgba(0,0,0,0.4); border: 1px solid rgba(212,175,55,0.2); border-radius: 16px; padding: 16px 20px; margin-bottom: 18px; display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-start; }
+        #visorPgnText { flex: 1; min-width: 200px; background: rgba(0,0,0,0.6); color: #e0e0e0; border: 1px solid rgba(212,175,55,0.3); border-radius: 12px; padding: 10px 14px; font-size: 0.82rem; resize: vertical; font-family: monospace; min-height: 56px; }
+        #visor-file-label { background: rgba(212,175,55,0.12); border: 1px solid rgba(212,175,55,0.4); color: #d4af37; border-radius: 10px; padding: 9px 16px; font-size: 0.88rem; cursor: pointer; transition: 0.2s; white-space: nowrap; }
+        #visor-file-label:hover { background: rgba(212,175,55,0.25); }
+        #visor-load-msg { width: 100%; font-size: 0.82rem; min-height: 16px; }
         #visor-notation-scroll::-webkit-scrollbar { width: 5px; }
         #visor-notation-scroll::-webkit-scrollbar-thumb { background: rgba(212,175,55,0.35); border-radius: 4px; }
         #visor-notation-table { width: 100%; border-collapse: collapse; }
@@ -280,7 +286,7 @@
                     <text y="82" font-size="80" fill="url(#lg)" font-family="serif">♞</text>
                 </svg>
             </div>
-            <div class="brand-text"><h1>MATE DE CABALLO</h1><p>CLUB AJEDREZ • LA SERENA</p></div>
+            <div class="brand-text"><h1>MATE DE CABALLO</h1><p>CLUB FUTURISTA • LA SERENA</p></div>
         </div>
         <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú"><span></span><span></span><span></span></button>
         <nav id="mainNav" aria-label="Navegación principal">
@@ -338,12 +344,12 @@
 
 <!-- DIRECTIVA -->
 <section id="directiva">
-    <div class="section-title"><h2>Directiva</h2></div>
+    <div class="section-title"><h2>Directiva Futurista</h2></div>
     <div class="grid-4">
-        <div class="directiva-card"><i class="fas fa-user-astronaut" style="font-size: 3rem; color:#d4af37"></i><h3>Manuel Neira</h3><p>Presidente</p></div>
-        <div class="directiva-card"><i class="fas fa-brain" style="font-size: 3rem; color:#d4af37"></i><h3>Pablo Carvajal Blamey</h3><p>Secretario</p></div>
-        <div class="directiva-card"><i class="fas fa-chess-queen" style="font-size: 3rem; color:#d4af37"></i><h3>Jaime Maizzei</h3><p>Tesorero</p></div>
-        <div class="directiva-card"><i class="fas fa-chart-line" style="font-size: 3rem; color:#d4af37"></i><h3>Patricio Vallejos</h3><p>Desarrollador Web</p></div>
+        <div class="directiva-card"><i class="fas fa-user-astronaut" style="font-size: 3rem; color:#d4af37"></i><h3>Juan Pérez</h3><p>Presidente</p></div>
+        <div class="directiva-card"><i class="fas fa-brain" style="font-size: 3rem; color:#d4af37"></i><h3>María González</h3><p>Secretaria</p></div>
+        <div class="directiva-card"><i class="fas fa-chess-queen" style="font-size: 3rem; color:#d4af37"></i><h3>Carlos López</h3><p>Director Técnico</p></div>
+        <div class="directiva-card"><i class="fas fa-chart-line" style="font-size: 3rem; color:#d4af37"></i><h3>Ana Soto</h3><p>Coordinadora</p></div>
     </div>
 </section>
 
@@ -399,37 +405,51 @@
 </section>
 
 <!-- VISOR DE PARTIDAS (chess.js + chessboard.js) -->
-<section id="tablero" style="background: rgba(0,0,0,0.3); border-radius: 48px; margin: 20px 5%; width: calc(100% - 10%); padding: 60px 5%;">
+<section id="tablero" style="background: rgba(0,0,0,0.3); border-radius: 48px; margin: 20px 5%; width: calc(100% - 10%); padding: 50px 5%;">
     <div class="section-title">
         <h2>♟ Visor de Partidas</h2>
-        <p>Fischer vs Spassky · Belgrade 1992 · Analiza esta obra maestra</p>
+        <p id="visorGameTitle">Fischer vs Spassky · Belgrade 1992</p>
     </div>
-    <div id="visor-container">
-        <div id="visor-info-bar">
-            <span class="visor-player">⬜ <strong>Fischer, Robert J.</strong> (Blancas)</span>
-            <span class="visor-res">1 – 0</span>
-            <span class="visor-player">⬛ <strong>Spassky, Boris V.</strong> (Negras)</span>
+
+    <!-- Cargador de PGN -->
+    <div id="visor-loader">
+        <label id="visor-file-label" for="visorFileInput">📂 Cargar archivo .pgn</label>
+        <input type="file" id="visorFileInput" accept=".pgn">
+        <span style="color:#666; font-size:0.8rem">o pega el PGN:</span>
+        <div style="display:flex;gap:8px;flex:1;min-width:200px;">
+            <textarea id="visorPgnText" placeholder="[Event &quot;...&quot;]&#10;1. e4 e5 ..." rows="2"></textarea>
+            <button class="vbtn" id="vLoadPgn" title="Cargar PGN">▶ Cargar</button>
         </div>
-        <div id="visor-inner">
-            <div id="visor-board-col">
-                <div id="visorBoard"></div>
-                <div id="visor-controls">
-                    <button class="vbtn" id="vFirst" title="Inicio">⏮</button>
-                    <button class="vbtn" id="vPrev" title="Anterior">◀</button>
-                    <button class="vbtn" id="vNext" title="Siguiente">▶</button>
-                    <button class="vbtn" id="vLast" title="Final">⏭</button>
-                </div>
-                <div id="visor-status">Posición inicial · Usa ← → para navegar</div>
+        <div id="visor-load-msg"></div>
+    </div>
+
+    <!-- Barra de jugadores -->
+    <div id="visor-info-bar">
+        <span class="visor-player">⬜ <strong id="visorWhiteName">Fischer, Robert J.</strong></span>
+        <span class="visor-res" id="visorResultBadge">1 – 0</span>
+        <span class="visor-player">⬛ <strong id="visorBlackName">Spassky, Boris V.</strong></span>
+    </div>
+
+    <!-- Tablero + Notación -->
+    <div id="visor-inner">
+        <div id="visor-board-col">
+            <div id="visorBoard"></div>
+            <div id="visor-controls">
+                <button class="vbtn" id="vFirst">⏮</button>
+                <button class="vbtn" id="vPrev">◀</button>
+                <button class="vbtn" id="vNext">▶</button>
+                <button class="vbtn" id="vLast">⏭</button>
             </div>
-            <div id="visor-notation-col">
-                <div id="visor-notation-scroll">
-                    <table id="visor-notation-table"></table>
-                </div>
+            <div id="visor-status">Posición inicial</div>
+        </div>
+        <div id="visor-notation-col">
+            <div id="visor-notation-scroll">
+                <table id="visor-notation-table"></table>
             </div>
         </div>
     </div>
-    <p style="text-align:center; margin-top: 24px; font-size: 0.82rem; color: #777;">
-        ♔ Haz clic en cualquier jugada para saltar a esa posición · Navega con <kbd>←</kbd> <kbd>→</kbd>
+    <p style="text-align:center;margin-top:16px;font-size:0.78rem;color:#666;">
+        Clic en jugada para saltar · Navega con <kbd>←</kbd> <kbd>→</kbd>
     </p>
 </section>
 
@@ -528,8 +548,8 @@
 </footer>
 
 <!-- BOTONES FLOTANTES -->
-<!-- ⚠️ Reemplaza 56986029420 con tu número real de WhatsApp (código país 56 + número sin 0) -->
-<a href="https://wa.me/56986029420?text=Hola%20quiero%20unirme%20al%20club%20ajedrez" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+<!-- ⚠️ Reemplaza 56912345678 con tu número real de WhatsApp (código país 56 + número sin 0) -->
+<a href="https://wa.me/56912345678?text=Hola%20quiero%20unirme%20al%20club%20futurista" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
 <div class="back-to-top" id="backToTop" aria-label="Volver arriba"><i class="fas fa-arrow-up"></i></div>
 
 <script>
@@ -635,33 +655,74 @@
 
     // ===== VISOR DE PARTIDAS (chess.js + chessboard.js) =====
     (function() {
-        const PGN = '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Nb8 10. d4 Nbd7 11. Nbd2 Bb7 12. Bc2 Re8 13. Nf1 Bf8 14. Ng3 g6 15. Bg5 h6 16. Be3 exd4 17. cxd4 c5 18. d5 Nc5 19. b4 Ncd7 20. Nd2 c4 21. a4 bxa4 22. Rxa4 a5 23. bxa5 Rxa5 24. Rxa5 Nxa5 25. Qa4 Nc6 26. Qxc4 Qb6 27. Bb1 Ra8 28. Ra1 Ne5 29. Qd4 Qxd4 30. Nxd4 Nc4 31. Ra4 Nd2 32. Nc6 Rc8 33. Ne7+ Kf8 34. Nxc8 Nxc8 35. Bf4 Ne8 36. Bc4 Nd6 37. Bxd6+ Bxd6 38. Rxd4 Ke7 39. Bb5 Kf6 40. Rf4+ Ke5 41. Re4+ Kf6 42. Rf4+ Ke5 43. g4 Bc5 44. Re4+ Kd6 45. f4 h5 46. gxh5 gxh5 47. f5 Ke5 48. Rg4 Bd6 49. Rg5+ Kf6 50. Rxh5 Bxf5 51. Rxf5+ Kxf5 52. Kf2 Ke5 53. Ke3 Kd5 54. Kd3 Kc5 55. Bc4 Kb4 56. Kd4 Ka3 57. Kc3 Ka4 58. Bb3+ Ka5 59. Kc4 Ka6 60. Kc5 Ka5 61. Bd5 Ka6 62. Kc6 Ka5 63. Kb7 Kb4 64. Kxa7 Kc3 65. Kb6 Kd2 66. Kc5 Ke2 67. Kd4 Kf2 68. Ke4 Kg2 69. Kf5 Kh2 70. Kg5 1-0';
+        const DEFAULT_PGN = '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Nb8 10. d4 Nbd7 11. Nbd2 Bb7 12. Bc2 Re8 13. Nf1 Bf8 14. Ng3 g6 15. Bg5 h6 16. Be3 exd4 17. cxd4 c5 18. d5 Nc5 19. b4 Ncd7 20. Nd2 c4 21. a4 bxa4 22. Rxa4 a5 23. bxa5 Rxa5 24. Rxa5 Nxa5 25. Qa4 Nc6 26. Qxc4 Qb6 27. Bb1 Ra8 28. Ra1 Ne5 29. Qd4 Qxd4 30. Nxd4 Nc4 31. Ra4 Nd2 32. Nc6 Rc8 33. Ne7+ Kf8 34. Nxc8 Nxc8 35. Bf4 Ne8 36. Bc4 Nd6 37. Bxd6+ Bxd6 38. Rxd4 Ke7 39. Bb5 Kf6 40. Rf4+ Ke5 41. Re4+ Kf6 42. Rf4+ Ke5 43. g4 Bc5 44. Re4+ Kd6 45. f4 h5 46. gxh5 gxh5 47. f5 Ke5 48. Rg4 Bd6 49. Rg5+ Kf6 50. Rxh5 Bxf5 51. Rxf5+ Kxf5 52. Kf2 Ke5 53. Ke3 Kd5 54. Kd3 Kc5 55. Bc4 Kb4 56. Kd4 Ka3 57. Kc3 Ka4 58. Bb3+ Ka5 59. Kc4 Ka6 60. Kc5 Ka5 61. Bd5 Ka6 62. Kc6 Ka5 63. Kb7 Kb4 64. Kxa7 Kc3 65. Kb6 Kd2 66. Kc5 Ke2 67. Kd4 Kf2 68. Ke4 Kg2 69. Kf5 Kh2 70. Kg5 1-0';
 
-        // Parsear juego completo
-        const fullGame = new Chess();
-        fullGame.load_pgn(PGN);
-        const allMoves = fullGame.history({ verbose: true });
+        var allMoves = [];
+        var chess = new Chess();
+        var moveIndex = -1;
 
-        // Posición actual
-        const chess = new Chess();
-        let moveIndex = -1;
-
-        // Inicializar tablero
-        const board = Chessboard('visorBoard', {
+        var board = Chessboard('visorBoard', {
             position: 'start',
             pieceTheme: 'https://lichess1.org/assets/piece/cburnett/{piece}.svg',
             draggable: false
         });
         $(window).resize(board.resize);
 
+        // ---- Cargar PGN ----
+        function loadPGN(pgn) {
+            var temp = new Chess();
+            var ok = temp.load_pgn(pgn.trim());
+            var msg = document.getElementById('visor-load-msg');
+            if (!ok) {
+                msg.innerHTML = '<span style="color:#e05;">❌ PGN inválido. Verifica el formato.</span>';
+                return;
+            }
+            msg.innerHTML = '<span style="color:#4c4;">✅ Partida cargada correctamente.</span>';
+            setTimeout(function(){ msg.innerHTML = ''; }, 3000);
+
+            allMoves = temp.history({ verbose: true });
+            var h = temp.header();
+            document.getElementById('visorWhiteName').textContent = (h.White || 'Blancas');
+            document.getElementById('visorBlackName').textContent = (h.Black || 'Negras');
+            var res = (h.Result || '?').replace('1/2-1/2','½–½').replace('1-0','1–0').replace('0-1','0–1');
+            document.getElementById('visorResultBadge').textContent = res;
+            var event = h.Event ? h.Event + (h.Date ? ' · ' + h.Date.substring(0,4) : '') : '';
+            document.getElementById('visorGameTitle').textContent = event || 'Partida cargada';
+            chess = new Chess();
+            moveIndex = -1;
+            board.position('start', false);
+            renderNotation();
+            updateStatus();
+        }
+
+        // Botón Cargar
+        document.getElementById('vLoadPgn').addEventListener('click', function() {
+            var txt = document.getElementById('visorPgnText').value;
+            if (txt.trim()) loadPGN(txt);
+        });
+
+        // Archivo .pgn
+        document.getElementById('visorFileInput').addEventListener('change', function(e) {
+            var file = e.target.files[0];
+            if (!file) return;
+            var reader = new FileReader();
+            reader.onload = function(ev) {
+                var content = ev.target.result;
+                document.getElementById('visorPgnText').value = content;
+                loadPGN(content);
+            };
+            reader.readAsText(file);
+        });
+
+        // ---- Notación ----
         function renderNotation() {
-            let html = '';
-            for (let i = 0; i < allMoves.length; i += 2) {
-                const num = Math.floor(i / 2) + 1;
-                const wMove = allMoves[i];
-                const bMove = allMoves[i + 1];
-                const wCls = 'move' + (moveIndex === i ? ' active' : '');
-                const bCls = 'move' + (moveIndex === i + 1 ? ' active' : '');
+            var html = '';
+            for (var i = 0; i < allMoves.length; i += 2) {
+                var num = Math.floor(i / 2) + 1;
+                var wMove = allMoves[i];
+                var bMove = allMoves[i + 1];
+                var wCls = 'move' + (moveIndex === i ? ' active' : '');
+                var bCls = 'move' + (moveIndex === i + 1 ? ' active' : '');
                 html += '<tr><td class="move-num">' + num + '.</td>' +
                     '<td class="' + wCls + '" data-idx="' + i + '">' + wMove.san + '</td>' +
                     '<td class="' + bCls + '" data-idx="' + (i + 1) + '">' + (bMove ? bMove.san : '') + '</td></tr>';
@@ -676,15 +737,11 @@
 
         function updateStatus() {
             var el = document.getElementById('visor-status');
-            if (moveIndex < 0) {
-                el.textContent = 'Posición inicial · Usa ← → para navegar';
-            } else {
-                var m = allMoves[moveIndex];
-                var num = Math.floor(moveIndex / 2) + 1;
-                var color = moveIndex % 2 === 0 ? 'Blancas' : 'Negras';
-                var dots = moveIndex % 2 === 0 ? '.' : '...';
-                el.textContent = 'Jugada ' + num + dots + ' ' + m.san + ' · ' + color;
-            }
+            if (moveIndex < 0) { el.textContent = 'Posición inicial · Usa ← → para navegar'; return; }
+            var m = allMoves[moveIndex];
+            var num = Math.floor(moveIndex / 2) + 1;
+            var color = moveIndex % 2 === 0 ? 'Blancas' : 'Negras';
+            el.textContent = 'Jugada ' + num + (moveIndex % 2 === 0 ? '.' : '...') + ' ' + m.san + ' · ' + color;
         }
 
         function goToMove(index) {
@@ -698,17 +755,10 @@
             updateStatus();
         }
 
-        function visorFirst() {
-            chess.reset();
-            board.position('start', false);
-            moveIndex = -1;
-            renderNotation();
-            updateStatus();
-        }
-
-        function visorPrev() { moveIndex > 0 ? goToMove(moveIndex - 1) : visorFirst(); }
-        function visorNext() { if (moveIndex < allMoves.length - 1) goToMove(moveIndex + 1); }
-        function visorLast() { goToMove(allMoves.length - 1); }
+        function visorFirst() { chess.reset(); board.position('start', false); moveIndex = -1; renderNotation(); updateStatus(); }
+        function visorPrev()  { moveIndex > 0 ? goToMove(moveIndex - 1) : visorFirst(); }
+        function visorNext()  { if (moveIndex < allMoves.length - 1) goToMove(moveIndex + 1); }
+        function visorLast()  { goToMove(allMoves.length - 1); }
 
         document.getElementById('vFirst').addEventListener('click', visorFirst);
         document.getElementById('vPrev').addEventListener('click', visorPrev);
@@ -717,13 +767,13 @@
 
         document.addEventListener('keydown', function(e) {
             if (e.key === 'ArrowRight' || e.key === 'ArrowDown') visorNext();
-            if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') visorPrev();
+            if (e.key === 'ArrowLeft'  || e.key === 'ArrowUp')   visorPrev();
             if (e.key === 'Home') visorFirst();
-            if (e.key === 'End') visorLast();
+            if (e.key === 'End')  visorLast();
         });
 
-        renderNotation();
-        updateStatus();
+        // Cargar partida por defecto al iniciar
+        loadPGN(DEFAULT_PGN);
     })();
 </script>
 </body>
