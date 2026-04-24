@@ -189,7 +189,30 @@
     }
     function extractTitle(pgn){ let w=(pgn.match(/\[White\s+"([^"]*)"\]/)||[,"Blancas"])[1]; let b=(pgn.match(/\[Black\s+"([^"]*)"\]/)||[,"Negras"])[1]; return `${w} vs ${b}`; }
     function renderGameList(){ let listDiv=document.getElementById('gameList'); listDiv.innerHTML=db.map((g,i)=>`<div class="game-item ${i===currentGameIdx?'active':''}" onclick="loadGame(${i})"><i class="fas fa-chess"></i> ${g.title}</div>`).join(''); }
-    function parseComments(pgn){ let res={}, body=pgn.replace(/\[.*?\]/g,''), tokens=body.match(/(\{[^}]*\})|([A-Za-z0-9\+\-\=\#]+)/g), mIdx=-1; if(tokens) tokens.forEach(t=>{ if(t.startsWith('{')) res[mIdx]=t.slice(1,-1); else if(!/^[0-9]/.test(t)) mIdx++; }); return res; }
+        function parseComments(pgn){
+        let res = {};
+        let body = pgn.replace(/\[.*?\]/g, '');
+        // Extraer tokens: movimientos, comentarios {...} y variantes (...)
+        let tokens = body.match(/(\{[^}]*\})|(\([^)]*\))|([A-Za-z0-9\+\-\=\#]+)/g);
+        let mIdx = -1;
+        if (tokens) {
+            tokens.forEach(t => {
+                if (t.startsWith('{')) {
+                    // Comentario normal
+                    if (res[mIdx]) res[mIdx] += ' ' + t.slice(1, -1);
+                    else res[mIdx] = t.slice(1, -1);
+                } else if (t.startsWith('(')) {
+                    // Variante: la mostramos como "variante: ..."
+                    let variante = '[Variante: ' + t.slice(1, -1) + ']';
+                    if (res[mIdx]) res[mIdx] += ' ' + variante;
+                    else res[mIdx] = variante;
+                } else if (!/^[0-9]/.test(t)) {
+                    mIdx++;
+                }
+            });
+        }
+        return res;
+    }
     function loadGame(idx){ currentGameIdx=idx; renderGameList(); game.load_pgn(db[idx].pgn); document.getElementById('curTitle').innerText=db[idx].title; history=game.history({verbose:true}); comments=parseComments(db[idx].pgn); moveIdx=-1; game.reset(); board.start(); renderNotation(); updateNavButtons(); }
     function renderNotation(){ let html=''; for(let i=0;i<history.length;i+=2){ let num=Math.floor(i/2)+1,w=history[i],b=history[i+1]; html+=`<div class="move-wrap"><span style="color:#666;width:24px;display:inline-block;">${num}.</span><span class="move-btn ${moveIdx===i?'active':''}" onclick="jumpTo(${i})">${w.san}</span> `; if(b) html+=`<span class="move-btn ${moveIdx===i+1?'active':''}" onclick="jumpTo(${i+1})">${b.san}</span>`; if(comments[i]) html+=`<div class="comment-text">${comments[i]}</div>`; if(comments[i+1]) html+=`<div class="comment-text">${comments[i+1]}</div>`; html+=`</div>`; } document.getElementById('notationGrid').innerHTML=html; let active=document.querySelector('.move-btn.active'); if(active) active.scrollIntoView({behavior:'smooth',block:'nearest'}); }
     function jumpTo(i){ if(i<0){ moveIdx=-1; game.reset(); board.start(); renderNotation(); return; } if(i>=history.length) return; moveIdx=i; game.reset(); for(let j=0;j<=i;j++) game.move(history[j].san); board.position(game.fen()); renderNotation(); }
