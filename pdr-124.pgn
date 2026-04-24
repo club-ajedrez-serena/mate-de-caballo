@@ -1,0 +1,3596 @@
+﻿[Event "?"]
+[Site "?"]
+[Date "2016.08.17"]
+[Round "?"]
+[White "Enigma 3"]
+[Black "Solución 1"]
+[Result "*"]
+[ECO "A00"]
+[PlyCount "29"]
+
+1. Nf3 e5 2. Nc3 Qh4 3. Ng5 Qg3 4. hxg3 Na6 5. Rh6 Nc5 6. Rc6 dxc6 7. Nb1 Be6
+8. Nc3 Bb3 9. axb3 h5 10. Ra4 Nf6 11. Rh4 Be7 12. Rh1 h4 13. Nb1 h3 14. Nc3 O-O
+15. gxh3 *
+
+[Event "?"]
+[Site "?"]
+[Date "2016.08.17"]
+[Round "?"]
+[White "Enigma 3"]
+[Black "Solución 2"]
+[Result "*"]
+[ECO "A04"]
+[Annotator "Illescas,Miguel"]
+[PlyCount "29"]
+
+1. Nf3 h5 2. Nc3 h4 3. Rg1 h3 4. gxh3 e5 5. Rg6 Be7 6. Rc6 dxc6 7. Ng5 Be6 8.
+Nb1 Bb3 9. axb3 Na6 10. Ra4 Nc5 11. Rg4 Nf6 12. Rg1 O-O 13. Nc3 Qd3 14. Rh1 Qg3
+15. hxg3 *
+
+[Event "?"]
+[Site "?"]
+[Date "2016.08.17"]
+[Round "?"]
+[White "Enigma 1"]
+[Black "?"]
+[Result "*"]
+[ECO "A00"]
+[PlyCount "27"]
+
+1. Nf3 e5 2. Ng5 Qe7 3. g3 Qb4 4. Bg2 Qb3 5. axb3 Nf6 6. Ra6 Bd6 7. Rc6 dxc6 8.
+Bf3 Bh3 9. Nc3 Bf1 10. Bg2 O-O 11. Nxh7 Na6 12. Ng5 Nc5 13. h3 Be7 14. Bxf1 *
+
+[Event "Copa Sinquefield 2016"]
+[Site "Saint Louis"]
+[Date "2016.08.11"]
+[Round "6"]
+[White "So, Wesley"]
+[Black "Topalov, Veselin"]
+[Result "1-0"]
+[ECO "A20"]
+[WhiteElo "2771"]
+[BlackElo "2761"]
+[Annotator "JGG"]
+[PlyCount "81"]
+[EventDate "2016.??.??"]
+[EventCountry "USA"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 d5 4. cxd5 Nxd5 5. Nc3 Nb6 6. Nf3 Nc6 7. O-O Be7 8.
+d3 O-O {[#]De esta manera se presenta una posición de la variante del dragón
+con colores cambiados y un tiempo de ventaja para el blanco. ¿Cómo afecta
+este detalle a la evaluación general de la variante? El blanco sigue en una
+disposición defensiva, pero como en todas las sicilianas tiene una apuesta de
+largo plazo el centro y la presión a través de la columna c.  El tiempo de
+ventaja lda posibilidades extras al blanco al mismo tiempo que restringe las
+del negro.} 9. a3 Be6 10. Be3 Nd5 11. Nxd5 Bxd5 12. Qa4 Re8 13. Rac1 a6 14. Nd2
+{Seguramente la preparación de So se basaba en una partida previa del
+excampeón mundial:} (14. Rc3 Bf6 15. Rc5 Ne7 16. Rfc1 c6 17. Bg5 Bxg5 18. Nxg5
+Bxg2 19. Kxg2 Nf5 20. Qg4 Nd6 21. e3 Qf6 22. Ne4 Nxe4 23. Qxe4 Rad8 {Karjakin
+- Topalov, Khanty-Mansiysk 2014}) 14... Bxg2 15. Kxg2 Nd4 16. Bxd4 exd4 17. Qb3
+{[#]Esta es la interesante idea que tenía preparada. La idea no es ganadora
+de manera directa pero crea un desequilibrio que da lugar a una lucha sin
+cuartel.} Rb8 (17... Bg5 18. f4 Rxe2+ 19. Rf2 Rxf2+ 20. Kxf2 Be7 21. Qxb7 Rb8
+22. Qxc7 Rxb2 23. Qxd8+ Bxd8 24. Rc8 Kf8 25. Rxd8+ Ke7 26. Rxd4 Rxd2+ 27. Kg1)
+18. e4 $1 dxe3 19. fxe3 Rf8 20. Ne4 Qd7 21. Rf3 Rbd8 22. d4 c6 23. Rcf1 Qd5 24.
+Qc2 g6 25. g4 Rde8 26. h3 Bd8 27. Nc3 Qe6 28. Na4 b6 29. Rc1 {Diagrama [#]} c5
+30. dxc5 b5 31. Nc3 Qc6 32. Qd2 Re5 $2 {[#]} ({Esta inexplicable jugada tira
+por la borda la buena labor anterior de Topalov. Era mejor} 32... Qxc5 33. Nd5
+Qa7 34. Rc6 Qb7 35. Rd6 Bh4 {Con juego complicado.}) 33. b4 Bg5 34. Rd1 Bxe3
+35. Qd7 Qa8 36. Nd5 Bg5 37. c6 {[#]La posición blanca es ganadora. Ahora hay
+que jugar con un poco de cautela por la expuesta posición del rey.} Bh4 38.
+Rd2 $1 Re1 39. Rc2 Kg7 40. Nb6 Qb8 41. Qd4+ 1-0
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.09"]
+[Round "5"]
+[White "Topalov, Veselin"]
+[Black "Ding, Liren"]
+[Result "1-0"]
+[WhiteElo "2761"]
+[BlackElo "2755"]
+[Annotator "JGG"]
+[SetUp "1"]
+[FEN "2RR4/1r4pk/4N2p/8/8/5P1P/r5P1/5b1K w - - 0 62"]
+[PlyCount "9"]
+[EventDate "2016.08.04"]
+
+{[#]Después de una comedia de errores Topalov aprovechó la excelente
+oportunidad que se le presentó para obtener ventaja decisiva.} 62. Rh8+ Kg6
+63. Nf4+ Kg5 64. Rhf8 $1 {Tras esta tranquila jugada las negras no pueden
+escaparse de red de mate tan hábilmente tejida por su adversario. La presente
+posición representa una buena oportunidad para practicar algunos temas de mate
+y el cálculo de variantes. Tratar de trabajar por si mismo las distintas
+variantes puede representar un buen entrenamiento.  Veamos cómo fracasan las
+distintas opciones defensivas del negro:} {[#]} Rbb2 (64... Kh4 65. Rc1 Ba6 (
+65... Be2 66. g3+ Kxg3 67. Rg1+ Kf2 68. Rg2+ Kf1 69. Rc8 Rb1 70. Nxe2) 66. g3+
+Kxg3 67. Rg1+ Kxf3 68. Nd5+) (64... Bxg2+ 65. Kh2 (65. Nxg2 Rb1+ 66. Kh2 Rbb2)
+65... Bxf3+ (65... Bf1+ 66. Kg3) 66. Kg3) (64... Rb5 65. Rc1 Be2 66. Ne6+ Kg6
+67. Rc7) (64... Rb1 65. Rc5+ Kh4 66. Kh2 g5 67. Rf6) 65. Rc7 g6 66. g3 1-0
+
+[Event "Copa Sinquefield  2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.14"]
+[Round "9.2"]
+[White "Topalov, Veselin"]
+[Black "Aronian, Levon"]
+[Result "1/2-1/2"]
+[WhiteElo "2761"]
+[BlackElo "2792"]
+[Annotator "JGG"]
+[SetUp "1"]
+[FEN "8/r7/3kp3/P7/K1R1P3/8/8/8 w - - 0 57"]
+[PlyCount "50"]
+[EventDate "2016.08.05"]
+
+{[#]} 57. Rd4+ $2 {De esta manera Topalov tira la partida y la posibilidad de
+ganar el torneo por la borda.} ({Tras} 57. Kb4 $1 Rb7+ 58. Kc3 Rb1 59. Ra4 Kc7
+60. a6 Kb8 61. a7+ Ka8 62. Kd4 Rb5 63. Ra1 Rh5 64. Ra6 Rb5 65. Rxe6 Kxa7 66.
+Rc6 {ganaba con claridad; la posición de Lucena no se encuentra muy lejos.})
+57... Kc5 58. Rd8 ({El problema es que} 58. Rb4 {se encuentra con la
+desagradable} e5) 58... Rb7 59. Rc8+ Kd4 60. a6 Re7 61. Kb5 Kxe4 62. Rc4+ Kd3
+63. Ra4 e5 64. Ra3+ Kd4 65. a7 {[#]} Rb7+ $8 {Tras esta precisa jugada
+intermedia la partida se encamina hacia unas tablas básicas.} ({Por el
+contrario} 65... Rxa7 $2 {hubiera perdido facilmente,} 66. Rxa7 e4 67. Kb4 Kd3
+68. Kb3 e3 69. Rd7+ {etc.}) 66. Kc6 Rxa7 67. Rxa7 e4 68. Ra4+ Kd3 69. Kd5 e3
+70. Ra3+ Kd2 71. Kd4 e2 72. Ra2+ Kd1 73. Kd3 e1=N+ 74. Kc3 Nf3 75. Rf2 Ne1 76.
+Rd2+ Kc1 77. Rh2 Kd1 78. Rf2 Kc1 79. Rd2 Nf3 80. Rd5 Ne1 81. Rd8 Nf3 {[#]}
+1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.05"]
+[Round "1.1"]
+[White "Giri, Anish"]
+[Black "Vachier-Lagrave, Maxime"]
+[Result "1/2-1/2"]
+[ECO "B90"]
+[WhiteElo "2769"]
+[BlackElo "2819"]
+[PlyCount "93"]
+[EventDate "2016.08.05"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 Ng4 7. Bc1 Nf6 8. f3
+e5 9. Nb3 Be6 10. Be3 Be7 11. Qd2 O-O 12. O-O-O Nbd7 13. g4 b5 14. g5 b4 15.
+gxf6 bxc3 16. Qxc3 Nxf6 17. Na5 Rc8 18. Nc6 Qe8 19. Nxe7+ Qxe7 20. Qa5 Rc6 21.
+Kb1 Rfc8 22. Rd2 Nh5 23. Rg1 Qh4 24. Be2 Nf4 25. Bd1 f5 26. exf5 Bxf5 27. Ka1
+d5 28. c3 Rg6 29. Rxg6 hxg6 30. Bxf4 Qxf4 31. Qxd5+ Kh7 32. Bb3 a5 33. a4 Re8
+34. Ka2 Be6 35. Qc6 Bxb3+ 36. Kxb3 Rb8+ 37. Kc2 Rxb2+ 38. Kxb2 Qxd2+ 39. Kb3
+Qxh2 40. Qd5 Qe2 41. Qxa5 Qd1+ 42. Kb2 Qd2+ 43. Kb3 Qd1+ 44. Kb2 Qd2+ 45. Ka3
+Qc1+ 46. Kb4 Qb1+ 47. Ka3 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.05"]
+[Round "1.2"]
+[White "Anand, Viswanathan"]
+[Black "Caruana, Fabiano"]
+[Result "1/2-1/2"]
+[ECO "C15"]
+[WhiteElo "2770"]
+[BlackElo "2807"]
+[PlyCount "89"]
+[EventDate "2016.08.05"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. exd5 exd5 5. Bd3 Nf6 6. Nge2 O-O 7. O-O c6 8.
+Bg5 h6 9. Bh4 Re8 10. f3 Nbd7 11. Qd2 Nf8 12. Rae1 Bd7 13. a3 Be7 14. Bf2 Ng6
+15. Bg3 Nh5 16. Bxg6 fxg6 17. Be5 Bh4 18. Rd1 Bg5 19. f4 Be7 20. h3 Be6 21. Kh2
+Nf6 22. Nc1 h5 23. Nd3 Bf5 24. Ne2 Ne4 25. Qe3 h4 26. Rc1 Rc8 27. c3 Qb6 28. b4
+Bf6 29. Nc5 Nxc5 30. bxc5 Qb2 31. Ng1 b6 32. Nf3 bxc5 33. dxc5 Be4 34. Rce1 Re7
+35. Bxf6 gxf6 36. Nxh4 Rce8 37. Qg3 Rg7 38. Ra1 g5 39. fxg5 Rxg5 40. Qf2 Qxc3
+41. Qxf6 Qg3+ 42. Kg1 Qxg2+ 43. Nxg2 Rxg2+ 44. Kh1 Rf2+ 45. Kg1 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.05"]
+[Round "1.3"]
+[White "So, Wesley"]
+[Black "Nakamura, Hikaru"]
+[Result "1-0"]
+[ECO "E06"]
+[WhiteElo "2771"]
+[BlackElo "2791"]
+[PlyCount "75"]
+[EventDate "2016.08.05"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Ne5 Nc6 8.
+Nxc6 bxc6 9. Na3 Bxa3 10. bxa3 Ba6 11. Qd2 Rb8 12. Qa5 Qc8 13. a4 Rd8 14. Ba3
+Rxd4 15. Rfb1 Rb6 16. Bc5 Rd7 17. Rd1 h6 18. Rxd7 Nxd7 19. Bxb6 cxb6 20. Qd2 c5
+21. Rd1 Nf6 22. Kf1 Kh7 23. Qc2+ Kg8 24. Qd2 Kh7 25. Qd8 Qxd8 26. Rxd8 c3 27.
+Ke1 Bc4 28. Kd1 Bxa2 29. Kc2 Bc4 30. e3 b5 31. Kxc3 a6 32. Ra8 Nd5+ 33. Bxd5
+exd5 34. a5 b4+ 35. Kd2 Bf1 36. Rc8 c4 37. Rb8 b3 38. Kc3 1-0
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.05"]
+[Round "1.4"]
+[White "Ding, Liren"]
+[Black "Aronian, Levon"]
+[Result "1/2-1/2"]
+[ECO "D37"]
+[WhiteElo "2755"]
+[BlackElo "2792"]
+[PlyCount "61"]
+[EventDate "2016.08.05"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Nbd7 5. Bg5 h6 6. Bh4 Be7 7. e3 O-O 8. Rc1
+c5 9. dxc5 dxc4 10. Bxc4 Nxc5 11. O-O a6 12. Nd4 Nce4 13. Nxe4 Nxe4 14. Bxe7
+Qxe7 15. Qc2 Nf6 16. Bb3 Rb8 17. e4 Rd8 18. Rfd1 e5 19. Nf5 Bxf5 20. exf5 Rxd1+
+21. Rxd1 e4 22. Qc3 Rd8 23. Rxd8+ Qxd8 24. h3 h5 25. Qe5 b5 26. g3 Qd7 27. g4
+hxg4 28. hxg4 Nxg4 29. Qxe4 Nf6 30. Qa8+ Kh7 31. Qh1+ 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.05"]
+[Round "1.5"]
+[White "Topalov, Veselin"]
+[Black "Svidler, Peter"]
+[Result "1-0"]
+[ECO "C88"]
+[WhiteElo "2761"]
+[BlackElo "2751"]
+[PlyCount "55"]
+[EventDate "2016.08.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. a4
+b4 9. d3 d6 10. a5 Be6 11. Bxe6 fxe6 12. Nbd2 d5 13. c3 Bd6 14. d4 bxc3 15.
+bxc3 exd4 16. cxd4 dxe4 17. Nxe4 Bb4 18. Bd2 Nxe4 19. Rxe4 Qd5 20. Bxb4 Qxe4
+21. Bxf8 Rxf8 22. Rc1 h6 23. Qd2 Rb8 24. Qe3 Qd5 25. h3 Rb4 26. Qc3 Nxd4 27.
+Qxb4 Ne2+ 28. Kh1 1-0
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.06"]
+[Round "2.1"]
+[White "Caruana, Fabiano"]
+[Black "Topalov, Veselin"]
+[Result "1/2-1/2"]
+[ECO "C84"]
+[WhiteElo "2807"]
+[BlackElo "2761"]
+[PlyCount "82"]
+[EventDate "2016.08.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a4
+Bd7 9. c3 Na5 10. Ba2 c5 11. Bg5 O-O 12. axb5 axb5 13. Na3 Qb8 14. Nc2 h6 15.
+Bh4 c4 16. Nb4 Be6 17. Re1 Qb7 18. d4 Bg4 19. Bb1 Nb3 20. Rxa8 Rxa8 21. Ba2
+Nxe4 22. Bxe7 Ned2 23. Bxb3 Nxf3+ 24. gxf3 Bxf3 25. Bxd6 Bxd1 26. Bxd1 exd4 27.
+cxd4 Qd7 28. Bg3 Qxd4 29. Bf3 Qd2 30. Rd1 Qxd1+ 31. Bxd1 Ra1 32. Kg2 Rxd1 33.
+Be5 f6 34. Bc3 Kf7 35. Nc2 g5 36. h3 Kg6 37. Na3 Rd5 38. Kf3 f5 39. Kg3 f4+ 40.
+Kg2 Kf5 41. f3 h5 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.06"]
+[Round "2.2"]
+[White "Ding, Liren"]
+[Black "So, Wesley"]
+[Result "1/2-1/2"]
+[ECO "D37"]
+[WhiteElo "2755"]
+[BlackElo "2771"]
+[PlyCount "70"]
+[EventDate "2016.08.05"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Nbd7 5. Bg5 h6 6. Bh4 Be7 7. e3 O-O 8. Be2
+dxc4 9. Bxc4 c5 10. O-O cxd4 11. Nxd4 Nb6 12. Bb3 Nbd5 13. Nxd5 Nxd5 14. Bg3
+Bf6 15. Rc1 Nb6 16. Qe2 Bd7 17. Nb5 a6 18. Nd6 Bc6 19. Nxb7 Bxb7 20. Bc7 Qe7
+21. Bxb6 Bxg2 22. Kxg2 Qb7+ 23. Qf3 Qxb6 24. Rc6 Qb7 25. Rc2 Qxf3+ 26. Kxf3
+Rfc8 27. Rfc1 Rxc2 28. Rxc2 Rb8 29. Rc6 a5 30. Rc5 Ra8 31. Rb5 Ra7 32. Bc2 Kf8
+33. a4 Ke7 34. b4 Bc3 35. bxa5 Rxa5 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.06"]
+[Round "2.3"]
+[White "Vachier-Lagrave, Maxime"]
+[Black "Anand, Viswanathan"]
+[Result "0-1"]
+[ECO "B10"]
+[WhiteElo "2819"]
+[BlackElo "2770"]
+[PlyCount "92"]
+[EventDate "2016.08.05"]
+
+1. e4 c6 2. Nf3 d5 3. Nc3 Nf6 4. e5 Ne4 5. Ne2 Qb6 6. d4 e6 7. Nfg1 f6 8. f3
+Ng5 9. exf6 gxf6 10. f4 Ne4 11. Ng3 Bd7 12. Nxe4 dxe4 13. c3 Na6 14. Qh5+ Kd8
+15. Bc4 Kc7 16. a4 c5 17. Ne2 Rd8 18. Be3 f5 19. O-O Kb8 20. Qf7 Nc7 21. a5 Qc6
+22. Qf6 Bd6 23. dxc5 Bxc5 24. Nd4 Qd6 25. b4 Qe7 26. Qh6 Bd6 27. Rad1 Rhf8 28.
+Bf2 Rf6 29. Qh4 Nd5 30. Nxe6 Bxe6 31. Bxd5 e3 32. Bxe3 Bxd5 33. Bxa7+ Kxa7 34.
+Qf2+ Bc5 35. Qxc5+ Qxc5+ 36. bxc5 Rd7 37. Rfe1 h6 38. Kf2 Kb8 39. c4 Bc6 40.
+Rxd7 Bxd7 41. Rb1 Ra6 42. Rb6 Rxa5 43. Rxh6 Rxc5 44. h4 Rxc4 45. g3 Kc7 46. h5
+b5 0-1
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.06"]
+[Round "2.4"]
+[White "Nakamura, Hikaru"]
+[Black "Giri, Anish"]
+[Result "1-0"]
+[ECO "D44"]
+[WhiteElo "2791"]
+[BlackElo "2769"]
+[PlyCount "119"]
+[EventDate "2016.08.05"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Nc3 c6 5. Bg5 dxc4 6. a4 Bb4 7. e4 Qa5 8. Bd2
+c5 9. Bxc4 cxd4 10. Nxd4 O-O 11. Nc2 Nc6 12. Nxb4 Qxb4 13. b3 Qe7 14. O-O Rd8
+15. Re1 Ne5 16. Bf1 Bd7 17. Qe2 Bc6 18. Bg5 h6 19. Bh4 Ng6 20. Bg3 Rd7 21. f3
+Rad8 22. Qe3 a6 23. Rab1 Qb4 24. Rec1 e5 25. Be1 Qe7 26. Na2 Rd4 27. Ba5 R8d7
+28. Bc3 Bxe4 29. fxe4 Rxe4 30. Qa7 b5 31. Qxa6 Ng4 32. h3 Qc5+ 33. Kh1 Nf2+ 34.
+Kh2 Qe3 35. Re1 Qf4+ 36. g3 Qf5 37. Bg2 Rh4 38. Qa8+ Kh7 39. Qf3 Rxh3+ 40. Kg1
+Qxf3 41. Bxf3 Nd3 42. Re3 Rxg3+ 43. Kh2 Rxf3 44. Rxf3 bxa4 45. bxa4 e4 46. Rf5
+Nh4 47. Rfb5 Nf4 48. R5b4 Rd3 49. Rxe4 g5 50. Rxf4 gxf4 51. Rf1 Nf3+ 52. Kh1
+Kg6 53. a5 Kf5 54. a6 Ng5 55. a7 Rh3+ 56. Kg1 Rg3+ 57. Kf2 Ne4+ 58. Ke1 Rg8 59.
+Bd4 Kg4 60. Be5 1-0
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.06"]
+[Round "2.5"]
+[White "Aronian, Levon"]
+[Black "Svidler, Peter"]
+[Result "1-0"]
+[ECO "D10"]
+[WhiteElo "2792"]
+[BlackElo "2751"]
+[PlyCount "107"]
+[EventDate "2016.08.05"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 a6 5. Nf3 b5 6. b3 Bg4 7. Qd2 Nbd7 8. Ne5
+Nxe5 9. dxe5 Nd7 10. cxd5 cxd5 11. Qxd5 e6 12. Qd4 h5 13. Bd2 Qb8 14. Ne4 Qxe5
+15. a4 Bf5 16. Ng3 Bc2 17. axb5 h4 18. Ne2 Qxb5 19. Qc3 Bh7 20. Nd4 Qb7 21. h3
+Be7 22. Be2 O-O 23. Bf3 Be4 24. Bxe4 Qxe4 25. Qc6 Nc5 26. Qxe4 Nxe4 27. Nc6 Bc5
+28. Ra4 Nxd2 29. Kxd2 Rfc8 30. Na5 Be7 31. Rc1 Rxc1 32. Kxc1 Rc8+ 33. Rc4 Rxc4+
+34. Nxc4 g5 35. Kd2 f5 36. Ne5 Bd6 37. Nf3 Be7 38. Ne5 Bd6 39. Nf3 Be7 40. Kd3
+Kg7 41. Ne5 Bb4 42. Kc4 a5 43. Kb5 Kf6 44. Nc4 Be1 45. f3 g4 46. Nxa5 gxh3 47.
+gxh3 Ke5 48. Nc4+ Kd5 49. Nb6+ Kd6 50. Kc4 Kc6 51. Na4 Bf2 52. e4 fxe4 53. fxe4
+Kd6 54. Nb2 1-0
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.07"]
+[Round "3.1"]
+[White "So, Wesley"]
+[Black "Aronian, Levon"]
+[Result "1/2-1/2"]
+[ECO "C53"]
+[WhiteElo "2771"]
+[BlackElo "2792"]
+[PlyCount "57"]
+[EventDate "2016.08.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 O-O 6. O-O h6 7. d4 Bb6 8. dxe5
+Nxe4 9. Bd5 Nxf2 10. Rxf2 d6 11. exd6 Qxd6 12. Bb3 Bxf2+ 13. Kxf2 Qf6 14. Qd2
+g5 15. Kg1 Bg4 16. Qf2 Rfe8 17. Be3 Bxf3 18. Nd2 Rxe3 19. Qxe3 Bh5 20. Qh3 Be2
+21. Re1 Re8 22. Bc4 Qd8 23. Qxh6 Bxc4 24. Rxe8+ Qxe8 25. Qxg5+ Kf8 26. Qc5+ Kg8
+27. Qg5+ Kf8 28. Qh6+ Kg8 29. Qg5+ 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.07"]
+[Round "3.2"]
+[White "Anand, Viswanathan"]
+[Black "Nakamura, Hikaru"]
+[Result "1/2-1/2"]
+[ECO "B90"]
+[WhiteElo "2770"]
+[BlackElo "2791"]
+[PlyCount "59"]
+[EventDate "2016.08.05"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e5 7. Nde2 h5 8. Nd5
+Nxd5 9. Qxd5 Nc6 10. Qd1 Be6 11. Nc3 Ne7 12. Bd3 d5 13. exd5 Nxd5 14. O-O Nb4
+15. Qe2 Qc7 16. f4 Bc5+ 17. Kh1 Nxd3 18. cxd3 Bd4 19. f5 Bd7 20. f6 g6 21. Nd5
+Qd6 22. Ne7 Rd8 23. a4 Bc6 24. Be3 Bxe3 25. Nxc6 bxc6 26. Qxe3 Qd4 27. Rae1
+Qxe3 28. Rxe3 O-O 29. Rxe5 Rxd3 30. Rc5 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.07"]
+[Round "3.3"]
+[White "Topalov, Veselin"]
+[Black "Vachier-Lagrave, Maxime"]
+[Result "1/2-1/2"]
+[ECO "B90"]
+[WhiteElo "2761"]
+[BlackElo "2819"]
+[PlyCount "108"]
+[EventDate "2016.08.05"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 Ng4 7. Bc1 Nf6 8. f3
+e5 9. Nb3 Be6 10. Be3 Be7 11. Qd2 O-O 12. O-O-O Nbd7 13. g4 b5 14. g5 b4 15.
+gxf6 bxc3 16. Qxc3 Nxf6 17. Na5 Rc8 18. Nc6 Qe8 19. Nxe7+ Qxe7 20. Qa5 Rc6 21.
+Rg1 Rfc8 22. Rg2 Bh3 23. Rgd2 Bxf1 24. Rxf1 Qe6 25. Rff2 h6 26. Kb1 Qh3 27. Rd3
+Rxc2 28. Rxc2 Qf1+ 29. Bc1 Qxd3 30. Qd2 Qxc2+ 31. Qxc2 Rxc2 32. Kxc2 Kf8 33.
+Kb3 Ke7 34. Kc4 Ke6 35. b4 d5+ 36. exd5+ Nxd5 37. Bd2 f5 38. b5 axb5+ 39. Kxb5
+Kd6 40. a4 g5 41. a5 f4 42. Kc4 Nc7 43. Bb4+ Ke6 44. h3 h5 45. Bc5 e4 46. fxe4
+g4 47. hxg4 hxg4 48. Kd3 Na6 49. Bd4 Nb4+ 50. Ke2 Na6 51. Kf2 Kd6 52. Kg2 Ke6
+53. Kf2 Kd6 54. Kg2 Ke6 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.07"]
+[Round "3.4"]
+[White "Svidler, Peter"]
+[Black "Caruana, Fabiano"]
+[Result "1/2-1/2"]
+[ECO "D56"]
+[WhiteElo "2751"]
+[BlackElo "2807"]
+[PlyCount "88"]
+[EventDate "2016.08.05"]
+
+1. Nf3 Nf6 2. c4 e6 3. Nc3 d5 4. d4 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 Ne4 8. Bxe7
+Qxe7 9. Rc1 c6 10. Bd3 Nxc3 11. Rxc3 dxc4 12. Bxc4 Nd7 13. O-O b6 14. Bd3 c5
+15. Be4 Rb8 16. Qa4 Nf6 17. Bc6 cxd4 18. Nxd4 e5 19. Nf3 Rd8 20. h3 a6 21. Rfc1
+b5 22. Qa5 Be6 23. Qxa6 Nd5 24. Bxd5 Bxd5 25. Rc7 Qb4 26. Qa3 Qxa3 27. bxa3
+Bxf3 28. gxf3 Ra8 29. R7c5 Rxa3 30. Rxe5 Rxa2 31. Rxb5 Rdd2 32. Rf1 Rdb2 33.
+Re5 Rb6 34. f4 Rab2 35. Kg2 g6 36. h4 h5 37. f5 Kg7 38. fxg6 Rxg6+ 39. Kh3 Rf6
+40. Rg1+ Rg6 41. Rf1 Rf6 42. f4 Re2 43. Kg3 Re6 44. Kf3 Rh2 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.07"]
+[Round "3.5"]
+[White "Giri, Anish"]
+[Black "Ding, Liren"]
+[Result "1/2-1/2"]
+[ECO "C84"]
+[WhiteElo "2769"]
+[BlackElo "2755"]
+[PlyCount "76"]
+[EventDate "2016.08.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a3
+Na5 9. Ba2 c5 10. Nc3 Be6 11. Nh4 O-O 12. Nf5 Rc8 13. Bg5 Bxf5 14. exf5 Ne8 15.
+Be3 Bg5 16. Bd5 Bxe3 17. fxe3 Nf6 18. Qf3 Re8 19. b3 h6 20. Be4 c4 21. dxc4
+Nxc4 22. bxc4 Rxc4 23. Bc6 Rxc3 24. Bxe8 Qxe8 25. Qb7 Ng4 26. f6 Nxf6 27. Qxa6
+Qd7 28. Rab1 Rc5 29. a4 bxa4 30. Rb8+ Kh7 31. Rxf6 gxf6 32. Qa8 Qc6 33. Rh8+
+Kg6 34. Qg8+ Kf5 35. Qxf7 Rxc2 36. Qh7+ Ke6 37. Qg8+ Kf5 38. Qh7+ Ke6 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.08"]
+[Round "4.1"]
+[White "Aronian, Levon"]
+[Black "Caruana, Fabiano"]
+[Result "1/2-1/2"]
+[ECO "E10"]
+[WhiteElo "2792"]
+[BlackElo "2807"]
+[PlyCount "59"]
+[EventDate "2016.08.05"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. e3 a6 5. Nc3 d5 6. cxd5 exd5 7. g3 Nc6 8. Bg2
+Bd6 9. dxc5 Bxc5 10. O-O O-O 11. Nd4 Nxd4 12. exd4 Ba7 13. Bg5 Be6 14. Rc1 Rc8
+15. Bxf6 Qxf6 16. Nxd5 Bxd5 17. Bxd5 Rxc1 18. Qxc1 b5 19. Qc6 Bxd4 20. Qxf6
+Bxf6 21. b3 Rd8 22. Rd1 Kf8 23. Kf1 a5 24. Bf3 Rxd1+ 25. Bxd1 Ke7 26. a4 bxa4
+27. bxa4 Bc3 28. Bb3 Bb4 29. Ke2 Kf8 30. Bc4 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.08"]
+[Round "4.2"]
+[White "Nakamura, Hikaru"]
+[Black "Topalov, Veselin"]
+[Result "1/2-1/2"]
+[ECO "D37"]
+[WhiteElo "2791"]
+[BlackElo "2761"]
+[PlyCount "83"]
+[EventDate "2016.08.05"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. Qc2 c5 7. dxc5 Na6 8. Rd1
+Nxc5 9. cxd5 Nxd5 10. e4 Nxf4 11. Rxd8 Rxd8 12. Ne5 Bf6 13. Nb5 b6 14. b4 Bxe5
+15. bxc5 a6 16. Nd6 bxc5 17. Nc4 Bd4 18. g3 Ng6 19. Be2 Bd7 20. O-O Bb5 21. Na5
+Ne5 22. Rd1 Rab8 23. Kg2 Bxe2 24. Qxe2 Rb5 25. Nb3 h6 26. Rd2 Nc6 27. Qc4 e5
+28. a4 Rb4 29. Qxa6 Rxb3 30. Qxc6 Ra3 31. Qa6 Rb8 32. a5 c4 33. Qxc4 Rxa5 34.
+Kh3 Rc5 35. Qe2 Rcb5 36. f4 Rb4 37. Qd1 Rb1 38. Qh5 R1b5 39. Qe2 Rb4 40. Qd1
+Rb1 41. Qh5 R1b5 42. Qd1 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.08"]
+[Round "4.3"]
+[White "Ding, Liren"]
+[Black "Anand, Viswanathan"]
+[Result "1/2-1/2"]
+[ECO "A14"]
+[WhiteElo "2755"]
+[BlackElo "2770"]
+[PlyCount "72"]
+[EventDate "2016.08.05"]
+
+1. c4 c5 2. Nf3 Nc6 3. Nc3 Nf6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 e6 7. O-O Be7 8. d4
+O-O 9. Nxd5 exd5 10. dxc5 Bxc5 11. Bg5 Qd7 12. Rc1 Bb6 13. Bd2 Qe7 14. Bc3 Rd8
+15. e3 Bf5 16. Re1 Be4 17. Re2 Rd7 18. Rd2 Rad8 19. Qe2 Rd6 20. Rcd1 h6 21. h4
+Qe6 22. Nd4 Nxd4 23. Bxd4 Ba5 24. Bc3 Bxc3 25. bxc3 Bxg2 26. Kxg2 Rc8 27. Qf3
+Rxc3 28. Rxd5 Rxd5 29. Rxd5 Rc8 30. Ra5 Qb6 31. Re5 Kf8 32. Qf5 Re8 33. Rxe8+
+Kxe8 34. Qe5+ Kf8 35. Qb8+ Ke7 36. Qe5+ Kf8 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.08"]
+[Round "4.4"]
+[White "So, Wesley"]
+[Black "Giri, Anish"]
+[Result "1/2-1/2"]
+[ECO "D02"]
+[WhiteElo "2771"]
+[BlackElo "2769"]
+[PlyCount "88"]
+[EventDate "2016.08.05"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. g3 Bb4+ 5. Bd2 Be7 6. Bg2 O-O 7. O-O c6 8. Qc2
+Nbd7 9. Rd1 b6 10. b3 a5 11. Bc3 Ne4 12. Bb2 f5 13. e3 Ba6 14. Ba3 Bxa3 15.
+Nxa3 b5 16. Rac1 Qe7 17. cxb5 cxb5 18. Nb1 b4 19. Qb2 Rfc8 20. Ne1 h5 21. Rxc8+
+Rxc8 22. Rc1 Qd8 23. Bf1 Bxf1 24. Kxf1 h4 25. Rxc8 Qxc8 26. Qc2 Qxc2 27. Nxc2
+hxg3 28. hxg3 g5 29. Ke2 Kf7 30. a3 bxa3 31. Nbxa3 Nc3+ 32. Kd2 Ne4+ 33. Ke2
+Ndf6 34. b4 a4 35. Ne1 Ke7 36. Nd3 Nd7 37. Kd1 Nb6 38. Kc2 Nc4 39. Nxc4 dxc4
+40. Nb2 Nxf2 41. Nxa4 Ne4 42. Nb6 c3 43. Na4 Nxg3 44. Kxc3 f4 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.08"]
+[Round "4.5"]
+[White "Vachier-Lagrave, Maxime"]
+[Black "Svidler, Peter"]
+[Result "1/2-1/2"]
+[ECO "C92"]
+[WhiteElo "2819"]
+[BlackElo "2751"]
+[PlyCount "69"]
+[EventDate "2016.08.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 Re8 10. d4 Bb7 11. Nbd2 Bf8 12. d5 Nb8 13. Nf1 Nbd7 14. N3h2 c6 15.
+dxc6 Bxc6 16. Bg5 Qc7 17. Qf3 a5 18. Rad1 Qb7 19. Ng3 a4 20. Bc2 b4 21. Nf5 Re6
+22. Bxf6 Nxf6 23. Ng4 Nxg4 24. hxg4 g6 25. Ne3 bxc3 26. bxc3 Bh6 27. Rb1 Qa7
+28. Rb4 Bg5 29. Qe2 Ree8 30. Qd3 Red8 31. Nd5 Rab8 32. Reb1 a3 33. Nb6 Kg7 34.
+g3 Rb7 35. Kg2 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.09"]
+[Round "5.1"]
+[White "Anand, Viswanathan"]
+[Black "So, Wesley"]
+[Result "1/2-1/2"]
+[ECO "C50"]
+[WhiteElo "2770"]
+[BlackElo "2771"]
+[PlyCount "60"]
+[EventDate "2016.08.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 O-O 6. c3 d5 7. exd5 Nxd5 8. a4
+Nb6 9. Bb5 Ne7 10. a5 c6 11. axb6 cxb5 12. Rxa7 Rxa7 13. bxa7 Bxa7 14. Nxe5 Bf5
+15. Re1 Bb8 16. Na3 b4 17. cxb4 Qd5 18. Nec4 Bxd3 19. Rxe7 Bxc4 20. Qxd5 Bxd5
+21. Rd7 Bc6 22. Rd1 Ba4 23. Rd3 Bc7 24. b3 Bc6 25. f3 Rd8 26. Rxd8+ Bxd8 27. b5
+Bd7 28. Kf2 Be7 29. Ke2 Bxa3 30. Bxa3 Bxb5+ 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.09"]
+[Round "5.3"]
+[White "Giri, Anish"]
+[Black "Aronian, Levon"]
+[Result "1/2-1/2"]
+[ECO "A29"]
+[WhiteElo "2769"]
+[BlackElo "2792"]
+[PlyCount "59"]
+[EventDate "2016.08.05"]
+
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6 7. O-O Be7 8.
+Rb1 a5 9. d3 O-O 10. Be3 Be6 11. d4 exd4 12. Nxd4 Nxd4 13. Bxd4 c6 14. f4 f5
+15. e4 Rf7 16. Bh3 Bb4 17. Bxf5 Bxf5 18. exf5 Nc4 19. Qd3 c5 20. Qxc4 Qxd4+ 21.
+Qxd4 cxd4 22. Ne4 Re8 23. a3 Rxe4 24. axb4 axb4 25. Rbe1 Rxe1 26. Rxe1 Rxf5 27.
+Rd1 Rc5 28. Rxd4 Rc1+ 29. Kg2 Rc2+ 30. Kh3 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.09"]
+[Round "5.4"]
+[White "Caruana, Fabiano"]
+[Black "Vachier-Lagrave, Maxime"]
+[Result "1/2-1/2"]
+[ECO "B54"]
+[WhiteElo "2807"]
+[BlackElo "2819"]
+[PlyCount "93"]
+[EventDate "2016.08.05"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. f3 Nc6 6. Nc3 e5 7. Nb3 Be7 8. Be3
+Be6 9. Nd5 Bxd5 10. exd5 Nb4 11. c4 a5 12. Be2 Na6 13. Nd2 O-O 14. Nb1 Nd7 15.
+Qd2 f5 16. Nc3 Bh4+ 17. g3 f4 18. Bf2 Bg5 19. Qc2 Nac5 20. Kf1 Qe8 21. Re1 e4
+22. Bxc5 Nxc5 23. Nxe4 Nxe4 24. Bd3 fxg3 25. Bxe4 Qh5 26. Kg2 gxh2 27. Rxh2 Bh4
+28. Bxh7+ Kh8 29. Be4 Rf4 30. Kh1 Qe5 31. Rg1 g5 32. Qc3 Qxc3 33. bxc3 Kg7 34.
+Rb1 Rf7 35. Rb6 Ra6 36. Rhb2 Rxb6 37. Rxb6 Bf2 38. Rxd6 Rf6 39. Rd8 Rf8 40. Rd6
+Rf6 41. Rd8 Rf8 42. Rxf8 Kxf8 43. d6 Bc5 44. d7 Ke7 45. Bf5 Be3 46. Kg2 Bd2 47.
+Kf2 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.09"]
+[Round "5.5"]
+[White "Svidler, Peter"]
+[Black "Nakamura, Hikaru"]
+[Result "1/2-1/2"]
+[ECO "E63"]
+[WhiteElo "2751"]
+[BlackElo "2791"]
+[PlyCount "82"]
+[EventDate "2016.08.05"]
+
+1. c4 Nf6 2. Nc3 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 d6 6. O-O Nc6 7. d4 a6 8. Re1
+Rb8 9. Rb1 b5 10. cxb5 axb5 11. b4 e6 12. e4 Ne7 13. Bf4 h6 14. h3 Bb7 15. g4
+g5 16. Bg3 Ng6 17. Nd2 Nd7 18. Nb3 Ba6 19. Na5 Rb6 20. a4 Nb8 21. axb5 Bxb5 22.
+Nxb5 Rxb5 23. Bf1 Rb6 24. b5 c6 25. Nc4 Rxb5 26. Rxb5 cxb5 27. Nxd6 b4 28. e5
+Nc6 29. Bc4 Qb6 30. d5 Bxe5 31. Bxe5 Ncxe5 32. dxe6 fxe6 33. Bxe6+ Kh8 34. Bf5
+b3 35. Qd5 b2 36. Rb1 Qc7 37. Bxg6 Qc1+ 38. Kg2 Nxg6 39. Qd4+ Kg8 40. Qd5+ Kh8
+41. Qd4+ Kg8 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.11"]
+[Round "6.2"]
+[White "Aronian, Levon"]
+[Black "Vachier-Lagrave, Maxime"]
+[Result "0-1"]
+[ECO "A37"]
+[WhiteElo "2792"]
+[BlackElo "2819"]
+[PlyCount "98"]
+[EventDate "2016.08.05"]
+
+1. Nf3 c5 2. c4 Nc6 3. Nc3 e5 4. g3 g6 5. Bg2 Bg7 6. O-O Nge7 7. a3 O-O 8. b4
+d5 9. cxd5 Nxd5 10. Ng5 Nc7 11. Nge4 c4 12. d3 cxd3 13. Bg5 f6 14. Be3 f5 15.
+Bg5 Qd4 16. Be3 Qd8 17. Bg5 Qd7 18. Nc5 dxe2 19. Nxe2 Qxd1 20. Rfxd1 f4 21.
+gxf4 h6 22. b5 Nxb5 23. Rab1 Nxa3 24. Rb3 hxg5 25. Rxa3 exf4 26. Bd5+ Kh7 27.
+Ne4 Kh6 28. Nd6 Bf6 29. Bxc6 bxc6 30. Nxc8 Raxc8 31. Rd7 g4 32. Nxf4 Rcd8 33.
+Raxa7 Rxd7 34. Rxd7 c5 35. Ne6 Rc8 36. Rc7 Rxc7 37. Nxc7 c4 38. Kf1 Kg5 39. Nd5
+Be5 40. Ke2 Bxh2 41. Ke3 Be5 42. Nb4 Bd6 43. Nd5 Bc5+ 44. Ke2 Kf5 45. Nc3 Ke5
+46. Nb5 Bb4 47. Ke3 g5 48. Nc7 Bc5+ 49. Ke2 c3 0-1
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.11"]
+[Round "6.3"]
+[White "Giri, Anish"]
+[Black "Anand, Viswanathan"]
+[Result "1/2-1/2"]
+[ECO "A14"]
+[WhiteElo "2769"]
+[BlackElo "2770"]
+[PlyCount "81"]
+[EventDate "2016.08.05"]
+
+1. c4 c5 2. Nf3 Nf6 3. Nc3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 e6 7. O-O Be7 8. d4
+O-O 9. e4 Ndb4 10. dxc5 Bxc5 11. e5 Bb6 12. a3 Nd5 13. Qe2 Bd7 14. Rd1 Nxc3 15.
+bxc3 Qc7 16. a4 Ne7 17. Ng5 Bc6 18. Ba3 Bxg2 19. Kxg2 Bc5 20. Qe4 Ng6 21. Bxc5
+Qxc5 22. Nf3 b6 23. Rd7 Qxc3 24. Rad1 Rac8 25. Rxa7 Rc4 26. Qb7 Rcc8 27. Re1
+Rb8 28. Qe4 Qc5 29. Rb1 b5 30. Ra5 Qc4 31. Qxc4 bxc4 32. Rxb8 Rxb8 33. Rc5 Rb4
+34. a5 Ra4 35. Nd2 c3 36. Rc8+ Nf8 37. Nb3 g5 38. Rxc3 Ra3 39. Kf3 Ng6 40. Rc8+
+Kg7 41. Rc3 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.11"]
+[Round "6.4"]
+[White "Nakamura, Hikaru"]
+[Black "Caruana, Fabiano"]
+[Result "1/2-1/2"]
+[ECO "A61"]
+[WhiteElo "2791"]
+[BlackElo "2807"]
+[PlyCount "117"]
+[EventDate "2016.08.05"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. d5 d6 5. Nc3 exd5 6. cxd5 g6 7. Bf4 Bg7 8. Qa4+
+Bd7 9. Qb3 b5 10. Bxd6 Qb6 11. Be5 O-O 12. e3 c4 13. Qd1 b4 14. Nb1 Rc8 15.
+Nbd2 Bb5 16. a4 bxa3 17. Rxa3 Bf8 18. Bd4 Qb7 19. Ra1 Nxd5 20. Be2 Nc6 21. O-O
+Nxd4 22. Nxd4 a6 23. Bf3 Rd8 24. Ne4 Qb6 25. Nc3 Nxc3 26. bxc3 Rac8 27. Qc2 Qf6
+28. Rfb1 Rc5 29. Bd1 Bg7 30. Qe2 Qe7 31. Rb2 Qe8 32. Rba2 h5 33. Ba4 Bxa4 34.
+Rxa4 Bxd4 35. cxd4 Rxd4 36. exd4 Qxe2 37. dxc5 c3 38. Rc1 c2 39. Rd4 Qb5 40.
+Rd2 Qxc5 41. Rdxc2 Qa3 42. h4 a5 43. g3 a4 44. Re1 Qb3 45. Rce2 Qc3 46. Re3 Qb2
+47. R1e2 Qb4 48. Kh2 Kg7 49. Rf3 g5 50. hxg5 h4 51. Ree3 hxg3+ 52. Kxg3 Kg6 53.
+Kh2 Qc4 54. Rg3 Qf1 55. Ref3 Qc4 56. Rf6+ Kg7 57. Rff3 Kg6 58. Rf6+ Kg7 59.
+Rff3 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.11"]
+[Round "6.5"]
+[White "Ding, Liren"]
+[Black "Svidler, Peter"]
+[Result "1-0"]
+[ECO "E60"]
+[WhiteElo "2755"]
+[BlackElo "2751"]
+[PlyCount "117"]
+[EventDate "2016.08.05"]
+
+1. d4 Nf6 2. c4 g6 3. g3 c5 4. d5 Bg7 5. Bg2 O-O 6. Nc3 d6 7. Nh3 a6 8. a4 e6
+9. Nf4 exd5 10. Nfxd5 Nxd5 11. Nxd5 Nc6 12. O-O Re8 13. Ra2 Rb8 14. b3 b5 15.
+axb5 axb5 16. cxb5 Nd4 17. b6 Be6 18. e3 Nb5 19. Bd2 Bxd5 20. Bxd5 Qxb6 21. Qf3
+Re7 22. Ba5 Qa7 23. Bd8 Rxd8 24. Rxa7 Rxa7 25. Bc4 Nc3 26. Qc6 d5 27. Bd3 Ra3
+28. Qb6 Rc8 29. Kg2 Bf8 30. Rc1 Na2 31. Ra1 Bg7 32. Rb1 Nb4 33. Bb5 Bf8 34. e4
+Raa8 35. Bf1 Rab8 36. Qa7 Ra8 37. Qb7 Rab8 38. Qa7 Ra8 39. Qd7 c4 40. bxc4 dxe4
+41. Qb7 Nc6 42. Re1 Rab8 43. Qd7 Ne5 44. Qd5 Rc5 45. Qxe4 Rbc8 46. Rc1 R8c7 47.
+Be2 Rc8 48. f4 Nd7 49. Ra1 Nf6 50. Qf3 Re8 51. Ra8 Re6 52. Qd3 Kg7 53. Bf3 Rd6
+54. Qc3 h5 55. h3 Kg8 56. Qb4 Nd7 57. Bd5 Rb6 58. Qd2 Rc7 59. f5 1-0
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.12"]
+[Round "7.1"]
+[White "Svidler, Peter"]
+[Black "So, Wesley"]
+[Result "1/2-1/2"]
+[ECO "A20"]
+[WhiteElo "2751"]
+[BlackElo "2771"]
+[PlyCount "61"]
+[EventDate "2016.08.05"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 d5 4. cxd5 Nxd5 5. Nf3 Nc6 6. O-O Nb6 7. Nc3 Be7 8.
+a3 O-O 9. b4 Be6 10. d3 a5 11. b5 Nd4 12. Bb2 Nb3 13. Rb1 f6 14. Nd2 Nxd2 15.
+Qxd2 Nc4 16. Qc1 Nxb2 17. Qxb2 Rb8 18. e3 f5 19. Na4 Bd6 20. b6 c6 21. d4 Qe7
+22. Nc5 exd4 23. Nxe6 Qxe6 24. exd4 f4 25. d5 cxd5 26. Qb3 Kh8 27. Bxd5 Qf6 28.
+Qb5 Bxa3 29. Qxa5 Bb2 30. Bf3 Ra8 31. Qd5 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.12"]
+[Round "7.2"]
+[White "Anand, Viswanathan"]
+[Black "Aronian, Levon"]
+[Result "1/2-1/2"]
+[ECO "C53"]
+[WhiteElo "2770"]
+[BlackElo "2792"]
+[PlyCount "68"]
+[EventDate "2016.08.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 O-O 6. Nbd2 a6 7. a4 d6 8. O-O
+Ba7 9. h3 Ne7 10. Re1 Ng6 11. Bb3 Re8 12. d4 h6 13. Bc2 c6 14. Nf1 d5 15. Nxe5
+Nxe5 16. dxe5 Nxe4 17. Bxe4 dxe4 18. Qxd8 Rxd8 19. Ng3 Bb8 20. Be3 Bxe5 21.
+Nxe4 Bc7 22. a5 Bf5 23. Nc5 Rab8 24. g4 Bc2 25. Rac1 Bg6 26. b4 Bd6 27. Na4 f6
+28. Ba7 Ra8 29. Bc5 Be5 30. Nb6 Rab8 31. Nc4 Bf4 32. Be3 Bxe3 33. Rxe3 b5 34.
+axb6 Bf7 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.12"]
+[Round "7.3"]
+[White "Topalov, Veselin"]
+[Black "Giri, Anish"]
+[Result "1/2-1/2"]
+[ECO "A20"]
+[WhiteElo "2761"]
+[BlackElo "2769"]
+[PlyCount "90"]
+[EventDate "2016.08.05"]
+
+1. c4 e5 2. d3 Bb4+ 3. Nd2 Nf6 4. Ngf3 Nc6 5. a3 Bxd2+ 6. Qxd2 d5 7. cxd5 Qxd5
+8. e4 Qd6 9. h3 a5 10. Be2 Nd7 11. Qc2 Nc5 12. Be3 Ne6 13. O-O O-O 14. b3 Rd8
+15. Rfc1 Bd7 16. Qb2 Be8 17. b4 axb4 18. axb4 Rxa1 19. Qxa1 b5 20. Qa3 Qxb4 21.
+Qxb4 Nxb4 22. Nxe5 f6 23. Bg4 Nd4 24. Bxd4 Rxd4 25. Nf3 Nxd3 26. Rxc7 Rd6 27.
+Rb7 h5 28. Bf5 g6 29. e5 Nxe5 30. Nxe5 gxf5 31. Rb8 Kf8 32. Ng6+ Kf7 33. Nf4 h4
+34. g3 Bc6 35. gxh4 Rd4 36. Rb6 Rc4 37. h5 Kg7 38. Kh2 b4 39. Nd3 Rc3 40. Nxb4
+Be4 41. Rd6 Rf3 42. Nd5 Rxf2+ 43. Kg3 Rf3+ 44. Kh4 Bxd5 45. Rxd5 Kh6 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.12"]
+[Round "7.4"]
+[White "Vachier-Lagrave, Maxime"]
+[Black "Nakamura, Hikaru"]
+[Result "1/2-1/2"]
+[ECO "C67"]
+[WhiteElo "2819"]
+[BlackElo "2791"]
+[PlyCount "70"]
+[EventDate "2016.08.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5
+8. Qxd8+ Kxd8 9. h3 Ke8 10. Nc3 h5 11. Bf4 Be7 12. Rad1 Be6 13. Ng5 Rh6 14.
+Rfe1 Bb4 15. g4 hxg4 16. hxg4 Ne7 17. f3 Bxc3 18. bxc3 Nd5 19. Bd2 Nb6 20. Nxe6
+Rxe6 21. Kf2 Rd8 22. Bg5 Rxd1 23. Rxd1 Nd7 24. f4 f6 25. exf6 gxf6 26. Bh4 c5
+27. Kf3 Ra6 28. Ke4 Nf8 29. Kf5 Kf7 30. c4 Re6 31. g5 Ng6 32. Rd7+ Re7 33.
+Rxe7+ Nxe7+ 34. Ke4 f5+ 35. Ke3 Ng6 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.12"]
+[Round "7.5"]
+[White "Caruana, Fabiano"]
+[Black "Ding, Liren"]
+[Result "1/2-1/2"]
+[ECO "C92"]
+[WhiteElo "2807"]
+[BlackElo "2755"]
+[PlyCount "189"]
+[EventDate "2016.08.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 Re8 10. d4 Bb7 11. Nbd2 Bf8 12. Bc2 h6 13. d5 Nb8 14. b3 c6 15. c4
+Nbd7 16. Nf1 Qc7 17. Be3 a5 18. Rc1 Ba6 19. cxb5 Bxb5 20. Bd3 Qb7 21. Bxb5 cxb5
+22. Ng3 Rec8 23. Qd3 h5 24. Rc3 b4 25. Rxc8 Rxc8 26. Rc1 Rxc1+ 27. Bxc1 Nc5 28.
+Qc4 g6 29. Bg5 Nfd7 30. Nd2 a4 31. Kh2 Qb6 32. Ne2 axb3 33. axb3 Qa5 34. Ng1
+Nb6 35. Qe2 Nc8 36. Ngf3 Be7 37. Be3 Nb6 38. Ne1 Nbd7 39. Nc2 Qa6 40. Qxa6 Nxa6
+41. Kg1 Kf8 42. Kf1 Bd8 43. Ke2 Bb6 44. Bh6+ Ke7 45. f3 Ndc5 46. Be3 f5 47. g4
+hxg4 48. hxg4 fxg4 49. fxg4 Nd7 50. Bg5+ Ke8 51. Nc4 Bc7 52. Be3 Ndc5 53. Nd2
+Ba5 54. Ne1 Bb6 55. Bxc5 Bxc5 56. Nef3 Nc7 57. Ng5 Ke7 58. Kd3 Kf6 59. Ndf3 Bf2
+60. Nh3 Bg3 61. Nhg1 Na6 62. g5+ Ke7 63. Nd2 Kd7 64. Kc4 Kc7 65. Kb5 Nc5 66.
+Ngf3 Nd3 67. Kc4 Nf2 68. Kxb4 Bf4 69. Kb5 Nh3 70. b4 Nxg5 71. Ka6 Nxf3 72. Nxf3
+g5 73. b5 g4 74. b6+ Kb8 75. Nh4 g3 76. Nf5 g2 77. Ne7 g1=Q 78. Nc6+ Kc8 79.
+b7+ Kd7 80. b8=Q Qf1+ 81. Kb7 Qb5+ 82. Ka8 Qa4+ 83. Qa7+ Qxa7+ 84. Nxa7 Kc7 85.
+Nb5+ Kb6 86. Nxd6 Kc5 87. Nf5 Bg5 88. Kb7 Kc4 89. d6 Kd3 90. Ng3 Ke3 91. d7 Kf3
+92. Nh5 Kxe4 93. Kc6 Kf3 94. Ng7 e4 95. Nf5 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.13"]
+[Round "8.1"]
+[White "So, Wesley"]
+[Black "Caruana, Fabiano"]
+[Result "1/2-1/2"]
+[ECO "C67"]
+[WhiteElo "2771"]
+[BlackElo "2807"]
+[PlyCount "67"]
+[EventDate "2016.08.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5
+8. Rxe5 O-O 9. Nc3 Ne8 10. Nd5 Bd6 11. Re1 c6 12. Ne3 Be7 13. c4 Nc7 14. d4 d5
+15. cxd5 Bb4 16. Bd2 Bxd2 17. Qxd2 Nxd5 18. Nxd5 Qxd5 19. Re5 Qd6 20. Bc4 Bd7
+21. Qc3 Rae8 22. Rae1 Rxe5 23. dxe5 Qe7 24. Rd1 Be6 25. Bxe6 Qxe6 26. Qa5 b5
+27. Qxa7 Qxe5 28. Qd4 Qe6 29. a4 bxa4 30. Qxa4 h6 31. h3 Rb8 32. Rc1 Rxb2 33.
+Qxc6 Qxc6 34. Rxc6 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.13"]
+[Round "8.2"]
+[White "Anand, Viswanathan"]
+[Black "Topalov, Veselin"]
+[Result "1/2-1/2"]
+[ECO "C67"]
+[WhiteElo "2770"]
+[BlackElo "2761"]
+[PlyCount "85"]
+[EventDate "2016.08.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5
+8. Qxd8+ Kxd8 9. h3 b6 10. Nc3 Ke8 11. Rd1 Bb4 12. Ne2 Bb7 13. Ned4 Nxd4 14.
+Nxd4 Bc5 15. Nf5 Rg8 16. g4 h5 17. Be3 g6 18. Nh6 Rh8 19. Bxc5 bxc5 20. g5 Bc8
+21. h4 Ke7 22. f4 Be6 23. Rf1 Rad8 24. c3 Bh3 25. Rf2 Ke6 26. Re1 Rd3 27. Re4
+Rhd8 28. Ra4 Rd1+ 29. Kh2 R8d3 30. f5+ gxf5 31. Raf4 Bg4 32. Kg2 Bh3+ 33. Kh2
+Bg4 34. Nxg4 hxg4 35. Kg2 g3 36. Re2 Rb1 37. h5 Rdd1 38. Kxg3 Rh1 39. Rc4 Kd5
+40. Rf4 Rbg1+ 41. Rg2 Rxg2+ 42. Kxg2 Rxh5 43. Rxf5 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.13"]
+[Round "8.3"]
+[White "Aronian, Levon"]
+[Black "Nakamura, Hikaru"]
+[Result "1-0"]
+[ECO "D37"]
+[WhiteElo "2792"]
+[BlackElo "2791"]
+[PlyCount "173"]
+[EventDate "2016.08.05"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 c5 7. dxc5 Bxc5 8. Bd3
+dxc4 9. Bxc4 a6 10. Bd3 Nc6 11. O-O Nb4 12. Bb1 Qxd1 13. Rxd1 Nbd5 14. Nxd5
+Nxd5 15. Be4 Nf6 16. Nd2 Re8 17. Bf3 e5 18. Bg3 Ra7 19. Rac1 b6 20. a3 Bd7 21.
+Nc4 e4 22. Be2 a5 23. Nd6 Re7 24. Nb5 Bxb5 25. Bxb5 Ra8 26. Kf1 Re6 27. Ke2 g5
+28. Bc4 Ree8 29. h4 h6 30. hxg5 hxg5 31. Bd6 Kg7 32. Bb5 Bxd6 33. Rxd6 Re5 34.
+Rxb6 Rh8 35. Rb7 Rf5 36. Rf1 Rh2 37. Bc4 Ne8 38. Rb5 Rxb5 39. Bxb5 Nd6 40. Bd7
+Kf6 41. Rc1 Rh8 42. b3 Ke7 43. Rc7 Rh1 44. Ra7 Ra1 45. g4 Rxa3 46. Ba4+ Kf8 47.
+Rxa5 Ra2+ 48. Kf1 f6 49. Ra8+ Ke7 50. Bc6 Rb2 51. Ra7+ Ke6 52. Bd7+ Ke7 53.
+Bf5+ Ke8 54. Be6 Rb1+ 55. Kg2 Rb2 56. Bd5 Rb1 57. Bc6+ Kf8 58. Rd7 Nf7 59. Bxe4
+Rb2 60. Rb7 Nd6 61. Rb8+ Kg7 62. Bd5 Rd2 63. e4 f5 64. gxf5 Nxf5 65. Rb7+ Kh6
+66. Rb6+ Kh7 67. Rb7+ Kh6 68. exf5 Rxd5 69. f6 Rd4 70. Kg3 Kg6 71. f7 Kg7 72.
+b4 Kf8 73. b5 Rb4 74. b6 Kg7 75. f3 Kf8 76. Kf2 Rb3 77. Ke2 Kg7 78. Kd2 Kf8 79.
+Kc2 Rb5 80. Kc3 Kg7 81. Kc4 Rb1 82. Kc5 Rc1+ 83. Kd6 Rb1 84. Ke7 Re1+ 85. Kd8
+Re6 86. Kc7 Re3 87. Ra7 1-0
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.13"]
+[Round "8.4"]
+[White "Ding, Liren"]
+[Black "Vachier-Lagrave, Maxime"]
+[Result "1/2-1/2"]
+[ECO "E60"]
+[WhiteElo "2755"]
+[BlackElo "2819"]
+[PlyCount "51"]
+[EventDate "2016.08.05"]
+
+1. d4 Nf6 2. c4 g6 3. g3 c6 4. Bg2 d5 5. cxd5 cxd5 6. Nf3 Bg7 7. Nc3 Ne4 8.
+Qa4+ Nc6 9. Ne5 Nxc3 10. bxc3 O-O 11. Nxc6 bxc6 12. O-O Qb6 13. Ba3 Qa6 14.
+Qxa6 Bxa6 15. Rfb1 Bxe2 16. Bxe7 Rfb8 17. Bd6 Rd8 18. Bc5 Bf8 19. Bxf8 Kxf8 20.
+Rb2 Bd3 21. Rd1 Bf5 22. Rb7 Rdb8 23. Rc7 Rc8 24. Rb7 Rcb8 25. Rc7 Rc8 26. Rb7
+1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.13"]
+[Round "8.5"]
+[White "Giri, Anish"]
+[Black "Svidler, Peter"]
+[Result "0-1"]
+[ECO "E60"]
+[WhiteElo "2769"]
+[BlackElo "2751"]
+[PlyCount "168"]
+[EventDate "2016.08.05"]
+
+1. d4 Nf6 2. c4 g6 3. g3 c6 4. Nf3 Bg7 5. Bg2 d5 6. Qb3 O-O 7. O-O dxc4 8. Qxc4
+Bf5 9. Rd1 Nbd7 10. Nh4 Nb6 11. Qb3 Bg4 12. Nc3 Nfd5 13. Nf3 Nxc3 14. bxc3 Qd5
+15. Ba3 Rfe8 16. Ne5 Qxb3 17. axb3 Bxe2 18. Rd2 Bxe5 19. dxe5 Bg4 20. c4 a5 21.
+Bc5 Nd7 22. Bd4 Ra6 23. Rda2 Rea8 24. f4 Be6 25. Bf1 b6 26. Be3 Kf8 27. Ra4 c5
+28. Bg2 Re8 29. Bc6 Ra7 30. Bb5 Rc8 31. Rd1 Rac7 32. Ra2 Kg7 33. Rad2 Nb8 34.
+Rd8 Nc6 35. Rxc8 Rxc8 36. Rd2 h5 37. Kg2 Bf5 38. h3 f6 39. exf6+ Kxf6 40. Ba4
+Nd8 41. Bd7 Bxd7 42. Rxd7 Ke6 43. Rd1 Nf7 44. g4 hxg4 45. hxg4 Ra8 46. Bf2 Nd6
+47. Re1+ Kf7 48. Rh1 a4 49. bxa4 Rxa4 50. Rh7+ Kf8 51. Rh8+ Kg7 52. Rb8 Nxc4
+53. Kf3 Kf7 54. Bh4 e5 55. f5 gxf5 56. gxf5 Nd6 57. Rxb6 Rf4+ 58. Ke2 Nxf5 59.
+Bg5 Ng3+ 60. Ke3 Rg4 61. Bd8 Nf5+ 62. Kf3 Rf4+ 63. Ke2 Nd4+ 64. Ke3 Ne6 65.
+Rb7+ Kg6 66. Ba5 Ra4 67. Bc3 Kf6 68. Kd3 Nf4+ 69. Kc2 Nd5 70. Bb2 c4 71. Rd7
+Ke6 72. Rh7 c3 73. Rh6+ Kf5 74. Rh5+ Kf6 75. Bxc3 Rc4 76. Kd3 Rxc3+ 77. Ke4
+Rc4+ 78. Kxd5 Rd4+ 79. Kc5 Rd1 80. Kc4 e4 81. Kc3 e3 82. Rh2 Kf5 83. Kc2 Rd8
+84. Rh7 Kf4 0-1
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.14"]
+[Round "9.1"]
+[White "Vachier-Lagrave, Maxime"]
+[Black "So, Wesley"]
+[Result "1/2-1/2"]
+[ECO "C67"]
+[WhiteElo "2819"]
+[BlackElo "2771"]
+[PlyCount "94"]
+[EventDate "2016.08.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5
+8. Qxd8+ Kxd8 9. h3 Ke8 10. Nc3 h5 11. Bg5 Be6 12. Rad1 Be7 13. b3 a5 14. Rd3
+Rd8 15. Rxd8+ Bxd8 16. Rd1 Bxg5 17. Nxg5 Ke7 18. Ne2 Nh4 19. g3 Ng6 20. Nxe6
+fxe6 21. f4 Rf8 22. Rd4 c5 23. Re4 Rd8 24. Kf2 Rd1 25. g4 hxg4 26. hxg4 b5 27.
+f5 Nh4 28. Ng3 Ra1 29. a4 Ra2 30. axb5 Rxc2+ 31. Re2 Rxe2+ 32. Kxe2 c4 33. bxc4
+a4 34. Kd3 Nf3 35. f6+ Kf7 36. fxg7 Nxe5+ 37. Kc3 a3 38. c5 Nd3 39. Kb3 Nxc5+
+40. Kxa3 Kxg7 41. Kb4 Nd3+ 42. Kc4 Ne5+ 43. Kc5 Kh6 44. Ne2 c6 45. bxc6 Nxc6
+46. Kxc6 Kg5 47. Kd6 Kxg4 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.14"]
+[Round "9.3"]
+[White "Svidler, Peter"]
+[Black "Anand, Viswanathan"]
+[Result "1/2-1/2"]
+[ECO "C65"]
+[WhiteElo "2751"]
+[BlackElo "2770"]
+[PlyCount "59"]
+[EventDate "2016.08.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. Nbd2 Be6 7. O-O Bd6 8.
+b3 Nd7 9. Nc4 O-O 10. h3 Qe7 11. Nxd6 cxd6 12. d4 f5 13. dxe5 dxe5 14. Ng5 f4
+15. Nxe6 Qxe6 16. Ba3 Rfd8 17. Qe2 Nf6 18. Rfd1 g5 19. f3 Kf7 20. Rd3 Rxd3 21.
+Qxd3 h5 22. Rd1 g4 23. hxg4 hxg4 24. Qd6 Qxd6 25. Rxd6 Rg8 26. Kf1 Rh8 27. Kg1
+Rg8 28. Kf1 Rh8 29. Kg1 Rg8 30. Kf1 1/2-1/2
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.14"]
+[Round "9.4"]
+[White "Nakamura, Hikaru"]
+[Black "Ding, Liren"]
+[Result "1-0"]
+[ECO "D43"]
+[WhiteElo "2791"]
+[BlackElo "2755"]
+[PlyCount "55"]
+[EventDate "2016.08.05"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. Bg5 h6 6. Bh4 dxc4 7. e4 g5 8. Bg3 b5
+9. Be2 Bb7 10. h4 g4 11. Ne5 Nbd7 12. Nxd7 Qxd7 13. Be5 Qe7 14. b3 cxb3 15.
+axb3 a6 16. Qc1 Rg8 17. O-O Nh5 18. d5 Qxh4 19. g3 Qg5 20. dxc6 Qxe5 21. cxb7
+Rb8 22. Nd5 exd5 23. Qc8+ Ke7 24. Rxa6 Nxg3 25. Bxb5 Ne2+ 26. Bxe2 f6 27. Re6+
+Qxe6 28. Qxb8 1-0
+
+[Event "4th Sinquefield Cup 2016"]
+[Site "Saint Louis USA"]
+[Date "2016.08.14"]
+[Round "9.5"]
+[White "Caruana, Fabiano"]
+[Black "Giri, Anish"]
+[Result "1-0"]
+[ECO "C81"]
+[WhiteElo "2807"]
+[BlackElo "2769"]
+[PlyCount "91"]
+[EventDate "2016.08.05"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5
+Be6 9. Qe2 Nc5 10. Rd1 Nxb3 11. cxb3 Be7 12. Nc3 O-O 13. Be3 Qd7 14. h3 Rad8
+15. Rd2 f6 16. Rad1 Nxe5 17. Nxe5 fxe5 18. Nxd5 Bxd5 19. Rxd5 Qxd5 20. Rxd5
+Rxd5 21. Qc2 c5 22. g3 Kh8 23. h4 Rfd8 24. Qe4 h6 25. Kg2 Bf6 26. Kh3 h5 27. a4
+Rd3 28. axb5 axb5 29. Qg6 e4 30. Qxh5+ Kg8 31. Qf5 Bxb2 32. Qxe4 c4 33. bxc4
+bxc4 34. Qxc4+ R3d5 35. g4 Kh8 36. g5 Bd4 37. Bxd4 Rxd4 38. Qf7 R8d7 39. Qe8+
+Kh7 40. Qh5+ Kg8 41. g6 Re4 42. Qh7+ Kf8 43. Qh8+ Ke7 44. Qxg7+ Ke6 45. Qh8
+Rd3+ 46. Kh2 1-0
+
+[Event "IX Final de Maestros de Bilbao"]
+[Site "Bilbao"]
+[Date "2016.07.13"]
+[Round "1"]
+[White "Carlsen, Magnus"]
+[Black "Nakamura, Hikaru"]
+[Result "0-1"]
+[ECO "A00"]
+[Annotator "GM López Martínez, José Manuel & Aguadero Cas"]
+[PlyCount "100"]
+[EventCountry "ESP"]
+
+{La partida que enfrentó a Carlsen con Nakamura ha supuesto la primera
+victoria del norteamericano sobre el campeón mundial. A primera vista es
+extraña, ambos se desvían de los senderos teóricos en plena apertura. Es
+ilustrativa, representativa de sus respectivos estilos.} 1. e4 c5 2. Ne2 {
+Diagrama [#] Una jugada que empezó a poner de moda entre la élite "Paco"
+Vallejo, siempre creativo en las aperturas. El objetivo es, pudiendo
+transponer a una Siciliana Abierta (jugando d4), hacer una estructura con g3 y
+Bg2 sin que el caballo obstaculice el alfil. Tras enrocarse corto decidirá si
+le conviene un centro sólido con d3 o más ambicioso con d4.} d6 3. Nbc3 a6 {
+El negro quiere transponer a una Najdorf, una de sus preferidas.} 4. g3 (4. d4
+cxd4 5. Nxd4 Nf6 {Najdorf, extremadamente flexible, con mil planes.}) 4... g6 {
+Acaba siendo una Dragón, otra de sus favoritas.} 5. Bg2 Bg7 6. d4 {Tras los
+amagos, Magnus opta por la Abierta.} (6. O-O $6 {Pierde la posibilidad de
+abrir el juego con d4 a causa de...} Nc6 $1) 6... cxd4 7. Nxd4 Nf6 8. O-O O-O
+9. b3 {Diagrama [#] Poco usual. Corre el riesgo de debilitar mucho la diagonal
+a1-h8; si le sale bien neutralizará el poder del alfil negro.} (9. h3 {
+Fiscaliza g4.} -- (9... Nc6 10. Be3) 10. Be3 -- 11. Qd2 -- 12. Bh6) 9... Nc6
+10. Nxc6 $5 {Diagrama [#] Parece mala estratégicamente porque mejora la
+estructura de peones negra (pasará de tener una cadena de 5 peones y una isla
+de 2 a tener una poderosa cadena de 6). Sin embargo, Carlsen considera que la
+cadena podría ser débil debido a su poca flexibilidad (costará movilizarla
+a corto plazo, mientras que la estructura blanca es muy dinámica) y se
+propone ponerla a prueba con un futuro e5. ¿Por qué e5? Si el negro
+capturase en e5 el blanco (tras recapturar) conseguiría que las negras
+acabasen teniendo peones aislados en a6 y c6 [Posición 1], atacables; si el
+negro no capturase en e5 el blanco tomará en d6, creando tres pequeñas islas
+de peones para la posición negra  [Posición 2], también atacables.} (10. Be3
+$2 Ng4 11. Nxc6 Nxe3 12. Nxd8 Nxd1 13. Raxd1 Bxc3 {Y el caballo no saldrá con
+vida.}) (10. Bb2 {La natural.}) 10... bxc6 11. Bb2 {Diagrama [#] Prepara e5.} (
+11. e5 $2 {Parece interesante, pero está la desagradable} Ng4 $1 (11... dxe5
+12. Qxd8 Rxd8 13. Bxc6 {Mejor estructura de peones del blanco frente a mejor
+juego dinámico negro (el alfil fianchettado supera a su homónimo y el de c8
+irá a f5 para combinarse con Rc8 y atacar en c2).}) 12. Bxc6 Rb8 13. Bb2 Nxe5
+14. Bg2 Nc4 15. bxc4 Rxb2 $15 {Pareja de alfiles y mejor estructura de peones
+para las negras.}) 11... Qa5 {Diagrama [#] Multiusos. Mejora la dama, controla
+e5, presiona en c3 y puede dirigirse al flanco de rey.} 12. Na4 {Prepara e5 y
+libera de tensión táctica la diagonal.} Bg4 {Este tipo de desarrollo del
+alfil suele verse en partidas de aficionados. Toca dama y, si el blanco mueve
+f3, el alfil se retira habiendo cumplido la misión de bloquear la diagonal de
+su homónimo. ¿Por qué lo hace un superélite como "Naka"? La idea es
+cambiar los alfiles blancos en h3. ¿Motivo? Simplificar material para que su
+mejor estructura de peones se imponga en el final. ¿Procedimiento? Qh5-Bh3.}
+13. Qe1 $1 {Diagrama [#] Parece suicida, pero es brillante. A simple vista
+entra en el final soñado por el negro. Pero Carslen, ¿no lo ve? Tiene un
+secreto: jugar e5 tras el cambio de damas y dinamitar la cadena de peones.} Qh5
+14. f3 $2 {Error comprensible, pues parece que 14..., Bh3 falle tácticamente.
+Pero Nakamura desencadena un medio juego muy original.} (14. e5 $1 {Culminando
+el plan blanco, rompiendo la estructura de peones.}) 14... Bh3 $3 {Diagrama [#]
+Nakamura cederá un peón a cambio de activar sus piezas y de debilitar el rey
+blanco. La dificultad es doble: nuestro "filtro" de jugadas nos lleva a
+desechar aquellas que pierden material y, por otra parte, psicológicamente,
+tendemos a confiar en el análisis del rival (más, cuando se trata de un
+enorme jugador, como Magnus). Aquí podría entrar en juego cierta
+desesperación de Hikaru: la catástrofe en e5 parecía inminente y Carlsen
+jamás había perdido con él.} 15. g4 Qh6 16. Rd1 {Diagrama [#] Es una
+derrota psicológica, pues no vale Bc1 (que aparentemente diluía el ataque
+negro). Este aspecto emocional es clave en el ajedrez. Al perder el hilo de la
+partida el genial noruego cometerá sucesivos errores. Zlotnik me enseñó, en
+esas situaciones, que lo más conveniente es ofrecer tablas y pensar el torneo
+como algo global, sin obsesionarse con la partida.} (16. Bc1 g5 17. Bxg5 (17.
+Bxh3 Qxh3 18. Bxg5 h5 $1 {Abriendo en enroque de su rival y considerando que
+su alfil es mejor que el blanco (lo llevará a e5 o a d4).}) 17... Qxg5 18.
+Bxh3 {A favor del blanco: tiene peón de más y ha aislado dos del negro. A
+favor del negro: se hace el dueño de las casillas negras y ha debilitado el
+monarca blanco, ha desubicado el caballo y el alfil blancos. Me gustan las
+opciones del negro.} h5 {Para debilitar aún más el rey blanco.} (18... Nh5 $1
+{Bloquea todas las casillas negras, mejora su caballo, empequeñece al Bh3 y
+tiene como idea Be5 (no valoraría Bxa1, pues el alfil es superior) y Nf4,
+optimizando sus piezas con gran visión estratégica.}) 19. f4 Qg6 20. f5 Qg5
+$17 {Capturará en g4 y desatará una tormenta sobre el enroque blanco.}) 16...
+g5 $1 {Diagrama [#] Habilita g6 a la dama y, ¡muy importante!, fija la
+debilidad estructural blanca en las casillas negras.} 17. Bc1 Bxg2 18. Kxg2 Qg6
+19. h4 $2 {Cree estar mejor y ataca, pero está siendo demolido en las
+casillas negras.} gxh4 20. Qxh4 d5 $1 {Diagrama [#] Moviliza la cadena de
+peones. ¡Y rupturando en d5, lo ideal en una Siciliana! Como mandan los
+cánones: contra un ataque en el flanco, ¡reacción central!} 21. g5 $6 {
+Pierde peón y aún debilita más el rey. Carlsen "flota" en el ring.} (21. e5
+$6 {Reacción lógica, pero...} Nd7 {Y los peones de c2 y e5 quedan tocados.} (
+21... Qxc2+ $4 22. Rd2 $18 {Gana caballo.})) (21. exd5 {La más sana, aunque
+la posición negra es más cómoda debido a la debilidad del rey blanco y a su
+mejor ubicación de piezas.} cxd5 22. c3 e6) 21... dxe4 22. f4 {Ventaja
+decisiva del negro (acaba de ganar un importante peón central, tiene mejores
+piezas y el monarca blanco está débil). El resto, técnica.} e6 $1 {[%csl
+Rf5] Diagrama [#] Se anticipa a 23.f5. "Seca" a Carlsen.} 23. c4 {Evita que el
+caballo negro se instale en d5, donde sería superior a su homónimo,
+arrinconado.} Rfd8 24. Rde1 {Ha de mantener piezas y complicar la posición
+para tener chances de cambiar el rumbo de la partida.} Ne8 {Maniobra para
+acabar mejorando su caballo. Parece que en f5 estaría muy bien.} (24... Nd7 $6
+{Ahora el caballo está frenado.}) 25. Nc5 Nd6 26. Qf2 f5 $1 {Consolida el
+peón pasado.} 27. Bb2 $6 {Desaconsejable, porque facilita el cambio de
+material. Supongo que le molestaba que Nakamura jugase 27..., e5!, liberando
+su juego. Tengo la impresión de que el noruego no confiaba ya en su posición
+y alargó la agonía.} Nf7 $1 {Diagrama [#] Prepara doblar torres en la
+columna d y, también, un futuro e5 para desdoblar el peón y debilitar g5.}
+28. Bxg7 Kxg7 29. Qg3 (29. Rd1 $2 h6 $1 {Aprovecha y hace más dolorosa la
+debilidad del rey blanco.}) 29... Rd6 30. Rd1 Rad8 31. Rxd6 Rxd6 32. Qc3+ (32.
+Nxa6 $2 Rd3 $1 33. Qh4 h6 $1 34. -- hxg5 35. fxg5 Nxg5 {Ataque decisivo. El
+caballo blanco murió con la tripa llena.}) 32... Kg8 33. Rf2 Qh5 (33... h6)
+34. Qh3 Qd1 $1 {Diagrama [#] Aparentemente al negro le convenía cambiar damas
+(final con peón de ventaja), pero decide aprovechar las posibilidades
+tácticas que le brinda el rey blanco, tan débil.} 35. Qe3 e5 $1 {Diagrama [#]
+Es un bulldozer que va a demoler las defensas blancas y, pese a la primera
+impresión, no pierde peón en f5. ¡Veamos la magia táctica de Nakamura!} 36.
+Qg3 (36. fxe5 Nxe5 37. Rxf5 (37. Qf4 Qg4+ 38. Qxg4 Nxg4 39. Rxf5 Ne3+ 40. Kh3
+Nxf5) 37... Qg4+ 38. Kh2 Qxf5) 36... Rg6 37. Kh2 exf4 38. Qxf4 Qh5+ 39. Kg1
+Qd1+ 40. Kh2 Qh5+ {Diagrama [#] Hace repetición de jugadas para,
+probablemente, pasar el control de tiempo.} 41. Kg1 Nxg5 {Mejor que capturar
+de torre, pues mejora la actividad de su caballo.} 42. Qb8+ Kg7 43. Qe5+ Kh6
+44. Qf4 Qd1+ 45. Kh2 Qd4 {Con idea de poder hacer Kg7: se desclava de caballo
+y habilita la columna h para la torre.} 46. b4 Kg7 47. Qc7+ Kh8 $1 {Se escapa
+de los jaques y se concentrará en rematar.} 48. Qc8+ Rg8 49. Qxf5 Nf3+ 50. Kh3
+Qd6 {Diagrama [#] Mate inevitable con Qg3 o Qh6, ustedes eligen.   
+CONCLUSIONES:    1 - estrategia: cuando el blanco hizo 10.Nxc6 cedió una
+mejor estructura de peones a cambio de romperla con la ruptura en e5.    2 -
+táctica: tras Qh5 el blanco debería haber seguido con su plan (e5), pero no
+valoró la brillante reacción negra con Bh3.    3 - luego, el blanco
+encadenó errores y sus chances se evaporaron.} 0-1
+
+[Event "9th Masters Final 2016"]
+[Site "Bilbao ESP"]
+[Date "2016.07.14"]
+[Round "2.3"]
+[White "Karjakin, Sergey"]
+[Black "Giri, Anish"]
+[Result "1/2-1/2"]
+[ECO "C50"]
+[WhiteElo "2773"]
+[BlackElo "2785"]
+[Annotator "GM López Martínez, José Manuel & Aguadero Cas"]
+[SetUp "1"]
+[FEN "r4r1k/2pqb1pp/pnn5/4p2Q/4N3/1BPPB2b/1P1N1P1K/R5R1 b - - 0 22"]
+[PlyCount "14"]
+[EventDate "2016.07.13"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[EventCategory "22"]
+
+22... Bf5 {[%cal Gg1g7] Diagrama [#]} 23. Rxg7 $5 {La fuerza combinativa de
+Karjakin es temible, ha de ser una clave en el Mundial. Con peón de menos
+parecía difícil atacar, pero este sacrificio de torre a largo plazo es
+efectivo.} Kxg7 24. Rg1+ Kh8 25. Qh6 $3 {Esta jugada antinatural (por lo
+tranquila de la misma) es el complemento del sacrificio. Recuerda a Tal por
+cómo complica la posición sin esperar recuperar material a corto plazo.} Bd6
+$11 (25... Rg8 $2 {Parece prometedora, para cambiar material y evitar el mate
+en g7, pero...} 26. Ng5 $3 $16 {Amenaza mate en f7.} Bxg5 $2 27. Bxg5 Rxg5 28.
+Rxg5 $18) 26. Bxb6 Bxe4 27. Nxe4 cxb6 28. Rg6 Na5 29. Rxd6 $11 {Por esto
+sacrificó: el blanco ha recuperado material y tiene iniciativa.} 1/2-1/2
+
+[Event "9th Masters Final 2016"]
+[Site "Bilbao ESP"]
+[Date "2016.07.14"]
+[Round "2.3"]
+[White "Karjakin, Sergey"]
+[Black "Giri, Anish"]
+[Result "1/2-1/2"]
+[ECO "C50"]
+[WhiteElo "2773"]
+[BlackElo "2785"]
+[Annotator "GM López Martínez, José Manuel & Aguadero Cas"]
+[SetUp "1"]
+[FEN "8/8/8/3k4/3P4/4K3/8/8 w - - 0 74"]
+[PlyCount "19"]
+[EventDate "2016.07.13"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[EventCategory "22"]
+
+74. Kd3 {Diagrama [#] ¡Sorprendente! Es un final de tablas trivial... pero se
+siguió jugando hasta 83. Kd6.} Kd6 75. Kc4 Kc6 76. d5+ Kd6 77. Kd4 Kd7 78. Ke5
+Ke7 79. d6+ Kd7 80. Kd5 Kd8 81. Ke6 Ke8 82. d7+ Kd8 83. Kd6 1/2-1/2
+
+[Event "9th Masters Final 2016"]
+[Site "Bilbao ESP"]
+[Date "2016.07.15"]
+[Round "3.2"]
+[White "Carlsen, Magnus"]
+[Black "Karjakin, Sergey"]
+[Result "1-0"]
+[ECO "B50"]
+[WhiteElo "2855"]
+[BlackElo "2773"]
+[Annotator "GM López Martínez, José Manuel & Aguadero Cas"]
+[SetUp "1"]
+[FEN "r1r3k1/pp1nppb1/1q1p3p/3Pn1p1/4P2B/2N4P/PPB1QPP1/1R3RK1 w - - 0 19"]
+[PlyCount "7"]
+[EventDate "2016.07.13"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[EventCategory "22"]
+
+19. Bg3 {[%cal Gb6a6] Diagrama [#]} Qa6 {El negro busca cambiar damas porque
+su rey es débil. Su idea es que se abra la columna b y sus piezas sean
+letales: las torres en columnas semiabiertas, el alfil presionando la gran
+diagonal, un poderoso salto de caballo a c4. A esto se une el bloqueo de la
+pareja de alfiles blanca.} 20. Qd1 $1 Rc4 21. Kh1 Rac8 22. f4 $1 {Para
+debilitar aún más el rey negro. ¡Magnus va a por todas!} 1-0
+
+[Event "9th Masters Final 2016"]
+[Site "Bilbao ESP"]
+[Date "2016.07.15"]
+[Round "3.3"]
+[White "Nakamura, Hikaru"]
+[Black "Wei, Yi"]
+[Result "1/2-1/2"]
+[ECO "D41"]
+[WhiteElo "2787"]
+[BlackElo "2696"]
+[Annotator "GM López Martínez, José Manuel & Aguadero Cas"]
+[SetUp "1"]
+[FEN "8/5ppk/1p2r2p/p1n1Q2P/P4P2/8/6P1/6K1 w - - 0 35"]
+[PlyCount "1"]
+[EventDate "2016.07.13"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[EventCategory "22"]
+
+35. Qd5 {Diagrama [#] ¿Por qué firman tablas? Las blancas tienen dama...
+¿Falta de combatividad? En absoluto. Hacen tablas porque se ha llegado a una
+fortaleza. Veamos: si el blanco no hace nada el negro perderá tiempos con el
+rey y no pasa nada. Por tanto, parece que debería intentar un ataque de
+peones y romper en g5. Pero fracasaría: el negro se anticipa con f6 y
+sobreprotege la casilla. Se limitará a mover el rey y a no tocar nada, pues
+se defiende solo.} 1/2-1/2
+
+[Event "9th Masters Final 2016"]
+[Site "Bilbao ESP"]
+[Date "2016.07.17"]
+[Round "5.3"]
+[White "So, Wesley"]
+[Black "Wei, Yi"]
+[Result "1/2-1/2"]
+[ECO "C42"]
+[WhiteElo "2770"]
+[BlackElo "2696"]
+[Annotator "GM López Martínez, José Manuel & Aguadero Cas"]
+[SetUp "1"]
+[FEN "1k1r2r1/1pp3q1/p7/3p2B1/3P4/1P6/P1PQR3/1K2R3 b - - 0 34"]
+[PlyCount "1"]
+[EventDate "2016.07.13"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[EventCategory "22"]
+
+34... Qxg5 {Diagrama [#] Lo común habría sido hacer tablas, pues la
+estructura de peones es simétrica (nadie ganará el final) y el equilibrio de
+piezas es absoluto. ¿Qué llevó a So a presionar hasta la jugada 73? Tal vez
+la falta de experiencia en torneos de superélite del joven chino. No obstante,
+se mantuvo firme.} 1/2-1/2
+
+[Event "9th Masters Final 2016"]
+[Site "Bilbao ESP"]
+[Date "2016.07.19"]
+[Round "6.1"]
+[White "Wei, Yi"]
+[Black "Giri, Anish"]
+[Result "1-0"]
+[ECO "C67"]
+[WhiteElo "2696"]
+[BlackElo "2785"]
+[Annotator "GM López Martínez, José Manuel & Aguadero Cas"]
+[SetUp "1"]
+[FEN "8/2p2pp1/2k5/2p1P3/1p3PP1/6K1/bPPN4/8 b - - 0 29"]
+[PlyCount "8"]
+[EventDate "2016.07.13"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[EventCategory "22"]
+
+29... Kd5 30. c3 $1 {Diagrama [#] El prodigio chino se dispone a bloquear
+todas las vías de entrada del rey negro y, además, a dejar fuera de juego el
+alfil. Espera ganar con su mayoría en el flanco de rey. ¿Lo conseguirá?}
+bxc3 31. bxc3 g5 (31... Ke6 {¿Por qué no la defensa pasiva? Pues por la
+desagradable...} 32. c4 $1 {El alfil nunca jugará y los peones de Wei se
+impondrán en el flanco de rey.}) 32. Kf3 Ke6 33. c4 $1 1-0
+
+[Event "9th Masters Final 2016"]
+[Site "Bilbao ESP"]
+[Date "2016.07.20"]
+[Round "7.2"]
+[White "Carlsen, Magnus"]
+[Black "Wei, Yi"]
+[Result "1/2-1/2"]
+[ECO "D76"]
+[WhiteElo "2855"]
+[BlackElo "2696"]
+[Annotator "GM López Martínez, José Manuel & Aguadero Cas"]
+[SetUp "1"]
+[FEN "8/5B2/p1nk2p1/1p3p1p/1P3P1P/P4P2/5K2/8 b - - 0 43"]
+[PlyCount "10"]
+[EventDate "2016.07.13"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[EventCategory "22"]
+
+43... Ne7 {Diagrama [#] En un final tan simétrico la preocupación negra es
+que el rey blanco se cuele y le coma los peones. La defensa, pues, es clara,
+pero exige paciencia y precisión. ¡Especialmente contra Carlsen!} 44. Ke1 Kd7
+45. Kd1 Kd6 46. Kd2 Kd7 47. Kd3 Kd6 48. Kc2 {El campeón mundial llevará el
+rey para apoyar a sus peones del flanco de dama, con idea de lanzarlos al
+asalto. Wei, preciso, lo frenará. Ha sido interesante ver cómo un jugador
+tan abocado al ataque como el chino atesora sangre fría para la defensa.
+¿Qué le falta a este ajedrecista que tanto nos gusta?} (48. Kd4 {Parece que
+entrará, pero...} Nc6+ $1 49. Kd3 Ne7 $1 $11 {La vida sigue igual.}) (48. Ke3
+$5 {Triangula para engañar al negro, mas...} Nd5+ $1 (48... Kc6 $2 49. Kd4 $1
+Kd6 50. Be8 $18 {El negro se queda en zugzwang.}) 49. Kd4 Nxf4) 1/2-1/2
+
+[Event "9th Masters Final 2016"]
+[Site "Bilbao ESP"]
+[Date "2016.07.21"]
+[Round "8.3"]
+[White "Wei, Yi"]
+[Black "Nakamura, Hikaru"]
+[Result "1/2-1/2"]
+[ECO "E06"]
+[WhiteElo "2696"]
+[BlackElo "2787"]
+[Annotator "GM López Martínez, José Manuel & Aguadero Cas"]
+[SetUp "1"]
+[FEN "r1r3k1/6pp/q3pp2/p7/Qnp5/5PP1/PPR1PB1P/2R3K1 w - - 0 27"]
+[PlyCount "1"]
+[EventDate "2016.07.13"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[EventCategory "22"]
+
+27. Rc3 {Diagrama [#] Aquí Wei tenía tablas por triple repetición, pero no
+las quiso hacer. Con 27. Rc3 fue a por Nakamura, luchando hasta que se firmó
+el empate en la jugada 45. ¡Ésa es la actitud que nos entusiasma!} (27. Rd2
+$11) 1/2-1/2
+
+[Event "9th Masters Final 2016"]
+[Site "Bilbao ESP"]
+[Date "2016.07.22"]
+[Round "9.2"]
+[White "Carlsen, Magnus"]
+[Black "Giri, Anish"]
+[Result "1-0"]
+[ECO "D00"]
+[WhiteElo "2855"]
+[BlackElo "2785"]
+[Annotator "GM López Martínez, José Manuel & Aguadero Cas"]
+[SetUp "1"]
+[FEN "3Q4/5k1N/4q1p1/3pB3/8/5P2/r4KP1/8 w - - 0 45"]
+[PlyCount "7"]
+[EventDate "2016.07.13"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[EventCategory "22"]
+
+45. Kg1 {Diagrama [#] Giri abandonó. ¿Por qué no capturó el alfil? El
+motivo es que no salía vivo. Veamos cómo habría sido la secuencia...} Qxe5
+46. Ng5+ Kg7 47. Qd7+ Kf6 (47... Kg8 48. Qf7+ Kh8 49. Qh7#) (47... Kh6 48. Nf7+
+Kg7 49. Nxe5+ $18) 48. Nh7# {¡Bonita rúbrica carlseniana al torneo!} 1-0
+
+[Event "Spanish Championship"]
+[Site "chess24.com"]
+[Date "2016.08.06"]
+[Round "?.13"]
+[White "Munoz, Miguel"]
+[Black "Gaya Llodra, Juan"]
+[Result "0-1"]
+[WhiteElo "2451"]
+[BlackElo "2255"]
+[SetUp "1"]
+[FEN "r2q1rk1/5ppp/b1p5/p3p3/3bQ3/1P3N2/P1P2PPP/1RB2RK1 w - - 0 15"]
+[PlyCount "14"]
+[EventDate "2016.??.??"]
+[WhiteTeam "España"]
+[BlackTeam "España"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "ESP"]
+[WhiteClock "1:30:30"]
+[BlackClock "1:30:30"]
+
+15. Re1 {[#] Esta posición me recordó enseguida uno de los regalos de
+Kasparov en el torneo de exhibición de este año. Veamos esa fase crítica.}
+f5 $1 {Joan se anima a entregar el peón lanzando su pareja de peones móviles.
+Parece obvio, pero los módulos no se lo creen.} 16. Qxc6 Rf6 17. Qa4 {La dama
+desplazada en la casilla a4 y los dos alfiles apuntando.  Es difícil creer
+que haya defensa, pero la hay.} Rg6 18. Nxd4 {Esta jugada parece normal, pero
+Komodo (supongo que el nombre hace referfencia a la isla de los dragones) nos
+deleita incluso con otra defensa más asombrosa} (18. Bg5 $3 {[#]Esta jugada
+increible merece un diagrama} Rxg5 19. Nxg5 Qxg5 20. Qc6 $1 {dobel ataque} Qd8
+{única defensa, pero ahora} 21. c3 $1 {y resulta que el alfil tiene pocas
+casillas ... o ninguna} Bb6 22. Rbd1 Qb8 23. Rxe5 $1 {Y no es posible mantener
+el material. Una defensa majestuosa que dudo pudiera siquiera considerar un
+humano.}) 18... exd4 {[#]} 19. Bb2 $4 {Increible exceso de confianza} (19. Re5
+$1 Bb7 20. g3 Rc8 21. Ba3 {Y parece que las blancas se defienden, debido al
+rápido contrataque sobre la casilla e8.}) 19... Rxg2+ {Por supuesto.} 20. Kh1
+(20. Kxg2 Qg5+ 21. Kh1 Bb7+ {es un mate muy rápido}) 20... Bb7 21. f3 Bxf3 0-1
+
+[Event "Spanish Championship"]
+[Site "chess24.com"]
+[Date "2016.08.09"]
+[Round "?.1"]
+[White "Vallejo Pons, Francisco"]
+[Black "Gonzalez De La Torre, Santiago"]
+[Result "1-0"]
+[WhiteElo "2713"]
+[BlackElo "2452"]
+[SetUp "1"]
+[FEN "1rb1rbk1/2qn1pp1/pnp4p/N2p4/4PP2/2N3PP/1PP2BBK/R2QR3 w - - 0 21"]
+[PlyCount "13"]
+[EventDate "2016.??.??"]
+[WhiteTeam "España"]
+[BlackTeam "España"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "ESP"]
+[WhiteClock "0:11:02"]
+[BlackClock "0:18:25"]
+
+{[#]} 21. Nxc6 $3 {Las blancas ya tenían una gran ventaja, pero Paco elige lo
+más contundente} Qxc6 22. exd5 Rxe1 {Mover la dama y perder la torre de e8 no
+es una opción} 23. dxc6 Rxd1 24. Rxd1 {[#] Y se podía haber abandonado aquí,
+porque la natural} Nf6 (24... g6 25. c7 Rb7 26. Bxb7 Bxb7 27. Na4 {1-0, fue la
+partida}) 25. c7 Rb7 26. Bxb7 Bxb7 27. Bxb6 {y las negras pierden más piezas}
+1-0
+
+[Event "Spanish Championship"]
+[Site "chess24.com"]
+[Date "2016.08.13"]
+[Round "?.2"]
+[White "Anton Guijarro, David"]
+[Black "Forcen Esteban, Daniel"]
+[Result "1-0"]
+[WhiteElo "2627"]
+[BlackElo "2561"]
+[SetUp "1"]
+[FEN "rr1q2k1/1R1n1ppp/4p3/p2pP3/P1bP4/4QNNP/5PP1/1R4K1 w - - 0 32"]
+[PlyCount "71"]
+[EventDate "2016.??.??"]
+[WhiteTeam "España"]
+[BlackTeam "España"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "ESP"]
+[WhiteClock "1:30:30"]
+[BlackClock "1:30:30"]
+
+32. Nh5 {[#] Forcén había tenido una buena posición unas pocas jugadas
+antes. Ahora puede mantener la igualdad con una defensa casi imposible de
+sospechar.} h6 $2 {Parece defender un poco las casillas negras , pero en
+realidad entrega un tiempo decisivo para la ofensiva blanca} ({La defensa
+correcta es} 32... Ba6 $3 {obligando a las blancas a tomar una decisión con
+su torre} 33. Rxd7 $3 (33. Rxb8 Rxb8 34. Rxb8 Nxb8 $1 {mantiene la igualdad
+absoluta}) 33... Rxb1+ 34. Kh2 Qf8 $1 (34... Qxd7 $2 35. Qg5 {gana de inmediato
+}) 35. Ng5 Rb7 $1 36. Rxb7 Bxb7 {y las blancas tiene que sacar todo el jugo a
+sus hermosos caballos cuanto antes} 37. Qd3 g6 $1 38. Nf6+ Kg7 39. Ngxh7 Qb4 {
+y la partida sigue, incierta, como el destino de los valientes.}) 33. Nd2 $1 {
+Esta jugada además de atacar el alfil ... defiende la torre} Nf8 {[#]} ({Ahora
+} 33... Ba6 $2 {se encuentra con} 34. Rxd7 Qxd7 35. Rxb8+ Rxb8 36. Qg3 $18) 34.
+Nf6+ $1 Kh8 (34... gxf6 35. exf6 Rxb7 36. Qxh6 $18 {y la importancia de que la
+torre de b1 esté defendida se repite en esta variante también}) 35. Rxf7
+Rxb1+ 36. Nxb1 Nh7 37. Nxh7 Kxh7 38. Nd2 $18 {[#] Y las blancas, con su peón
+de ventaja y su mejor posición, continuaron hasta ganar.} Qe8 39. Rc7 Rc8 40.
+Rxc8 Qxc8 41. Qc3 Qa6 42. f3 Be2 43. Nb3 Bd1 44. Nc5 Qc4 45. Qxc4 dxc4 46. Kf2
+c3 47. Ke3 Bc2 48. Nxe6 Bxa4 49. Nc5 Bb5 50. d5 a4 51. Ne4 a3 52. Nxc3 Kg6 53.
+g4 Bc4 54. d6 Kf7 55. f4 a2 56. Nxa2 Bxa2 57. f5 Bd5 58. Kf4 Bc6 59. h4 Bd7 60.
+h5 Bb5 61. g5 Be2 62. e6+ Ke8 63. gxh6 gxh6 64. Ke5 Bxh5 65. d7+ Kd8 66. Kd6
+Bf7 67. e7# 1-0
+
+[Event "Spanish Championship"]
+[Site "chess24.com"]
+[Date "2016.08.13"]
+[Round "?.1"]
+[White "Vallejo Pons, Francisco"]
+[Black "Narciso Dublan, Marc"]
+[Result "1-0"]
+[WhiteElo "2713"]
+[BlackElo "2482"]
+[SetUp "1"]
+[FEN "1k6/5p2/Q3p1p1/P3P3/1P5P/2q2K2/8/8 w - - 0 61"]
+[PlyCount "43"]
+[EventDate "2016.??.??"]
+[WhiteTeam "España"]
+[BlackTeam "España"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "ESP"]
+[WhiteClock "1:30:30"]
+
+61. Kg4 {[#]El momento cumbre del final, con los rivales agotados y sin tiempo.
+} Qxb4+ $6 {Materialismo dicen que es uno de los pecados capitales del ajedrez,
+comparable a "La Avaricia". Esta jugada sigue siendo tablas, claro, pero es
+más fácil} (61... Qd4+ $1 {impidiendo el escape por g5} 62. Kf3 (62. Kg5
+Qxe5+ $1 $11) 62... Qc3+ $1 {manteniendo un ojo en e5 y otro en b4} 63. Kf2
+Qd4+ $11 {y el jaque continuo está asegurado}) 62. Kg5 $1 {Paco se agarra a
+un clavo ardiendo} Qe7+ $2 {Esto ya es más grave} (62... Qd2+ $1 {es mejor
+pero la verdad es que da miedo} 63. Kf6 Qf4+ 64. Ke7 Qxh4+ 65. Kxf7 Qf4+ 66.
+Kxe6 Qf5+ 67. Kd5 Qf3+ {y el rey blanco no puede escapar de los jaques, lo
+cual es natural porque la dama está en la banda}) 63. Kh6 $1 Qxh4+ 64. Kg7 {
+Ahora los jaques se acaban y las blancas tienen algunas esperanzas puestas en
+el peón de e5.} Qe4 $2 {[#]Dejandose comer muy fácil el peón de g7. En este
+caso el pecado sería prodigalidad, pero no le he visto en la lista.} (64...
+Qf2 $1 {Aún debe hacer tablas}) 65. Qd6+ $1 {Las blancas estaban deseando
+centralizar su dama y lo hacen a una casilla idónea.} Kb7 66. Kxf7 {A partir
+de aquí la causa negra está en serio peligro.} g5 $6 (66... Qf5+ $1 67. Kg7
+g5 {es la última esperanza}) 67. Qb6+ Ka8 68. Qd8+ Kb7 69. Qxg5 {Mijail
+Lomonosov fue un hombre admirable. Ahora las tablas que llevan su nombre nos
+confirman que las negras están perdidas y que Vallejo no dejó nunca escapar
+la ventaja ganadora.} Ka6 70. Kxe6 Kxa5 71. Qd8+ Ka4 72. Qd7+ Ka3 73. Qd6+ Kb2
+74. Kd7 Qh7+ 75. Kc8 Qg8+ 76. Kb7 Qf7+ 77. Kb6 Qf4 78. Kc5 Qc1+ 79. Kb4 Qe1+
+80. Kb5 Qe2+ 81. Ka5 Qe1+ 82. Qb4+ 1-0
+
+[Event "Spanish Championship"]
+[Site "chess24.com"]
+[Date "2016.08.07"]
+[Round "?.18"]
+[White "Suarez Uriel, Adrian"]
+[Black "Santos Ruiz, Miguel"]
+[Result "1/2-1/2"]
+[ECO "B90"]
+[WhiteElo "2311"]
+[BlackElo "2440"]
+[PlyCount "83"]
+[EventDate "2016.??.??"]
+[WhiteTeam "España"]
+[BlackTeam "España"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "ESP"]
+[WhiteClock "1:30:30"]
+[BlackClock "1:30:30"]
+
+{No siempre son las mejores partidas del torneo o las más decisivas las que
+atraen la atención. A veces, una lucha creativa, cambiante y sorprendente,
+con muchos errores, merece la pena, aunque termine en tablas.} 1. e4 c5 2. Nf3
+d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 $5 {Esta jugada ha vuelto a primera
+línea en los últimos años, mucho después de que Fischer la desenterrara en
+su famosa partida con Bolbochan del Interzonal de Estocolmo de 1962. Unos
+años antes había sido empleada por uno de sus pocos "consejeros", Lombardy,
+así que incluso los más grandes copian a otros. La idea es jugar g4 y luchar
+por la casilla d5, crucial en la Defensa Siciliana. Objetivamente no creo que
+sea lo mejor, pero está de moda.} e5 $5 (6... e6 $5 {Lleva a posiciones muy
+diferentes, en las cuales la jugada h3 no parece tan útil.}) 7. Nde2 {
+Claramente la jugada moderna, pero no estoy seguro de que sea mejor que 7.Cb3}
+h5 $1 {Por el contario, esta jugada si estoy casi seguro de que es la mejor, y
+otros indicadores más fiables que mi opinión parecen corroborarlo. Las
+negras impiden la expansión con g4 y las dos últimas jugadas de las blancas
+quedan un poco extrañas.} 8. Bg5 {Poniendo el acento en los defectos de la
+jugada h5 y en cierto modo cambiando de plan, aunque siempre pensando en la
+casilla d5. Estas contorsiones o demostraciones de flexibilidad son una de las
+marcas del ajedrez actual.} Be6 9. Bxf6 {Para ocupar inmediatamente d5. Juego
+directo y lógico. Otros "planes" como f4 o Dd2 seguido de 0-0-0 son
+merecedores de análisis.} (9. Nd5 {directa parece imprecisa por} Bxd5 10. exd5
+(10. Bxf6 $2 Qa5+ $1 11. Nc3 Bxe4 $17) 10... Qa5+ {y las negras están
+bastante bien}) 9... Qxf6 10. Nd5 Qd8 11. Nec3 {Sigue siendo lo más lógico 
+(el segundo caballo hace algo) y lo más natural, pero si yo jugara esta
+posición con negras me preocuparía de Dd3 que prepara el 0-0-0.[#]} g6 $1 {
+El alfil está excelente en h6} 12. Ne3 $6 {Los caballo estarán más bonitos
+así, pero la maniobra cuesta dos tiempos. Creo que Ac4 es mejor.} Bh6 13. Ncd5
+Nd7 $1 {En mi opinión mejorando el único antecedente que conozco.} (13... Nc6
+14. c3 O-O 15. Bc4 Kh8 16. O-O Rc8 17. Be2 Qh4 18. Bf3 f5 19. g3 Qd8 20. exf5
+gxf5 21. Bxh5 Qg5 22. Kh2 Rg8 23. Rg1 Rcd8 24. f4 Qg7 25. Qd3 e4 26. Qd2 Ne7
+27. Rad1 Nxd5 28. Nxd5 Rc8 29. Ne3 d5 30. Nc2 Qh7 31. Rdf1 Bf8 32. Nd4 Bd7 33.
+Bd1 Rg6 34. Bb3 Bc5 35. Bxd5 Rh6 36. Kg2 Rd6 37. c4 b5 38. b3 Qg7 39. Rd1 bxc4
+40. bxc4 Re8 41. Rge1 Rg6 42. Qc3 Bb4 43. Qe3 Bxe1 44. Rxe1 Qf6 45. Rb1 Re7 46.
+c5 Reg7 47. Ne2 Bb5 48. Rb3 Qd8 49. Nc3 Rxg3+ 50. Qxg3 Bf1+ 51. Kf2 Rxg3 52.
+Kxg3 Qc7 53. c6 Qg7+ 54. Kf2 Qg2+ 55. Ke3 Qg1+ 56. Kd2 e3+ 57. Kc2 Qf2+ 58. Kb1
+Bd3+ 59. Ka1 e2 60. Rb8+ Kh7 61. Nxe2 Qe1+ 62. Kb2 Qxe2+ 63. Ka3 Qe7+ 64. Kb3
+Kg6 65. Rb6 Qe3 66. Rb8 Be4+ {0-1 (66) Chandran,K (2171)-Rishi,S (2373) Al-Ain
+UAE 2013}) 14. Qf3 $6 {Dudo que tantas perdidas de tiempo estén justificadas.}
+Nb6 $1 15. Rd1 {[#] La partida ha llegado a uno de sus puntos críticos} Bxe3
+$6 {Podríamos decir que el cambio de la única pieza que no puede disputar de
+forma directa d5 es posicionalmente impecable. Pero el alfil de casillas
+negras es muy fuerte y las casillas negras del enroque pueden quedar débiles
+en algunos escenarios futuros.} (15... Rc8 $1 {Coninuando el desarrollo, y
+pasando a las blancas la decisión de como actuar me parece más preciso. Por
+ej:} 16. c3 (16. Bd3 $6 Bxd5 17. Nxd5 Nxd5 18. exd5 Qa5+ $17) (16. Nf6+ $2 Kf8
+17. c3 Na4 $17) (16. c4 O-O $1) 16... Rc5 $1 17. b4 Bxe3 18. bxc5 Bxc5 $15 {
+nauralmente estas variante sno son exhaustivas, pero dibujan una tendencia
+prometedora para las negras}) 16. Nxe3 O-O 17. Be2 Na4 $1 {[#] La primera
+señal de atividad peligrosa por parte de las negras, que las blancas van a
+contestar de manera brutal.} 18. g4 $1 {Tal vez inesperado, porque parecía
+que el rey blanco se iba a enrocar corto y porque el peón de b2 reclamaba ser
+defendido, pero muy lógico si consideramos la debilidad del enroque negro, y
+desde elpunto de vista práctico, casi necesario , porque con jugadas normales,
+la tendencia iba a favor de las negras.} h4 $1 {Esta jugada me parece obvia,
+aunque algunos módulos propongan en primer lugar la captura y trataré de
+razonarlo:  Las negras tienen una posición más sana y no van a perder su
+iniciativa en el flanco de dama por retrasar una jugada su amenaza; si entran
+en la batalla campal qu representa Cb2 solo puede ser por una de estas dos
+razones: 1) Es claramente ganador, que no parece el caso o 2) No hacer Cb2
+pierde toda la ventaja, que tampoco parece. Así que yo aquí recomendaría
+jugar rapidito  h4 y ahorrar el tiempo para decisiones más difíciles.} (18...
+Nxb2 $5 19. Rb1 Na4 20. gxh5 b5 {con bastante lío}) 19. Nf5 $1 {[#] Otro
+golpe enérgico. Las blancas mandan un mensaje "Te voy a dar mate"} (19. Rb1
+Rc8 20. O-O b5 21. a3 Qg5 $15 {deja mejor a las negras}) (19. b3 $6 Nc3 20. Rd3
+Nxa2 21. Nf5 {tambien es peligroso para los dos} Qg5 $1 22. Nxd6 Nb4 23. Rd2
+Rfd8 $17) 19... Qg5 $2 {Natural pero mala. Era preciso capturar el material y
+defenderse, lo cual es posible, claro está.} (19... Nxb2 $1 20. Qe3 $5 (20.
+Rd2 Qg5 $17 {No entra en consideración}) 20... Nxd1 21. Qh6 Bxf5 22. gxf5 Qf6
+23. Kxd1 (23. Rg1 Qg7 24. Qxh4 Nc3 25. fxg6 fxg6 $19 {y no pasa nada}) (23.
+Bxd1 Qg7 24. Qxh4 Rac8 $19) 23... Qg7 24. Qxh4 d5 $1 (24... gxf5 {Tambien sirve
+}) 25. Rg1 Rad8 $19) 20. Qa3 (20. b3 $1 Nc5 21. Nxd6 Rfd8 22. O-O $16 {Gana un
+peón sin bastante compensación, pero no era la idea de la partida}) 20...
+gxf5 21. gxf5 Bd7 $2 {[#]La pieza no podrá mantenerse como veremos} (21... Nc5
+22. fxe6 fxe6 $1 $15 {Y no es posible tomar en d6}) 22. Kf1 $1 {Otro golpe
+descomunal. Seguramente las negras confiaban en apartar ahora su rey ... un
+poquito} Nxb2 $5 {La salida de emergencia} (22... Kh8 23. Rg1 Qe7 24. Rg4 Nc5
+25. Qe3 Qf6 26. Rxd6 $1 $18 {Parece ser casi mate} Qxd6 $6 27. Qg5) 23. Qxb2
+Kh7 {Ahora el rey puede resistir en la columna h, un ratito.} 24. Rxd6 $2 {
+El típico exceso de confianza. Ahora quitará el alfil y lo acabaré de
+rematar.} (24. Rg1 Qf6 25. Qxb7 Bb5 26. Rg6 $1 Rab8 27. Qa7 Ra8 28. Rxf6 $18 {
+y las blancas ganaran, por la prosaica razón de que tienen más peones}) 24...
+Rg8 $1 {Pero no quitó el alfil el tío y la partida da la vuelta.} 25. Qxe5 $1
+Bc6 26. Bf3 $2 {[#] Y la partida llega a otro momento crítico. Tal vez las
+negras estaban felices con no perder de inmediato. Tan duro es sufrir.} Rad8 $2
+{Un pequeño cambio en el orden de jugadas (aparentemente inteligente :)) y la
+oportunidad se esfuma.} (26... Bb5+ $1 {Primero es lo que lleva a la victoria,
+porque ahora comer el alfil con la dama no es una opción} 27. c4 (27. Ke1 Rad8
+{Y no hay defensa contra Dc1}) 27... Qc1+ 28. Rd1 Qxc4+ 29. Ke1 Rgd8 30. Rxd8
+Rxd8 {y de nuevo no hay buena defensa contra Dc1 (o Db4)} 31. Qb2 Rd4 32. Rg1
+f6 $19 {seguido de Dd3}) 27. Rxd8 Bb5+ $5 {La sutil intermedia} 28. Qxb5 $1 {
+que obliga a la respuesta correcta} axb5 29. Rxg8 Qxg8 $14 {[#]Y se produce un
+nuevo escenario. A pesar de la ligera ventaja material de las blancas, la dama
+negra se puede hacer cargo de todo y la posición es tablas} 30. Be2 Qg7 31.
+Bxb5 Qa1+ 32. Kg2 Qxa2 33. Bd3 Qb2 34. Re1 Qg7+ 35. Kf3 Qe5 36. Re3 Kh6 37. Bc4
+f6 38. Bd5 b6 39. Kg2 Kg5 $1 40. Kf3 Qf4+ 41. Ke2 Qc7 42. c4 {Las emociones se
+terminaron} 1/2-1/2
+
+[Event "81st ch-ESP 2016"]
+[Site "Linares ESP"]
+[Date "2016.08.11"]
+[Round "7.1"]
+[White "Vallejo Pons, Francisco"]
+[Black "Forcen Esteban, Daniel"]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "2713"]
+[BlackElo "2561"]
+[PlyCount "68"]
+[EventDate "2016.08.05"]
+
+1. e4 c5 2. Nc3 d6 3. Nge2 Nf6 4. g3 g6 5. d4 cxd4 6. Nxd4 Nc6 7. Nde2 Bd7 8.
+Bg2 Qc8 9. b3 Bg7 10. Bb2 Bh3 11. Bxh3 Qxh3 12. Nf4 Qh6 13. Rb1 g5 14. Nfd5
+Nxd5 15. Nxd5 Bxb2 16. Rxb2 O-O-O 17. c4 e6 18. Nc3 Qf6 19. Rc2 Nd4 20. Rc1 h5
+21. h3 h4 22. g4 Nf3+ 23. Kf1 Ne5 24. Kg2 Ng6 25. Ne2 Kb8 26. Qd3 d5 27. exd5
+exd5 28. Qf5 Qe7 29. Rhe1 Qe4+ 30. f3 Qe3 31. cxd5 Rhe8 {[#]} 32. Qc2 Rc8 33.
+Nd4 Rxc2+ 34. Nxc2 Nf4+ 0-1
+
+[Event "Spanish U16  Youth Championship"]
+[Site "chess24.com"]
+[Date "2016.07.23"]
+[Round "9.3"]
+[White "Perez Garcia, Alejandro"]
+[Black "Guerra Rivera, Salvador"]
+[Result "0-1"]
+[WhiteElo "2328"]
+[BlackElo "2185"]
+[Annotator "Rahal,M"]
+[PlyCount "70"]
+[EventDate "2016.??.??"]
+[WhiteTeam "España"]
+[BlackTeam "España"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "ESP"]
+[WhiteClock "0:07:02"]
+[BlackClock "0:14:15"]
+
+{La siguiente partida se jugó en la última ronda del Campeonato de España
+Sub16. Todo estaba en el aire ya que varios jugadores podían optar a las
+medallas en función de los resultados, pero sin duda tanto Alejandro Pérez
+como Salvador Guerra sabían que la victoria les colocaba con excelentes
+opciones del oro o plata.} 1. d4 d6 2. Nf3 Nf6 3. c4 g6 4. g3 Bg7 5. Bg2 O-O 6.
+Nc3 Nc6 7. O-O Bf5 {Salvador elige una variante menos conocida contra el
+sistema de fianchetto en la defensa India de Rey.} ({Lo más habitual es jugar
+a cerrar el centro con} 7... e5 8. d5 Ne7 9. e4 Ne8 10. Ne1 f5 11. Nd3 Nf6 {
+con una típica posición de juego por los flancos.}) 8. d5 Na5 9. Nd2 {
+Protegiendo el peón de c4 y por tanto amenazando cazar el caballo con b4.} c6
+{Una línea de doble filo ya que el caballo queda expuesto en la banda. Ambos
+jugadores necesitan ganar para optar a la medalla y de ahí el tipo de partida.
+} 10. b4 Nxd5 $1 {La clave para no perder pieza.} 11. cxd5 Bxc3 12. e4 $1 {
+Jugada intermedia clave que deja a las blancas con dos piezas por torre y dos
+peones.} Bxe4 13. Nxe4 Bxa1 14. bxa5 Bg7 {[#] Esta es la posición clave de la
+línea que se inicia con 9...c6. El negro tiene torre y dos peones por las dos
+piezas por lo que tiene buenos finales pero el medio juego es para las blancas,
+siempre que pueda generar ataque con sus piezas.} 15. Qd2 {No es la mejor
+jugada.} ({En varias partidas se ha jugado} 15. a6 $1 {con idea de} c5 (15...
+bxa6 16. dxc6 $16) 16. axb7 Rb8 17. Nd2 $1 Rxb7 18. Nc4 Rb4 19. Qd3 Qd7 20. Bd2
+Rb7 21. Re1 {y el caballo fuerte en c4 junto con la pareja de alfiles y la
+presión por la columna-e deja la ventaja en manos de las blancas.}) 15... Rb8
+16. h4 $1 ({Ahora} 16. a6 {se contesta con} cxd5 17. Qxd5 bxa6) 16... c5 $6 {
+Dudosa respuesta aunque lógica.} ({Era mejor} 16... h6 {con idea de responder
+a} 17. h5 {con} f5 $1 {y el caballo blanco no dispone de buena casilla, ya que}
+18. Nc3 Qxa5 {gana el peón}) 17. h5 b5 18. axb6 Rxb6 {[#]} 19. f4 $6 {El
+blanco devuelve el favor con una jugada de ataque que aunque parece lógica y
+peligrosa no es la mejor.} ({El cambio} 19. hxg6 hxg6 20. Qf4 Qd7 21. Qh4 {
+[%cal Gc1f4,Ge4g5] hubiera dejado a las blancas con clara ventaja por las
+amenazas Bf4, Ng5, Re1, Bh3 y todas las piezas blancas participan en el ataque.
+}) 19... Qd7 20. Kh2 Rfb8 21. f5 gxf5 22. h6 Be5 23. Qg5+ Kh8 24. Rxf5 ({
+También era interesante} 24. Bh3 Rg8 25. Qxf5 Qxf5 26. Bxf5 {con una
+posición complicada aunque probablemente algo mejor para las negras al
+desaparecer las damas.}) 24... Rg8 {[#] La partida se ha vuelto muy complicada
+y el blanco tiene poco tiempo, el negro algo más. En este momento Alejandro,
+que es un excelente jugador, deja pasar una opción que estoy seguro que
+consideró, pero que no se animó a hacer.} 25. Qh5 $2 ({La jugada correcta
+era sacrificar la dama con} 25. Rxe5 $1 Rxg5 26. Rxg5 {y ahora} f6 27. Rg7 Qe8
+28. g4 $1 {con gran compensación por el material, ya que las piezas blancas
+son muy activas y el rey negro está encerrado. Las blancas pueden continuar
+con ideas como Ng3-f5, Bd2-c3, Be4 con mucho ataque.}) 25... f6 26. Bf4 Bxf4
+27. Rxf4 Qe8 $1 {[#]} 28. Qh4 ({Seguramente había que cambiar damas, por
+ejemplo:} 28. Qxe8 Rxe8 29. g4 Rb2 30. Kh3 Rxa2 31. g5 {y las blancas atacan y
+la posición aún es incierta.}) 28... Qg6 29. Nf2 Rb4 $1 30. Be4 Qg5 31. Qh3
+$2 ({Última opción para cambiar damas} 31. Qxg5 Rxg5 32. Rf3 Re5 {y mejor
+negras.}) 31... Rb2 32. Bg2 $2 {[#]Error definitivo y Salvador no perdona.}
+Qxf4 $1 33. gxf4 Rxf2 34. Kg1 Rgxg2+ 35. Kh1 Rh2+ {[#]} ({y las blancas
+abandonaron ante el avance imparable a dama del peón-c.} 35... Rh2+ 36. Qxh2
+Rxh2+ 37. Kxh2 c4 {coronando}) 0-1
+
+[Event "Spanish U18  Youth Championship"]
+[Site "chess24.com"]
+[Date "2016.07.30"]
+[Round "9.1"]
+[White "Suarez Gomez, Julio"]
+[Black "Gomez Dieguez, Adrian"]
+[Result "1-0"]
+[WhiteElo "2413"]
+[BlackElo "2198"]
+[PlyCount "99"]
+[EventDate "2016.??.??"]
+[WhiteTeam "España"]
+[BlackTeam "España"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "ESP"]
+[WhiteClock "0:48:45"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O Bg4 6. h3 h5 $5 7. d3 (7.
+hxg4 $2 hxg4 8. Nxe5 Qh4 9. f3 g3 10. Ng4 Qh1#) 7... Bxf3 (7... Qf6 $142) 8.
+Qxf3 Qf6 9. Nd2 Bd6 10. Qxf6 Nxf6 11. Nc4 $14 {[#]} Nd7 12. Be3 f6 13. a4 Ke7
+14. g3 h4 15. g4 Bc5 (15... g5 $5) 16. a5 g6 17. Bxc5+ Nxc5 18. f4 $1 {[#]} Nd7
+(18... exf4 $143 19. Rxf4 Ne6 20. Rf2 Raf8 21. Raf1 $14) 19. Rf2 Raf8 20. Raf1
+c5 21. Ne3 Rhg8 22. Kg2 (22. Nd5+ Kd6 23. fxe5+ fxe5 24. Rf7 c6 25. Nb6 Rxf7
+26. Rxf7 Nxb6 27. axb6 $16) 22... Kd6 (22... exf4 $142 23. Rxf4 Ke6 24. b3 $14)
+23. Rf3 Ke7 24. R1f2 c6 25. Kf1 Ke6 (25... exf4 $142) 26. Ke2 (26. f5+ $1)
+26... exf4 27. Rxf4 g5 28. Rf5 Ne5 29. Nc4 Ng6 (29... Nxc4 30. dxc4 $16 {
+[%cal Gf5c5]}) 30. Rxc5 Nf4+ {[#]} 31. Rxf4 $1 gxf4 32. Rf5 Rg5 33. Rxf4 Rd8
+34. Rf1 $1 Rd4 {[%cal Gd4c4]} 35. Ra1 Rc5 36. b3 {[%csl Gc4]} Rd7 37. Ke3 Rg5
+38. d4 Re7 39. Rf1 Kf7 40. Nd6+ Kg6 $2 (40... Ke6 41. Nf5 Rh7 42. b4 $16) 41.
+Nf5 Rh7 42. c4 Rh8 43. Ra1 $1 Kf7 44. Ra4 Rd8 45. Rb4 Rd7 46. Rb6 $1 Ke6 47.
+d5+ Ke5 48. dxc6 bxc6 49. Rxc6 Rd1 50. Nxh4 1-0
+
+[Event "XXXVI Op Int"]
+[Site "Benasque"]
+[Date "2016.07.11"]
+[Round "5.1"]
+[White "Castellanos Rodriguez, Renier"]
+[Black "Sasikiran, Krishnan"]
+[Result "0-1"]
+[ECO "C54"]
+[WhiteElo "2481"]
+[BlackElo "2639"]
+[PlyCount "68"]
+[EventDate "2016.07.07"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 (3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7.
+dxe5 Nf5 8. Qxd8+ Kxd8) 3... Bc5 4. c3 Nf6 {[#]} 5. d3 {Esta continuación ha
+desplazado actualmente a la que en un tiempo se consideró practicamente
+forzada para luchar por adquirir ventaja:} (5. d4 exd4 6. cxd4 (6. e5 d5 7. Bb5
+Ne4 8. cxd4 Bb6 9. Nc3 {es también jugable, aunque no demasiado prometedora})
+6... Bb4+ 7. Nc3 {Un gambito ya mencionado por Greco hace mas de 400 años} ({
+La alternativa} 7. Bd2 Bxd2+ 8. Nbxd2 d5 9. exd5 Nxd5 10. Qb3 Nce7 {no da
+muchos problemas a las negras}) ({Sin embargo, merece ser considerada la menos
+explorada} 7. Kf1 d5 (7... Nxe4 8. d5 Ne7 9. Qd4 Nf6 10. Bg5 {es más
+peligrosa para las negras}) 8. exd5 Nxd5 9. Nc3 Nxc3 10. bxc3 Bxc3 11. Rb1 Nxd4
+12. Bg5 Qd6 {y las blancas tienen cierta compensació por los peones pero
+apenas más.}) 7... Nxe4 8. O-O Bxc3 9. d5 Bf6 $1 {y las posibles
+continuaciones han sido minuciosamente analizadas hasta llegar a la
+conclusión de que son las blancas quienes deben buscar la igualdad.}) 5... d6
+6. O-O {Este tipo de posiciones ha adquirido plena actualidad, especialmente a
+raiz de la popularidad de otra linea de apertura, la Defensa Berlinesa contra
+la Española 1.e4 e5 2.Nf3 Nc6 3. Bb5 Nf6 donde cada vez más jugadores optan
+por la continuación 4.d3 despues de que Kramnik defendiera con éxito frente
+a Kasparov en su match de Londres 2000 el final tras 4.0-0 Nxe4 5.d4 Nd6 6.
+Bxc6 dxc6 7.dxe5 Nf5 8.Qxd8 Kxd8} a6 7. Bg5 {No resulta evidente que se pueda
+criticar esta jugada tan natural, pero sin duda es una imprecisión. La
+clavada es efectiva cuando las negras ya se han enrocado corto, pero ahora les
+da la oportunidad de lograr una interesante actividad. Lo mejor sería} (7.
+Nbd2 {o}) (7. Bb3) 7... h6 8. Bh4 ({Es claro que} 8. Bxf6 Qxf6 {sería una
+concesión importante}) 8... Ba7 {La inmediata} (8... g5 9. Bg3 Ba7 {también
+sería buena, pero las blancas ya no pueden evitar ese plan}) 9. a4 ({Tal vez} 
+9. Nbd2 {fuese más precisa}) 9... g5 10. Bg3 Bg4 11. Nbd2 (11. h3 Bh5 {
+impediría el plan que ahora siguen las negras con ...Nh5 pero la presencia
+del peón blanco en h3 daría más fuerza a la ruptura ...g5-g4}) 11... Nh5 12.
+b4 $6 {Esto resulta poco efectivo porque las negras no tienen intenciones de
+enrocarse tampoco por el lado largo. Sería preferible} (12. Kh1 {en
+previsión de lo que ahora sigue}) 12... Nxg3 $1 13. hxg3 Qf6 {El plan de las
+ngras aparece claro. Con h6-h5-h4 abriran una peligrosa columna contra el rey
+blanco mientras su propio rey puede permanecer en el centro que las blancas no
+pueden abrir con facilidad} 14. b5 Na5 15. bxa6 bxa6 16. Bxa6 {Un peón poco
+importante y además aleja otra pieza de la defensa del flanco de rey, pero
+las blancas no tenian buena alternativa} {[#]} h5 $1 ({Tal vez las blancas
+confiaban en que Sasikiran recuperaría el peón con} 16... Bxf2+ 17. Rxf2 Rxa6
+18. d4 {donde las cosas no estarían mal para ellas. Pero el jugador indio no
+se aparta de su plan}) 17. Re1 h4 18. Nf1 ({Si} 18. gxh4 Rxh4 {con amenazas
+decisivas}) 18... Be6 19. d4 ({Tampoco ahora sirve} 19. gxh4 $2 g4 {ganando})
+19... hxg3 20. Nxg3 g4 21. Nd2 ({Un poco mejor era} 21. Nh2 {y si} exd4 (21...
+Kf8 {es incluso más fuerte}) 22. e5 Qh4 23. Nhf1 {pero tampoco las blancas
+tendrían una defensa cómoda}) 21... exd4 22. e5 dxe5 23. Nde4 Qf4 (23... Qh4
+{también era muy fuerte}) 24. Qe2 c6 {Evita el jaque en b5 y cualquier
+reacción blanca. Ya no hay defensa satisfactoria} 25. cxd4 Bxd4 26. Rad1 Qh6 {
+Amenazando mate con 27...Qh2+ 28.Kf1 Qh1+. Las blancas tienen una defensa
+ingeniosa pero insuficiente} 27. Nh5 {[#]} Ke7 $2 ({Evidentemente el caballo
+no puede tomarse por el jaque en f6 así que Sasikinran aparta su rey. El gran
+maestro indio ya ve cercana la victoria y se confía pensando que cualquier
+movimento del rey es suficiente y en e7 comunica además sus torres. Pero
+comete su único error en toda la partida. Tras la precisa} 27... Kf8 28. Nef6
+Qg5 {las blancas no tendrían defensa}) 28. Neg3 Qg5 29. Rxd4 $1 exd4 {[#]} 30.
+Qb2 $2 ({Pero Castellanos no aprovecha su oportunidad. Con} 30. Ng7 $3 {
+las blancas disponen de un jaque salvador en f5 gracias a la inoportunia
+posición del rey negro y el resultado de a lucha no estaría nada claro, por
+ejemplo} Qf6 31. Bc4 Nxc4 32. Qxc4 Kd7 33. Nxe6 fxe6 34. Ne4 Qh6 35. Qxd4+ Kc8
+36. Ng3) 30... Rxh5 31. Ne4 ({Si} 31. Nxh5 Qxh5 32. Qb6 Rh8 33. Kf1 Nb3 {
+ganando}) 31... Qe5 32. Qb4+ c5 33. Qxa5 Qh2+ 34. Kf1 Bc4+ 0-1
+
+[Event "XXXVI OPEN INTERNACIONAL"]
+[Site "Benasque"]
+[Date "2016.07.16"]
+[Round "10.7"]
+[White "Alvarado Diaz, Alejandro"]
+[Black "Vera Siguenas, Deivy"]
+[Result "0-1"]
+[ECO "E63"]
+[WhiteElo "2421"]
+[BlackElo "2492"]
+[SetUp "1"]
+[FEN "2r2rk1/1p3qbp/n2p1np1/R2Pp3/NP2P3/4B1P1/R4NKP/4Q3 w - - 0 29"]
+[PlyCount "20"]
+[EventDate "2016.07.07"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+{[#]La desviación es uno de los elementos tácticos que se presentan con más
+frecuencia y que da lugar a espectaculares combinaciones. En la siguiente
+partida se presentó en varios momentos} 29. b5 ({Las blancas tenían una
+posición muy satisfactoria tras} 29. Nb6) 29... Nb4 $1 30. Rb2 ({La captura
+del caballo} 30. Qxb4 {daría paso a un ataque decisivo tras} Ng4) 30... Ng4 $1
+31. Qe2 ({Tampoco se puede tomar el otro caballo, pues si} 31. Nxg4 Nd3 32. Qe2
+Nxb2 33. Nxb2 {sigue otra mortal jugada de desviación con} Rc2 $1 34. Qxc2
+Qf1#) 31... Nxe3+ 32. Qxe3 Rc2 33. Rxc2 Nxc2 34. Qe2 Nd4 35. Qe1 (35. Qe3 {
+se responde de nuevo con otra jugada de desviación} Bh6 $1) 35... Qf3+ 36. Kg1
+Bh6 (36... Nc2 37. Qd2 Ne3 {era tambien decisivo}) 37. Nb2 Ne2+ 38. Kf1 Bd2 $1
+{[#]El golpe final, que desvía la dama de la defensa del caballo f2 y fuerza
+el abandono} 0-1
+
+[Event "XXXVI OPEN INTERNACIONAL"]
+[Site "Benasque"]
+[Date "2016.07.15"]
+[Round "9.6"]
+[White "Danailov, Silvio"]
+[Black "Granda Zuñiga, Julio E"]
+[Result "1-0"]
+[ECO "E01"]
+[WhiteElo "2448"]
+[BlackElo "2699"]
+[PlyCount "39"]
+[EventDate "2016.07.07"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. Nf3 d5 2. d4 c6 3. c4 e6 4. Qc2 Nd7 5. g3 Ngf6 6. Bg2 b6 ({Mas habitual es} 
+6... Bd6 7. O-O O-O 8. Nbd2 Re8) 7. O-O Bb7 8. b3 Rc8 9. Rd1 c5 ({Mas prudente
+es} 9... Be7 {sin retrasar el desarrollo del flanco de rey}) 10. Nc3 dxc4 {[#]}
+11. d5 $1 ({Mejorando el juego de una partida Kaidanov-Strauss, USA 1992 que
+continuó} 11. dxc5 Bxc5 12. Bg5 Qe7 {y las negras quedaron mejor}) 11... cxb3
+{Demasiado optimista. Mejor} (11... Nxd5 12. Nxd5 exd5 13. Nh4 {aunque las
+blancas mantienen la iniciativa}) 12. axb3 Bxd5 ({Algo mejor sería} 12... exd5
+{manteniendo cerrada la columna "d" donde la clavada del caballo en d7 será
+muy molesta}) 13. e4 $1 Ba8 14. Rxa7 Rc7 {Las negras igualmente estarían mal
+tras} (14... Be7 15. Bf4 {ya que no vale} O-O 16. Ne5) 15. Ra2 Qc8 16. Bf4 Bc6
+({Tras} 16... Rc6 17. e5 Nh5 18. Be3 {la posición negra es desastrosa}) 17.
+Bxc7 Qxc7 18. e5 Ng4 {[#]} 19. Nb5 $1 Bxb5 20. Nd4 $1 {y las negras se
+rindieron} 1-0
+
+[Event "34 Andorra Open"]
+[Site "Escaldes"]
+[Date "2016.08.07"]
+[Round "5.2"]
+[White "Cori, Jorge"]
+[Black "Lagarde, Maxime"]
+[Result "1-0"]
+[ECO "A61"]
+[WhiteElo "2601"]
+[BlackElo "2572"]
+[Annotator "De la Riva,Oscar"]
+[PlyCount "91"]
+[EventDate "2016.08.03"]
+[EventCountry "AND"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. d5 d6 5. Nc3 exd5 6. cxd5 g6 7. Bf4 {Una
+variante poco conocida que busca evitar las líneas más teóricas de la
+Defensa Indobenoni, pero que guarda su interés ya que el objetivo es avanzar
+el peón e sólo una casilla, quitando la presión habitual que sufre este
+peón cuando se encuentra en e4.} Bg7 8. Qa4+ Bd7 9. Qb3 Bc8 {Con esta
+retirada queda claro que las negras se contentan con las tablas. En cierto
+modo es lógico pasar la pelota al rival, sobretodo teniendo en cuenta que
+tiene más ELO y que está realizando un buen torneo, ¡aparte de pasarle la
+presión y responsabilidad de jugar a ganar!  En cualquier caso la
+recomendación teórica es la interesante 9...Qc7 que sale bien analizada en
+el excelente libro sobre la Benoni de Marian Petrov.} 10. Qa4+ ({También es
+posible el orden} 10. e3 O-O 11. Be2 a6 (11... Nh5 {Motivo por el que las
+blancas juegan h3, pero ahora se puede continuar con:} 12. Bg5 f6 13. Bh4 g5
+14. Nd2 {[%cal Ge2h5] Aprovechando la indefensión del Nh5.} gxh4 15. Bxh5 f5
+16. Nc4 Nd7 $5 17. Nxd6 Nf6 18. Nxc8 Nxh5 19. d6+ Kh8 {[#]Con una
+interesantísima posición para las negras que están muy activas. Bogner,S 
+(2526)-Gozzoli,Y (2530) Mulhouse 2011.}) 12. a4 Nh5 {¡Insistiendo con el tema!
+} 13. Bg5 f6 14. Bh4 b5 15. Nd2 $16 {Aleksandrov,A (2616)-Maze,S (2546)
+Pamplona 2009.}) 10... Bd7 11. Qb3 Bc8 12. h3 {[#]Cori sigue con su idea
+inicial, es decir no avanzar su peón a e4, y antes de jugar e3 para continuar
+con su desarrollo le habilita la retirada al Bf4.  Hay pocos ejemplos de esta
+posición y curiosamente los tres más interesantes son de ¡grandes maestros
+franceses!} O-O 13. e3 a6 (13... Ne8 {Otra idea, típica en estas estructuras.
+Las negras protegen el peón d6 y desarrollan el otro caballo.} 14. Be2 Nd7 15.
+O-O Qe7 16. Bh2 f5 17. Nd2 g5 18. Rae1 a6 19. a4 Rb8 20. Nc4 Ne5 21. Nxe5 Bxe5
+22. Bxe5 Qxe5 23. Bxa6 $16 {Las blancas han ganado un peón y no parece que
+haya demasiada compensación. Kazhgaleyev,M (2643)-Libiszewski,F (2499)
+Cappelle la Grande 2010.}) 14. a4 {Evitando la expansión en el flanco de dama.
+} Nh5 15. Bh2 f5 {Las negras ganan espacio en el flanco de rey a la vez que
+pretenden avanzar su peón hasta f4 para bloquear la diagonal h2-b8.} 16. Bd3
+f4 {Complemento del avance anterior para poder desarrollar el flanco de dama
+sin la presión sobre d6.} 17. O-O Nd7 18. Ne4 Ne5 19. Be2 {Una buena retirada
+ya que el alfil apunta al Nh5 y no hay que olvidar al otro alfil, escondido en
+h2.} Qe7 ({Era interesante} 19... Nxf3+ 20. Bxf3 Bf5 21. Nd2 (21. Qxb7 $2 Re8 {
+[%cal Ge8e3] y las blancas tienen problemas.}) 21... Qg5 {pero parece que tras}
+22. Bxh5 $1 fxe3 (22... gxh5 23. Bxf4 $14) 23. Qxe3 Qxh5 24. Bxd6 {las blancas
+están mejor.}) 20. Nfg5 $1 {[%cal Gg5e6,Ge2h5,Gh2f4] [#]El caballo se dirige
+a e6 para que las negras tengan que ceder su alfil de casillas blancas.    
+Una idea muy parecida se produce en la India de Rey donde las blancas realizan
+la misma maniobra para abrir líneas a sus piezas. Ahora los alfiles blancos
+presionan en sus respectivas diagonales.} (20. Ned2 {Era más modesta, pero
+parece que también algo favorable a las blancas.}) 20... h6 21. Ne6 Bxe6 22.
+dxe6 {La posición se abre para los alfiles blancos.} f3 {[#] DIAGRAMA 
+Lagarde confiava en este avance que parece debilitar el enroque de las blancas,
+pero Cori tenía prevista una idea realmente sorprendente.} (22... c4 23. Bxc4
+Nxc4 24. Qxc4 Rae8 {Era otra posibilidad, pero las blancas mantienen su
+ventaja tras} 25. exf4 Qxe6 26. Nxd6 $1 $14) 23. Bxe5 (23. gxf3 {El módulo
+prefiere la simple captura y parece que tiene razón en valorar la posición
+como clara ventaja de las blancas.} c4 (23... Nxf3+ 24. Bxf3 Rxf3 25. Bxd6 Qh4
+26. e7+ Kh7 27. Qe6 $18) 24. Bxc4 Nxf3+ 25. Kg2 Nxh2 26. Kxh2 $16) 23... fxe2
+24. Bxd6 exf1=Q+ 25. Rxf1 {Las blancas han entregado una torre entera y aún
+así su posición es preferible. ¿Es esto posible? Mosquea mucho ver a los
+módulos ofrecer igualadad, ¡síntoma de que en la práctica la compensación
+es excelente!} Qh4 {[#] DIAGRAMA} 26. Qxb7 {Cori no tiene prisa y empieza a
+recolectar peones. ¡Vamos, que es un sacrificio posicional!} Rfe8 (26... Rae8
+27. Bxf8 Rxf8 28. Rd1 $18 {Las 3 piezas blancas junto con el Pe6 coordinan
+estupendamente.}) 27. Nxc5 {¡Otro más!} Rad8 $2 {Esta jugada parece un claro
+error que cede a las blancas un par de tiempos. Era necesaria la profiláctica}
+(27... Kh7 28. Qf7 Qc4 $1 {Intentando que el peón e no llegue a la séptima
+fila. Las blancas mantienen su compensación, pero cuesta más progresar.}) 28.
+Qf7+ Kh7 29. e7 $1 {Aprovechando la indefensión de la Re8.} Rc8 30. Nd7 $1 {
+[#] DIAGRAMA   Las piezas blancas junto con el peón de e7 colapsan a las
+negras que apenas pueden mover. La torre de ventaja no sirve de nada al no
+poder coordinar las piezas.} Kh8 31. b4 $1 {Añadiendo un problema extra. El
+peón b avanza tranquilamente...} Qe4 32. Nf8 $1 {Nuevo mazazo. Ahora es en el
+flanco de rey donde aparecen los problemas.} Nf6 33. Ne6 (33. Nxg6+ Kh7 34. Nf4
+{También es posible.} Rc6 35. Rd1 $18) 33... Nh5 34. g4 $1 {Todo son
+problemas y no existen soluciones.} Rg8 35. Rd1 ({No es necesario} 35. gxh5
+gxh5 {y las negras pueden tener contrajuego en la columna g.}) 35... Nf6 {[#]}
+36. Nf8 $4 {Un grave error en los apuros de tiempo que pudo haber echado a
+perder todo el trabajo anterior.} (36. Nxg7 $1 {Era ganadora tras} Qf3 {
+Defiende el Nf6 y ataca la Rd1.} 37. Rf1 Rxg7 38. Qf8+ Kh7 (38... Rg8 39. Qxh6+
+Nh7 40. Be5+ $18) 39. Qxc8 $18 {y la partida se acaba.}) 36... Qf3 37. Rf1 Qxh3
+$4 {Las negras devuelven el error.} ({Con} 37... Qd5 $1 38. Nxg6+ Kh7 {había
+defensa y no se ve cómo pueden seguir las blancas si no quieren repetir
+jugadas con Nf8+.}) 38. Nxg6+ Kh7 {[#]} 39. Ne5 $1 {Defiende g4 y amenaza Qg6+.
+La partida vuelve a estar bajo control de las blancas.} Rge8 40. b5 $1 {
+Aprovechando que las negras vuelven a estar colapsadas el peón b continúa
+con su avance triunfal.} axb5 41. axb5 Rc3 42. b6 Kh8 43. Qe6 Kh7 44. Re1 (44.
+b7 $18) 44... h5 45. b7 {¡Sólo queda un pasito!} Nxg4 46. Qg6+ {y las negras
+abandonaron ante la Qxe8+.    Creo que esta es una muy buena partida de Jorge
+Cori, representativa de su juego a lo largo del torneo, ambicioso, creativo y
+con una excelente comprensión posicional.} 1-0
+
+[Event "6th Hainan Danzhou GM"]
+[Site "Danzhou CHN"]
+[Date "2015.07.03"]
+[Round "2.4"]
+[White "Wei, Yi"]
+[Black "Bruzon Batista, Lazaro"]
+[Result "1-0"]
+[ECO "B40"]
+[WhiteElo "2724"]
+[BlackElo "2669"]
+[Annotator "Illescas,Miguel"]
+[PlyCount "71"]
+[EventDate "2015.07.02"]
+
+{Publicada en Peón de Rey 121, páginas 84-87, encabezando el artículo "A la
+caza del Rey", con comentarios del MI Michael Rahal.} 1. e4 c5 2. Nf3 e6 3. Nc3
+a6 4. Be2 Nc6 5. d4 cxd4 6. Nxd4 Qc7 7. O-O Nf6 8. Be3 Be7 9. f4 d6 10. Kh1 O-O
+11. Qe1 Nxd4 12. Bxd4 b5 13. Qg3 Bb7 14. a3 Rad8 15. Rae1 Rd7 16. Bd3 Qd8 17.
+Qh3 g6 18. f5 e5 19. Be3 Re8 20. fxg6 hxg6 21. Nd5 Nxd5 22. Rxf7 Kxf7 23. Qh7+
+Ke6 24. exd5+ Kxd5 25. Be4+ Kxe4 26. Qf7 Bf6 27. Bd2+ Kd4 28. Be3+ Ke4 29. Qb3
+Kf5 30. Rf1+ Kg4 31. Qd3 Bxg2+ 32. Kxg2 Qa8+ 33. Kg1 Bg5 34. Qe2+ Kh4 35. Bf2+
+Kh3 36. Be1 1-0
+
+[Event "16th ch-EUR Indiv 2015"]
+[Site "Jerusalem ISR"]
+[Date "2015.03.06"]
+[Round "10.3"]
+[White "Khismatullin, Denis"]
+[Black "Eljanov, Pavel"]
+[Result "1-0"]
+[ECO "E46"]
+[WhiteElo "2653"]
+[BlackElo "2727"]
+[Annotator "Illescas,Miguel"]
+[PlyCount "113"]
+[EventDate "2015.02.24"]
+
+{Publicada en Peón de Rey 116, páginas 64-65, sección "La jugada del Año",
+comentarios del GM Jordi Magem.} 1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5.
+Nge2 Re8 6. a3 Bf8 7. Ng3 d5 8. Be2 a6 9. O-O c5 10. dxc5 Bxc5 11. cxd5 exd5
+12. Bf3 Be6 13. b4 Bd6 14. Bb2 Be5 15. Na4 Bxb2 16. Nxb2 Nc6 17. Nd3 Qb6 18.
+Rc1 a5 19. Rb1 axb4 20. axb4 Rad8 21. b5 Na5 22. Ne2 Ne4 23. Ndf4 Nc4 24. Bxe4
+dxe4 25. Nd4 Bc8 26. Rc1 Ne5 27. Qb3 Qh6 28. Rc5 b6 29. Rd5 Bb7 30. Rxd8 Rxd8
+31. Rd1 Qg5 32. Kf1 g6 33. h3 Nd3 34. Nc6 Bxc6 35. bxc6 Qc5 36. Qa4 Kg7 37.
+Qa1+ Kg8 38. Qa4 Rd6 39. Qa8+ Kg7 40. Qa1+ Kh6 41. Nxd3 exd3 42. Qh8 Qc2 43.
+Qf8+ Kg5 44. Kg1 Qxd1+ 45. Kh2 Rxc6 46. Qe7+ Kh6 47. Qf8+ Kg5 48. Qxf7 Rf6 49.
+f4+ Kh6 50. Qxf6 Qe2 51. Qf8+ Kh5 52. Qg7 h6 53. Qe5+ Kh4 54. Qf6+ Kh5 55. f5
+gxf5 56. Qxf5+ Kh4 57. Qg6 1-0
+
+[Event "Qatar Masters Open 2015"]
+[Site "Doha QAT"]
+[Date "2015.12.24"]
+[Round "5.1"]
+[White "Carlsen, Magnus"]
+[Black "Li, Chao b"]
+[Result "1-0"]
+[ECO "D70"]
+[WhiteElo "2834"]
+[BlackElo "2750"]
+[Annotator "Illescas,Miguel"]
+[PlyCount "71"]
+[EventDate "2015.12.20"]
+[WhiteTeam "Azerbaijan"]
+[BlackTeam "Turkey"]
+[WhiteTeamCountry "AZE"]
+[BlackTeamCountry "TUR"]
+
+{Publicada en Peón de Rey 121, páginas 15-19, artículo especial "La Dama al
+Ataque", con comentarios del GM Miguel Illescas.} 1. d4 Nf6 2. c4 g6 3. f3 d5
+4. cxd5 Nxd5 5. e4 Nb6 6. Nc3 Bg7 7. Be3 O-O 8. Qd2 Nc6 9. O-O-O f5 10. e5 Nb4
+11. Nh3 Qe8 12. Kb1 a5 13. Be2 c6 14. Rc1 Kh8 15. Ka1 Be6 16. Nf4 Qf7 17. h4
+Bxa2 18. h5 Kg8 19. hxg6 hxg6 20. g4 Bb3 21. Bd1 a4 22. Qh2 Rfd8 23. Qh7+ Kf8
+24. d5 Nc4 25. Nxg6+ Ke8 26. e6 a3 27. exf7+ Kd7 28. Ne5+ Bxe5 29. Qxf5+ Kc7
+30. Qxe5+ Nxe5 31. Bxb3 axb2+ 32. Kxb2 Nbd3+ 33. Kb1 Nxc1 34. Rxc1 Kc8 35. dxc6
+bxc6 36. f4 1-0
+
+[Event "48th Biel GM 2015"]
+[Site "Biel SUI"]
+[Date "2015.07.23"]
+[Round "4.2"]
+[White "Navara, David"]
+[Black "Wojtaszek, Radoslaw"]
+[Result "1-0"]
+[ECO "B90"]
+[WhiteElo "2724"]
+[BlackElo "2733"]
+[Annotator "Illescas,Miguel"]
+[PlyCount "95"]
+[EventDate "2015.07.20"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 {Es agradable ver una
+Siciliana entre tanta Berlinesa que nos ofrece el ajedrez moderno.} 6. Be3 e5
+7. Nb3 Be6 8. h3 ({Este flexible movimiento, asociado a distintos planes, ha
+robado cierto protagonismo a la habitual} 8. f3 {que plantea el archiconocido
+esquema del "Ataque Inglés".}) 8... Be7 ({es pronto para} 8... d5 $6 9. exd5
+Nxd5 10. Nxd5 Qxd5 ({Quizá sea mejor} 10... Bxd5 {aunque tras} 11. Qd2 Nc6 12.
+O-O-O Be6 13. Nc5 {las blancas logran una ligera pero persitente ventaja.}) 11.
+Qxd5 Bxd5 12. O-O-O {y la falta de desarrollo penaliza a las negras.}) 9. g4 $6
+{Una idea poco empleada y de aspecto dudoso, que permite a las negras romper
+en d5 con absoluta comodidad. Tras esta partida se ha dejado de jugar, pues
+por lo visto los análisis demuestran que las negras pueden forzar las tablas
+en la variante principal.} ({Lo normal es mantener la iniciativa bien con} 9.
+Qf3 {que prepara el enroque largo,}) ({o la inmediata acción en el centro con
+} 9. f4) 9... d5 {Es difícil renunciar a este avance liberador.} ({La primera
+vez que esta línea se jugó en un torneo de élite, el negro siguió
+modestamente con} 9... Nc6 {y tras} 10. g5 Nd7 11. h4 {y el blanco logró una
+posición preferible en Ponomariov,R (2731)-Vachier Lagrave,M (2745), Pekín
+2013}) 10. exd5 Nxd5 11. Bg2 {Diagram [#] Esta es la idea de Navara: cede la
+pareja de alfiles a cambio de una rápida acción por la gran diagonal blanca,
+que pondrá bajo presión el flanco de dama del oponente.} Nxe3 12. Qxd8+ Bxd8
+({Jugable, pero algo pasivo resulta} 12... Kxd8 {para mantener bajo control la
+casilla c5. Tras} 13. fxe3 Nc6 {el blanco goza de una agradable posición
+gracias al férreo control de las casillas d5 y e4.}) 13. fxe3 Bh4+ {Este
+molesto jaque parece arruinar los planes de las blancas, pero Navara tiene una
+original idea en mente.} 14. Kf1 Nc6 15. Nc5 {La fuerza de este salto sirve
+para justificar el juego anterior de las blancas.} Bc4+ ({La defensa} 15... Bc8
+{no se puede considerar seriamente, y si no me creen pregunten a la torre de
+a8.}) 16. Kg1 O-O-O 17. b3 {Diagram [#] La pelota vuelve a estar en el tejado
+de las negras, pues regresar a e6 con el alfil es horrible. ¿Qué hacer
+entonces? La respuesta nos la da el otro alfil.} Bg5 $1 ({La variante} 17...
+Be6 $2 18. Nxe6 fxe6 19. Bxc6 bxc6 20. Ne4 {nos lleva a la posición soñada
+por las blancas.}) 18. Re1 Bh4 19. Rb1 Bg5 20. Kf2 Bh4+ 21. Kf3 $5 {Diagram [#]
+Un osado intento de jugar a ganar. Sin duda Navara sabía el riesgo que
+corría y el jurado de este concurso decidió premiar su valentía.} e4+ $1 {
+Las negras juegan de modo enérgico.} ({La normal} 21... Bd5+ 22. Nxd5 Rxd5 23.
+Ne4 {lleva a una posición muy sólida, pero ligeramente favorable a las
+blancas}) 22. Kf4 {Navara sigue decidido a intentar algo más que el empate.} (
+{Este año varias partidas entre aficionados han acabado en tablas por
+repetición con esta variante. Una de ellas finalizó así:} 22. N5xe4 Ne5+ 23.
+Kf4 Ng6+ 24. Kf3 Ne5+ 25. Kf4 Ng6+ 26. Kf3 {½-½ Ivic,V (2280)-Vucinic,G 
+(2294) Veliko Gradiste SRB 2016}) 22... g5+ $1 {Las negras aceptan el reto y
+el rey blanco es obligado a cruzar la raya del medio campo.} 23. Kf5 ({Un
+suicidio sería} 23. Kxe4 $4 Rhe8+ 24. Kf5 Re5+ 25. Kf6 Rd6+ 26. Kg7 f5 {
+con mate inminente.}) 23... Rhe8 24. Rhd1 ({No hay tiempo para} 24. bxc4 $2 Rd6
+{y el rey blanco cae en una red de mate.}) 24... Re5+ 25. Kf6 Rg8 $1 {¡Se
+amenaza mate en una!} ({No me queda claro si las negras jugaban a ganar o
+simplemente no les gustó algo tras la natural} 25... Rxc5 {Lo cierto es que
+las blancas tienen muchas opciones, por ejemplo:} 26. Na4 $5 Rcd5 27. Nb6+ Kc7
+28. Nxd5+ Bxd5 29. c4 Rd6+ 30. Kg7 Be6 31. Rxd6 Kxd6 32. Bxe4 {y aunque el
+juego debe estar igualado la posición da algo de miedo.}) 26. bxc4 Rg6+ 27.
+Kxf7 Re7+ 28. Kf8 {El rey blanco ha alcanzado la octava fila, pero no se le
+permite convertirse en dama.} Rf6+ ({Si las negras querían empatar podían
+lograrlo con} 28... Reg7 {y las blancas no pueden evitar las tablas ni
+siquiera con la ingeniosa} 29. Ne6 Rg8+ 30. Kf7 Ne5+ 31. Ke7 Nc6+) 29. Kg8 Rg6+
+30. Kh8 {¡Increíble! Las blancas quieren pelea, y llevan su rey al rincón,
+proscrito y alejado de su ejército. Pronto deberán acudir al rescate algunas
+de sus fuerzas.} Rf6 $1 31. Rf1 $1 Bf2 $1 32. Rxf2 Rxf2 33. Rf1 {Por fin las
+blancas evitan el mate, aunque para ello deben devolver la pieza de ventaja.}
+Rxg2 $6 ({Más precisa era} 33... Re8+ $1 34. Kxh7 Rxg2 {manteniendo bajo
+control la primera fila.}) 34. Rf8+ $1 {Ahora serán las blancas quienes
+logren hostigar al rey enemigo.} Kc7 35. Nd5+ $6 {Demasiado impaciente.} ({
+La fría} 35. N5xe4 $1 {seguida del salto a d5 parece otorgar una prometedora
+ventaja a las blancas.}) 35... Kd6 36. Nxe7 Kxc5 37. Rf5+ Kxc4 38. Nxc6 bxc6
+39. Rxg5 Rg3 {Diagram [#] Las blancas han ganado un peón, pero la activa
+posición de las piezas negras garantiza un contrajuego suficiente. Hasta este
+momento la calidad del juego ha sido bastante alta, pero en el final de
+partida ambos grandes maestros se muestran muy imprecisos.} 40. h4 h6 $2 {
+El peón va a caer igual, y con este avance solo se consigue mejorar la
+posición de la torre enemiga.} ({Lo acertado era} 40... Rxe3 41. Kxh7 Rg3 {
+y la fuerza del peón negro no es inferior a la de los peones pasados blancos,
+por ejemplo:} 42. h5 e3 43. h6 Kc3 $1 44. Kg7 (44. Re5 $2 Kd4 $1) 44... e2) 41.
+Rg6 $18 Rxe3 42. Kg7 Rg3 43. Kxh6 e3 {Diagram [#]} 44. Kg5 $2 ({Lo natural era
+avanzar los peones. Tras} 44. g5 $1 {las blancas deben ganar, por ejemplo:} Kc3
+45. Rxc6+ Kd2 46. Rd6+ Kxc2 47. g6 e2 48. Re6 Kd2 49. g7 e1=Q 50. Rxe1 Kxe1 51.
+h5 Kf2 52. Kh7) 44... Kd5 $2 {Un nuevo error.} ({Mucho más lógico sería
+apoyar el peón con} 44... Kc3 $1 {Tras} 45. h5 ({La desaparición de los
+peones c no altera el desenlace:} 45. Rxc6+ Kd2 46. Rd6+ Kxc2 47. h5 e2 48. Re6
+Kd2 49. h6 e1=Q {y es tablas igual que la otra variante.}) 45... e2 46. Re6 ({
+Ahora es mala} 46. Rxc6+ $2 Kd4 $1 47. Re6 Re3) 46... Kd2 47. h6 e1=Q 48. Rxe1
+Kxe1 49. h7 Rh3 50. Kg6 Kf2 51. Kg7 Kg3 52. g5 Kg4 53. g6 Kg5 {el rey negro
+llega a tiempo.}) 45. Kf4 $2 {Diagram [#] Las blancas siguen con su equivocado
+plan de volver con el rey.} ({Con la simple} 45. Rg8 $1 {la torre blanca
+controlaría sin problemas el avance del peón negro. Tras algo como} Ke6 46.
+Re8+ Kf7 47. Re4 {el final se debe ganar con paciencia y buena técnica.}) {
+Las negras dejan pasar el último tren. Existía un difícil modo de salvar la
+partida con} 45... Rh3 $2 (45... e2 $1 46. c4+ $1 ({Es mala} 46. Rg5+ $2 Kd4
+47. Re5 Rxg4+ $1) 46... Kxc4 47. Re6 Rh3 48. Rxe2 Rxh4 {y aunque con algún
+sufrimiento las negras deben ser capaces de entablar este final tras por
+ejemplo} 49. Rc2+ Kd5 50. Kf5 Kd6 $1) 46. h5 $18 c5 ({Ahora} 46... e2 {se
+contesta con} 47. Rg5+ Kd4 48. Re5 Rh2 49. Re8 {ganando}) 47. Rg5+ Kd4 48. Re5
+{y las negras abandonaron, pues no pueden hacer nada ante el jaque en e4 y la
+posterior captura de su peón pasado.} 1-0
+
+[Event "3rd Sinquefield Cup 2015"]
+[Site "Saint Louis USA"]
+[Date "2015.08.28"]
+[Round "6"]
+[White "So, W."]
+[Black "Nakamura, Hi"]
+[Result "0-1"]
+[ECO "E99"]
+[WhiteElo "2779"]
+[BlackElo "2814"]
+[Annotator "Illescas,Miguel"]
+[PlyCount "78"]
+[EventDate "2015.08.21"]
+
+{Publicada en Peón de Rey 119, páginas 28-32, artículo especial sobre el
+ataque yugoeslavo en la defensa india de Rey, "Estelas inmortales en el Mar de
+la Plata", autor GM Miguel Illescas.} 1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5.
+Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Ne1 Nd7 10. f3 f5 11. Be3 f4 12. Bf2
+g5 13. Nd3 Ng6 14. c5 Nf6 15. Rc1 Rf7 16. Kh1 h5 17. cxd6 cxd6 18. Nb5 a6 19.
+Na3 b5 20. Rc6 g4 21. Qc2 Qf8 22. Rc1 Bd7 23. Rc7 Bh6 24. Be1 h4 25. fxg4 f3
+26. gxf3 Nxe4 27. Rd1 Rxf3 28. Rxd7 Rf1+ 29. Kg2 Be3 30. Bg3 hxg3 31. Rxf1 Nh4+
+32. Kh3 Qh6 33. g5 Nxg5+ 34. Kg4 Nhf3 35. Nf2 Qh4+ 36. Kf5 Rf8+ 37. Kg6 Rf6+
+38. Kxf6 Ne4+ 39. Kg6 Qg5# 0-1
+
+[Event "77th Tata Steel GpA"]
+[Site "Wijk aan Zee NED"]
+[Date "2015.01.16"]
+[Round "6.4"]
+[White "Caruana, Fabiano"]
+[Black "Carlsen, Magnus"]
+[Result "0-1"]
+[ECO "B31"]
+[WhiteElo "2820"]
+[BlackElo "2862"]
+[Annotator "Illescas,Miguel"]
+[PlyCount "78"]
+[EventDate "2015.01.10"]
+
+{Publicada en Peón de Rey 115, pág. 23-26, dentro de la amplia cobertura del
+torneo, con crónica de Leontxo García y comentarios del GM Miguel Illescas.} 
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. Bxc6 dxc6 5. d3 Bg7 6. h3 Nf6 7. Nc3 b6 8. Be3
+e5 9. O-O O-O 10. a3 Qe7 11. Qb1 Nh5 12. b4 f5 13. bxc5 f4 14. Bd2 bxc5 15.
+Qb3+ Be6 16. Qa4 Rac8 17. Qa5 g5 18. Na4 g4 19. hxg4 Bxg4 20. Qxc5 Qf6 21. Nh2
+f3 22. Nxg4 Qg6 23. Qe7 fxg2 24. Rfb1 Qxg4 25. Qg5 Qe2 26. Qe3 Qg4 27. Qg5 Qxg5
+28. Bxg5 Nf4 29. Bxf4 exf4 30. Kxg2 f3+ 31. Kf1 Rf4 32. c3 Rd8 33. d4 Bh6 34.
+Ke1 Rxe4+ 35. Kd1 c5 36. Kc2 cxd4 37. Kd3 Re2 38. c4 Rxf2 39. Rd1 Re2 0-1
+
+[Event "7th London Classic 2015"]
+[Site "London ENG"]
+[Date "2015.12.11"]
+[Round "7.4"]
+[White "Carlsen, Magnus"]
+[Black "Nakamura, Hikaru"]
+[Result "1-0"]
+[ECO "D11"]
+[WhiteElo "2834"]
+[BlackElo "2793"]
+[Annotator "Illescas,Miguel"]
+[PlyCount "155"]
+[EventDate "2015.12.04"]
+[WhiteTeam "Azerbaijan"]
+[BlackTeam "Turkey"]
+[WhiteTeamCountry "AZE"]
+[BlackTeamCountry "TUR"]
+
+{Esta trabajada victoria no encontró espacio en la cobertura del torneo de
+Londres en Peón de Rey 120. En realidad es una partida algo pesada, que
+disfrutarán solo los admiradores fanáticos de la técnica y perseverancia de
+Carlsen.} 1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bg4 5. h3 Bh5 6. cxd5 cxd5 7. Nc3
+e6 8. g4 Bg6 9. Ne5 Nfd7 10. Nxg6 hxg6 11. Bg2 Nc6 {[#]} 12. e4 dxe4 13. Nxe4
+Bb4+ 14. Nc3 Nb6 15. O-O O-O 16. d5 exd5 17. Nxd5 Bc5 18. Nc3 Bd4 19. Qf3 Qf6
+20. Qxf6 Bxf6 21. Bf4 Rad8 22. Rad1 Bxc3 23. bxc3 Na4 24. c4 Nc3 25. Rd2 Rxd2
+26. Bxd2 Ne2+ 27. Kh2 Rd8 28. Be3 Nc3 29. a3 Rd3 30. Rc1 Nd1 {[#]} 31. Be4 Rd7
+32. Bc5 Nb2 33. Rc2 Na4 34. Be3 Nb6 35. c5 Nd5 36. Rd2 Nf6 37. Rxd7 Nxd7 38.
+Kg3 Kf8 39. f4 Nf6 40. Bf3 Ke7 41. f5 gxf5 42. gxf5 Kd7 43. Kf4 Ne8 44. Kg5 Ke7
+45. Bf4 a6 46. h4 Kf8 47. Bg3 Nf6 48. Bd6+ Ke8 49. Kf4 Nd7 50. Bg2 Kd8 51. Kg5
+Ke8 52. h5 Nf6 {[#]} 53. h6 Nh7+ 54. Kh5 Nf6+ 55. Kg5 Nh7+ 56. Kh4 gxh6 57. Kh5
+Nf6+ 58. Kxh6 Ng4+ 59. Kg7 Nd4 60. Be4 Nf2 61. Bb1 Ng4 62. Bf4 f6 63. Be4 Nf2
+64. Bb1 Ng4 65. Be4 Nf2 66. Bxb7 Nd3 {[#]} 67. Kxf6 Nxf4 68. Ke5 Nfe2 69. f6 a5
+70. a4 Kf7 71. Bd5+ Kf8 72. Ke4 Nc2 73. c6 Nc3+ 74. Ke5 Nxa4 75. Bb3 Nb6 76.
+Bxc2 a4 77. c7 Kf7 78. Bxa4 1-0
+
+[Event "Vugar Gashimov Mem 2015"]
+[Site "Shamkir AZE"]
+[Date "2015.04.21"]
+[Round "5.2"]
+[White "Anand, Viswanathan"]
+[Black "So, Wesley"]
+[Result "1-0"]
+[ECO "C84"]
+[WhiteElo "2791"]
+[BlackElo "2788"]
+[Annotator "Illescas,Miguel"]
+[PlyCount "89"]
+[EventDate "2015.04.17"]
+
+{Publicada en Peón de Rey 117, páginas 36-40, comentarios GM Ian Rogers.} 1.
+e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 O-O 8. Nc3 d6
+9. a3 Nb8 10. Ng5 Nc6 11. Ba2 Nd4 12. Ne2 Nxe2+ 13. Qxe2 h6 14. f4 hxg5 15.
+fxg5 Ng4 16. g6 Bg5 17. h3 Bxc1 18. Raxc1 Nh6 19. Qh5 Be6 20. Bxe6 fxe6 21. g4
+c6 22. Rxf8+ Qxf8 23. Rf1 Qe7 24. g5 Rf8 25. gxh6 Rxf1+ 26. Kxf1 Qf8+ 27. Ke2
+gxh6 28. Qg4 Qf6 29. h4 d5 30. h5 d4 31. b4 Kg7 32. Qf3 Qe7 33. Kd1 Kg8 34. Qf2
+Kg7 35. c3 dxc3 36. Kc2 Qc7 37. Qc5 Kg8 38. Qe3 a5 39. Qh3 axb4 40. Qxe6+ Kf8
+41. axb4 Qa7 42. Kxc3 Qa3+ 43. Kc2 Qa4+ 44. Qb3 Qa7 45. d4 1-0
+
+[Event "3rd Sinquefield Cup 2015"]
+[Site "Saint Louis USA"]
+[Date "2015.08.27"]
+[Round "5"]
+[White "Carlsen, M."]
+[Black "So, W."]
+[Result "1-0"]
+[ECO "B90"]
+[WhiteElo "2853"]
+[BlackElo "2779"]
+[Annotator "Illescas,Miguel"]
+[PlyCount "111"]
+[EventDate "2015.08.21"]
+
+{La Copa Sinquefield 2015 produjo varias partidas de gran calidad. El GM Ian
+Rogers nos ofreció una selección, entre las que se encontraban dos de las
+partidas de esta lista, pero esta buena partida de Carlsen se quedó fuera.} 1.
+e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be6 8. f3
+Nbd7 9. Qd2 b5 10. O-O-O Be7 11. g4 b4 12. Nd5 Bxd5 13. exd5 Nb6 14. Na5 Nbxd5
+15. Nc4 Nxe3 16. Nxe3 O-O 17. Bc4 Nd7 18. h4 a5 19. g5 Rc8 20. Bd5 Nb6 21. Kb1
+Qc7 22. Rhf1 Nxd5 23. Nxd5 Qb7 24. f4 f5 25. Qe3 e4 26. h5 Rc5 {[#]} 27. h6 g6
+28. Qb3 Rf7 29. a4 Bd8 30. Rd4 Kf8 31. Rfd1 Rc6 32. Ne3 Bb6 {[#]} 33. Nc4 Bxd4
+34. Nxa5 Qb6 35. Nxc6 Bc5 36. Qd5 e3 37. a5 Qb5 38. Nd8 Ra7 39. Ne6+ Ke8 40.
+Nd4 Qxa5 41. Qg8+ Kd7 42. Qxh7+ Kc8 43. Qg8+ Kb7 {[#]} 44. c3 bxc3 45. Qb3+ Qb6
+46. Qxb6+ Kxb6 47. bxc3 Bxd4 48. Rxd4 Kc6 49. Kc2 Ra2+ 50. Kd1 Rf2 51. Ke1 Kd7
+52. Ra4 Ke6 53. Ra8 Rh2 54. c4 Kf7 55. Rb8 Ke6 56. Rg8 1-0
+
+[Event "3rd Sinquefield Cup 2015"]
+[Site "Saint Louis USA"]
+[Date "2015.08.26"]
+[Round "4"]
+[White "So, W."]
+[Black "Aronian, L."]
+[Result "0-1"]
+[ECO "E20"]
+[WhiteElo "2779"]
+[BlackElo "2765"]
+[Annotator "Illescas,Miguel"]
+[PlyCount "56"]
+[EventDate "2015.08.21"]
+
+{Publicado en Peón de Rey 119, páginas 19-20, comentarios GM Ian Rogers.} 1.
+d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 c5 5. d5 O-O 6. e4 d6 7. Nge2 a6 8. a4 Ba5 9.
+Bd2 exd5 10. cxd5 Nh5 11. g3 Nd7 12. Bg2 b5 13. g4 b4 14. Nb1 Qh4+ 15. Kf1 Ne5
+16. Be1 Qf6 17. gxh5 Nxf3 18. Bf2 Bg4 19. Qc1 Nd4 20. Nxd4 cxd4 21. e5 dxe5 22.
+Nd2 Rac8 23. Qb1 b3 24. Nxb3 Bb6 25. a5 Ba7 26. Kg1 Bf5 27. Be4 Qg5+ 28. Kf1
+Qf4 0-1
+
+[Event "17th ch-EUR Indiv w 2016"]
+[Site "Mamaia ROU"]
+[Date "2016.06.07"]
+[Round "11.2"]
+[White "Paehtz, E."]
+[Black "Vega Gutierrez, S."]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "2489"]
+[BlackElo "2375"]
+[Annotator ",SV (Peón de Rey)"]
+[PlyCount "126"]
+[EventDate "2016.05.27"]
+
+{Tras las emotivas palabras de nuestro capitán y todas las muestras de apoyo
+recibidas, era el turno de sentarse ante el tablero. Con fuerza, con ilusión y
+con la seguridad de disfrutar de un auténtico regalo que me brindaba la vida.
+¡Allá vamos!} 1. e4 c5 2. Nc3 Nc6 3. Bb5 {¡Acertamos la preparación! El
+repertorio de Paehtz es ciertamente difícil de delimitar, pero la intuición no
+me falló en esta importante ocasión. Y los análisis de David hicieron que el
+primer punto de confianza cayera a nuestro favor.} Nd4 4. Bc4 a6 $1 {Un orden
+de jugadas algo secundario en la práctica, pero que esconde un gran potencial.}
+5. d3 {La jugadora alemana empezaba a sentirse desorientada en su esquema.
+Estuvo cerca de movilizar su caballo de g1, lo que permitiría a las negras
+desplegar una rápida iniciativa tras 5...b5.} e6 6. a4 Nf6 7. Bg5 {Diagrama [#]
+Con la última decisión blanca, ambas jugadoras quedábamos embarcadas a la
+aventura. Lo concebí como un primer momento crítico y comencé con la labor
+analítica.   El planteamiento negro dirigía todos sus esfuerzos a la expansión
+-...b7-b5 y ...d7-d5-. Sin embargo, a2-a4 y la acción que ejerce el alfil
+blanco de casillas negras sobre la clavada d8-h4, dificultan tales
+pretensiones. Pero, ¿qué me proporcionan a cambio? De un lado, el control que
+ejerce el mencionado alfil sobre la casilla d5 es indirecto, es decir, más
+inestable. De otro, se trata del defensor natural del punto b2, ahora un
+eventual punto débil. De estas primeras premisas, derivó la idea de que si lo
+desviaba de la diagonal c1-h6, contaría con interesantes temas tácticos vía ...
+Db2, ...Db4 y ...De6 (tras la eventual apertura de la columna "e"), pues las
+blancas habrían perdido la capacidad de una cobertura útil  -Ad2 ó Ae3-. E,
+incluso, el propio Ah4 indefenso quedaría en algún momento expuerto por la
+cuarta -por ejemplo, tras ...Db4 seguido de un enérgico ...d7-d5, la dama
+negra liberaría su acción por la cuarta fila-.  Media hora invertida en este
+temprano momento de la partida desesperó a muchos, pero sirvió para definir
+objetivos y el carácter que quería conducir en la posición.} h6 8. Bh4 (8. Bxf6
+Qxf6 {cedería la pareja de alfiles sin ninguna compensación evidente.}) 8...
+Qb6 $5 {¡Hora de revelar las intenciones! Mirando a los tres puntos clave
+mencionados anteriormente: b2, b4 y e6.} (8... g5 $5 9. Bg3 d5 10. Ba2 Bg7 {
+era la alternativa que respetaba el carácter enérgico y dinámico que pedía la
+posición y la situación del torneo. La jugada del texto, en cambio, escondía,
+además, la incómoda tarea de obligar a las blancas a tomar una decisión, en
+cualquier caso comprometida.}) 9. Ra2 $2 {Conservar la torre en la columna "a"
+le permitiría seguir bloqueando los intentos de su rival por expandir el
+flanco de dama, mediante la acción de clavada sobre la Ta8. Eso fue lo que
+pensó la fuerte jugadora alemana que, sin embargo, no logró, en esta ocasión,
+ser sensible a la naturaleza de la posición y percatarse de los peligros que
+acechaban.} (9. Nge2 $5 {La respuesta natural y crítica. Temática entrega de
+material por recuperar la iniciativa, que compele ahora a las negras a
+demostrar la efectividad de su idea. Pero queda claro que no se trataba de una
+partida como otra y el peso de la responsabilidad estaba latente... Al final,
+¡mejor jugar con peón de más que con dos de menos!} Qxb2 (9... Nxe2 $5 10. Qxe2
+$1 (10. Nxe2 $6 Nxe4 11. dxe4 Qb4+) (10. Kxe2 Qxb2 11. Qd2 Qb6) 10... Qxb2 11.
+Kd2 Qb6 12. e5 Qc7 13. Rhe1 (13. exf6 Qf4+) 13... Ng8 14. Ne4 Qxe5 15. Bg3 Qf5
+16. Nd6+ Bxd6 17. Bxd6 h5) 10. O-O (10. Bb3 Nxe2 (10... Nxb3 $2 11. Rb1 $18)
+11. Nxe2 c4 $1 {despejando las líneas para que el alfil negro de casillas
+negras irrumpa con fuerza.}) 10... Qxc2 11. Qe1 Qb2) ({Otras opciones tampoco
+resultaban cómodas de adoptar:} 9. Rb1 Qa5 {seguido de ...b7-b5.} (9... Qc6)) (
+9. Qc1 d5 $1 10. exd5 exd5 11. Nxd5 (11. Bxd5 $6 g5 12. Bg3 Nxd5 13. Nxd5 Qe6+
+14. Qe3 (14. Ne3 f5 15. f4 Bd6 16. Nh3 g4 17. Nf2 h5 18. h4 Nxc2+ $19) 14...
+Nxc2+ 15. Kd2 (15. Ke2 Nxe3 16. Nc7+ Ke7 17. Nxe6 Nc2 $17) 15... Nxe3 16. Nc7+
+Ke7 17. Nxe6 Nc4+ 18. dxc4 Bxe6 $17) (11. Ba2 Be6 $1 (11... g5 $5 12. Bg3 Bg7)
+12. Bxf6 gxf6 13. Bxd5 (13. Nxd5 Bxd5 14. Bxd5 O-O-O) 13... O-O-O $15) 11...
+Nxd5 12. Bxd5 Be6 (12... Qd6 {con iniciativa en ambos casos.})) 9... d5 $1 {
+La clave de las operaciones negras. Elegante recurso dinámico, que pone en
+serios aprietos al primer jugador.} 10. a5 $5 (10. exd5 $2 exd5 11. Nxd5 (11.
+Bxd5 $2 Nxd5 12. Nxd5 Qe6+ 13. Ne3 Qxa2 $19) 11... Nxd5 12. Bxd5 Be6 $1 $17 {
+esta pequeña sorpresa, que deja al descubierto la precaria ubicación de la Ta2,
+desmorona los pilares de la fortaleza blanca.}) (10. Bxf6 dxc4 $15) 10... Qc6 (
+10... Qd6 $5) ({Solo no} 10... Qb4 11. Bb3 Nxb3 $4 12. Ra4 $1 {atrapando la
+dama negra. ¡Nuestro rival también está esperando su oportunidad!}) 11. Bxf6
+dxc4 12. Be5 f6 $1 {No hay tiempo que perder. Con esta pequeña movida de peón
+limitamos la acción de la única pieza blanca que permanecía en juego activo, a
+la vez que fortificamos un auténtico paraje para nuestras piezas. Especial
+atención merece ahora el paciente alfil de casillas blancas que, carente de
+homólogo, abrirá una fuerte brecha en campo enemigo.} ({¡El orden de jugadas
+sí influye en el producto!} 12... cxd3 {previa, permitía} 13. Qxd3 f6 14. Bxd4)
+13. Bg3 cxd3 {¡Ahora sí! Una vez desviada la atención del enemigo sobre
+nuestro punto fuerte.} 14. cxd3 e5 15. Qh5+ {Diagrama [#] Antes de que las
+negras terminen de complementar el control de las casillas con la salida de su
+Ac8, las blancas se procuran un objetivo que les mantenga con vida.   En este
+momento, Paehtz creyó conveniente ofrecer tablas, como recurso de salida. Pero
+solo cabía afrontar la lucha hasta el final.} Kd8 {Por supuesto, nada que
+temer. Una sólida construcción y mejores piezas impiden el asedio a nuestro
+monarca.   A partir de aquí, evidenciada y asumida la ventaja negra, la
+experiencia de una de las mejores jugadoras del mundo la condujo a explotar
+sus limitados recursos. ¡Y, en efecto, nunca es fácil rematar las partidas!}
+16. Nf3 ({Abrir lineas sin terminar el desarrollo parece que tampoco ayuda a
+resolver los problemas:} 16. f4 exf4 (16... Be6 17. fxe5 Bxa2 18. Nxa2 c4) 17.
+Bxf4 Nc2+ 18. Kd2 Nb4) 16... Be6 17. b3 (17. O-O Bxa2 18. Nxa2 Qe8 $19 {
+No hay compensación por la calidad.}) 17... Qd7 {En este momento, comencé una
+maniobra de la que me sentía muy orgullosa en la partida. ¡Atenta a todos los
+factores tácticos! No hay prisa por capturar el peón de b3, las blancas deben
+advertir otros problemas graves en su posición: ¡la dama está atrapada! Sin
+embargo, obvié lo más importante: la debilidad del rey y la armonía de mis
+propias piezas.} (17... c4 $1 $19 {abriendo el camino, ahora, al otro paciente
+alfil. Sencillamente la posición blanca se derrumba por momentos.}) 18. h3 Bxb3
+({Una vez más} 18... c4 $1 $19 {, ahora incluso con más fuerza.}) 19. Rb2 Bf7
+20. Qg4 Qc7 {El desenlace de la idea. Un nuevo peón está bajo la impasible
+mirada de nuestra dama. Mientras, la acorralada dama blanca y su temeroso rey,
+velando por sus vidas.} (20... Be6 21. Qh5 Qc7 $19 {era otra forma de
+emprender las operaciones.}) 21. Nd2 {Despejando la retirada. Se amenazaba 21..
+.h5 22.Dh4 Cf3 23.gf3 g5, ganando.} Qxa5 22. Nd5 ({No funcionan los intentos
+directos en busca de contrajuego.} 22. Rxb7 $2 {falla por la intermedia} Be6 $1
+{y las blancas no pueden salvar todas las amenazas -Dg4 y Cc3 están bajo
+ataque-.}) 22... h5 $6 {Innecesaria. Ayuda al enemigo a reagrupar sus piezas,
+cuando la actual ubicación de la dama blanca no ejercía funciones reales de
+ataque. Con la mencionada ...Af7-e6 se cubría por completo cualquier acción
+activa del primer jugador.} (22... Qa3 $1 23. Nc4 (23. Rxb7 Be6 24. Qd1 Qxd3 {
+-se amenaza ...Cc2-} 25. Ne3 (25. f3 c4 $19 {despejando, una vez más, la
+salida de nuestro potente Af8.}) 25... a5 $19) 23... Qa1+ $1 24. Qd1 Qxd1+ 25.
+Kxd1 Bxd5 26. exd5 b5 $19 {con un final sencillamente ganado, habría sido una
+nueva opción decisiva.}) 23. Qd1 Bxd5 24. exd5 Qc3 {El asalto al peón "d3" y
+el consecuente incremento de la presión coordinada de dama y caballo negros
+era, sin duda, el objetivo que buscaba con esta línea forzada. Por supuesto,
+pasé por alto la tranquila jugada defensiva con la que respondió mi rival.} (
+24... b5 {directa, respetando el concepto de mantener la dama cerca de nuestro
+cada vez más expuesto rey, era mejor.}) 25. Qb1 b5 26. O-O Ne2+ 27. Kh1 Nxg3+ (
+27... Qd4 $1 {aseguraba la captura del importante peón "d5" -y, con ello, el
+natural desarrollo de las piezas negras- y conservaba la ventaja. A la
+continuación de la partida} 28. Qa2 {se contestaría ahora con éxito} Qxd3 {
+. No haber definido aún el cambio en g3 y mantener las miras sobre el
+mencionado peón "d5", reduce las opciones de las blancas.}) 28. fxg3 Qd4 $2 {
+Diagrama [#] Éste, sin embargo, sí es ya un error. Sencillamente subestimé la
+continuación de la partida. Queda claro que el pensamiento abstracto no tiene
+cabida en este tipo de posición tan concreta.   Comienza una nueva etapa,
+donde se invierten los cánones psicológicos. La media hora invertida en la
+jugada 7 se rentabilizó al conducir una posición enérgica, dinámica, que
+derivó rápidamente en una contundente ventaja. Asimismo, todos los problemas
+planteados en campo enemigo obligaron a Paehtz a gastar su tiempo en la
+búsqueda de soluciones -por no decir de su supervivencia-. Una posición
+difícil, prácticamente sin recursos ni objetivos de contrajuego, y con escaso
+tiempo. De pronto, en cambio, son ahora las negras las que, después de una
+serie de jugadas poco precisas, deben resolver algunos problemas que han
+quedado latentes: la inestabilidad y exposición de su rey y la falta de
+armonía entre los "miembros del equipo". Y con los tiempos cada vez más
+equilibrados. Sin duda, una posición delicada, en la que el blanco ha logrado
+conservar las mejores piezas de ataque.  Por supuesto, la jugadora alemana
+deseosa de aprovechar su momento, tras el sufrido inicio. Por mi parte,
+consciente de los peligros y del poco acierto en las últimas decisiones
+tomadas, bien podía haberme desmoralizado, víctima de la inercia negativa de
+los últimos acontecimientos. Muy al contrario, solo pensaba en hallar, en cada
+momento, la mejor jugada. Antes fue el turno de presionar, ahora hay que
+demostrar el arte de la defensa. Pero siempre confié en el potencial de mi
+posición, no concebía la posibilidad de un castigo muy severo a un solo error
+cometido. ¡Pero no podía cometer más!  Por delante, doce trascendentales
+jugadas para pasar el control...} (28... Be7 $17) 29. Qa2 Rc8 $5 {Acercar las
+piezas al abrigo de nuestro monarca, siempre es un recurso defensivo práctico
+a tener en cuenta.} ({Ahora tras} 29... Qxd3 {viene} 30. Rf3 Qe2 31. Qa5+ Ke8
+32. Qb6 {y la presión parece evidente.}) ({De otro lado,} 29... Qa4 30. Qxa4
+bxa4 {pese a lograr eliminar las damas del tablero, las debilidades creadas en
+la posición permiten que las restantes piezas continúen la labor de
+intimidación y dificulten la correcta armonía de las negras.}) 30. Qa5+ ({
+Esperaba} 30. Rfb1 {consolidando antes de emprender el juego directo (la Tb2
+indefensa limita, en muchas líneas, las acciones del primer jugador). Sin
+embargo, Paehtz contaba con sus propias ideas...}) 30... Rc7 $1 {¡Única!
+Increíble pero cierto.} (30... Kd7 $2 31. Nc4 $3 $18 {Fantástico recurso con
+el que la jugadora alemana esperaba ponerme en serios problemas.}) 31. Nc4 $5 {
+¡Pre-move! Mi rival quiso imprimir ritmo y presión en esta delicada fase de la
+partida y apenas dejó correr su reloj antes de realizar su idea.} Qxd5 $1 {
+Si nos atacan con la dama, debemos llevar la nuestra a la defensa.} (31... bxc4
+$4 32. Rb8+ Kd7 33. Qa4+ Kd6 34. Rd8+ Ke7 35. Qe8#) 32. Qxa6 {Nuevo momento
+crítico para tomar una decisión reflexiva. No es fácil percibir una línea
+concreta que lleve a las blancas a lograr su objetivo tras la captura del
+caballo. Pero sí despierta temor en nuestro monarca colaborar en la apertura
+de líneas, con tres piezas mayores enemigas vigilantes. Con ya muy escaso
+tiempo disponible para pasar el control de la 40, era momento de pecar por
+aplicación del factor práctico.} Qc6 (32... bxc4 $5 33. dxc4 Qd7 34. Rxf6 gxf6
+35. Qxf6+ Ke8 36. Qxe5+ Kd8 37. Qf6+ Qe7 38. Rb8+ (38. Qxh8 $2 Qg7 $19) 38...
+Rc8 39. Qb6+ Qc7 40. Qf6+ Be7 41. Qxh8+ Kd7 42. Rxc8 Qxc8 43. Qxh5 Qg8 {
+mantiene aún chances de luchar por la victoria. Si bien, por el camino, la
+carga del acierto sobre nuestros hombros.}) (32... Qb7 {quizás la forma más
+precisa de ejecutar la idea de la partida.}) 33. Qxb5 ({Mejor era} 33. Qxc6
+Rxc6 34. Rxb5 {donde la torre negra queda peor ubicada.}) 33... Qxb5 34. Rxb5
+h4 {A primera vista no es fácil entender esta decisión -e, incluso,
+objetivamente, es probable que no sea la mejor continuación-. Cualquier
+intento por abrir la columna "h", para agilizar los trámites en la activación
+de nuestra desapercibida torre, se verán frustrados por el avance g3-g4. Con
+ello se propicia, además, un nuevo punto de ruptura en g5, que las blancas
+pueden aprovechar para desestabilizar la estructura negra. Entonces, ¿cuál era
+el cometido de esta jugada? Precisamente provocar esa apertura de líneas
+mediante el avance del peón "g". Mis piezas están encarceladas y carentes de
+toda acción: la Th8, ajena a los acontecimientos -que se circunscriben al
+centro y flanco de dama-; el alfil, mero espectador al carecer de diagonales
+abiertas por las que intervenir, y la Tc7, en vigilia mientras la situación
+anterior perdure. Con 34...h4, sin embargo, me procuraba, de un lado, fijar
+una red de mate -en coordinación de torre y alfil- que atara alguna de las
+alegres piezas blancas a la defensa. De otro, incitar a la -rápida- apertura
+de líneas también por el flanco de rey, donde, ahora sí, todas mis piezas, de
+forma inmediata, contribuyeran en la lucha.} 35. g4 Rd7 36. g5 Rxd3 37. gxf6
+gxf6 38. Rxf6 e4 39. Rf7 Ke8 40. Ra7 Rd1+ 41. Kh2 {Diagrama [#] ¡Control de
+tiempo superado! Momento ideal para evaluar con calma la posición resultante y
+conciliar las siguientes actuaciones. Y encontré la forma...} Rh6 $1 {Elegante
+maniobra que devuelve la iniciativa a mis manos. Elude cualquier amenaza por
+la octava y se dispone a colaborar, no ya en la defensa, sino en el juego
+activo.} 42. Rb8+ Rd8 43. Rxd8+ Kxd8 44. Rf7 Ke8 $1 45. Rf4 $2 {Extraña
+decisión que ayuda a las intenciones negras.} Re6 $1 {¡Atesorando los
+baluartes que nos conducen hacia la victoria!} 46. Rf2 (46. Rxh4 $2 e3 $19 {
+y no se puede frenar con éxito la carrera del peón.}) 46... Bh6 {¿Alguien se
+acuerda de las pasivas piezas de hace apenas unas jugadas?} 47. g3 $2 {
+Correcta decisión, mala ejecución. Es importante liberar al rey pero, ¿43.g3 ó
+43.g4? La jugada de la partida, natural y lógica a primera vista, parece que
+gana un tiempo pero, sin embargo, lo pierde.} Kd7 $1 {La torre detrás de los
+peones pasados, el alfil cercando la acción de las piezas enemigas y el rey en
+ruta a apoyar su avance. En los finales, no importa tanto la cantidad de
+peones como su calidad.} 48. Kg2 Kc6 (48... e3 49. Re2 Kc6 {poniendo en
+evidencia el tiempo extra que el peón g3 ata al monarca blanco, habría
+sentenciado.}) 49. Rf5 hxg3 50. Kxg3 e3 51. Re5 Rxe5 52. Nxe5+ Kd5 53. Nd3 (53.
+Ng4 {pierde control sobre el bloqueo de los peones negros:} c4 $1 (53... Ke4 $1
+54. Nxh6 c4 {también gana.}) 54. Kf3 (54. Nxh6 Ke4 $19) 54... c3 55. Nxe3+ Bxe3
+56. Kxe3 Kc4 57. h4 Kb3 {conquistando la casilla de coronación.}) 53... c4 ({
+Mejor era} 53... Kd4 54. Ne1 Kc3 {accediendo con mayor facilidad a las
+casillas críticas.}) 54. Ne1 Ke4 {-evitando un eventual incómodo bloqueo del
+monarca blanco vía f3-e2-} 55. h4 {El final está ganado, sólo es cuestión de
+encontrar la posición de Zugzwang que abra las puertas de entrada a nuestro
+atento rey.} Bg7 56. h5 Bc3 57. Nf3 (57. Ng2 Be5+ 58. Kg4 c3 59. Ne1 Bf4 {
+seguido de e2 o c2, ya tendríamos el esperado Zugzwang.}) 57... Kd3 58. h6 Bh8
+59. Kg2 c3 60. Kf1 Bf6 $1 {¡Hasta que el rival no inclina su rey no nos
+podemos despistar!} (60... c2 $4 61. Ne1+ Kd2 62. Nxc2 Kxc2 63. Ke2 Bd4 64. h7
+Kc3 65. h8=Q Bxh8 66. Kxe3 {con tablas.}) 61. h7 Bh8 {Y nueva posición de
+Zugzwang.} 62. Ng1 (62. Ne1+ Kd2 63. Nf3+ Kd1 64. Ne1 e2+ 65. Kf2 Bd4+ $19) (
+62. Ke1 c2 $19) (62. Kg2 c2 63. Ne1+ Kd2 64. Nxc2 Kxc2 $19) 62... c2 63. Ne2
+Kd2 {De alguna forma, la sonrisa brilló en mi interior durante toda la partida.
+Eso es lo que hizo posible este maravilloso desenlace.} 0-1
+
+[Event "Interclubs Valencia"]
+[Site "?"]
+[Date "2015.01.17"]
+[Round "?"]
+[White "Rasskin, Diego"]
+[Black "García López, Francisco"]
+[Result "0-1"]
+[ECO "B51"]
+[Annotator "Illescas,Miguel"]
+[PlyCount "60"]
+[EventDate "2015.??.??"]
+[TimeControl "60/120:0"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 d6 4. c4 $6 {[#] Esta jugada no encaja bien aquí.
+Sería acertada si se hubiera producido el cambio de alfiles en d7. ¡El deseo
+de salir de la teoría no significa que debamos hacer jugadas flojas!} ({
+Siempre estamos a tiempo hacer c4. Lo normal sería jugar antes} 4. O-O {
+y ver qué hacen las negras,}) ({o bien} 4. Bxc6+ bxc6 5. O-O {si uno conoce
+las sutilezas de esta variante.}) 4... g6 $6 ({Opino que las negras debían
+haber jugado de inmediato} 4... e5 $1 {con el plan típico Cge7,g6,Ag7. Si el
+alfil blanco termina por capturar en c6 las negras obtendrán un cómodo
+control de las casillas d4 y d5. Y si no se produce dicho cambio es lícito
+preguntarse ¿qué futuro espera al alfil en b5, a4 o c2?}) 5. d3 $6 {Diego
+quiere plantear una partida lenta y de maniobra, alejándose de la Siciliana
+tradicional. Pero la lucha por el espacio es importante, y ¡la posición pide
+romper en d4!} ({Tras} 5. d4 cxd4 6. Qxd4 Nf6 7. e5 $5 {las negras se
+enfrentarían a dificultades concretas.}) 5... Nf6 ({Buena jugada, pero
+todavía era más precisa} 5... e5 {con idea de desarrollar el caballo por e7})
+6. Bg5 {¿Desde cuando se sacan antes los alfiles que los caballos? En este
+caso apenas tiene importancia, pero estéticamente resulta feo. Quizá refleja
+un cierto nerviosismo por parte del conductor de las blancas, pues Diego sabe
+bien estas cosas.} Bg7 7. Nc3 O-O {[#]} 8. Bxc6 {No es del todo ilógica, pero
+yo no habría hecho esta jugada de forma voluntaria.} ({Quizá hubiera probado
+} 8. h3 {y en caso de} a6 {ahora sí, con tiempo de más} 9. Bxc6 bxc6 10. Qd2
+{con idea de si} Rb8 {como en la partida, seguir con} 11. Bh6 $1 {La idea es
+eliminar la pareja de alfiles rival. Y además encierra un cebo. Si} Bxh6 12.
+Qxh6 Rxb2 13. Ng5 $1 {y el peón está ampliamente compensado por las
+posibilidades de ataque sobre el enroque negro.}) 8... bxc6 9. h3 ({Diego no
+explica esta jugada, pero es cierto que tras} 9. Qd2 {resulta molesta} Bg4)
+9... Rb8 $1 {Las negras juegan de forma natural, activando sus piezas, y su
+posición ya es preferible.} 10. Qc2 $6 {Una casilla extraña para la dama,
+que de modo natural debería ubicarse en d2. ¡Fantasmas! Acertadamente lo
+explica así Diego Rasskin.} h6 $1 {Una buena jugada que obliga al alfil
+blanco a definirse, algo que podía haberse evitado con la dama blanca en d2.}
+11. Be3 e5 $1 {Las negras demuestran buen criterio. Colocando peones en negro
+resaltan la fuerza de su alfil de casillas blancas. [#]} 12. Nxe5 $4 {Esta
+jugada es un error muy serio, que demuestra una grave falta de comprensión
+sobre el valor relativo de las piezas.} ({Tras algo tranquilo como} 12. b3 Ne8
+{el juego negro es rico en posibilidades, como la ruptura en f5 o el traslado
+del caballo a e6 vía c7. Pero las blancas mantendrían opciones decentes.})
+12... dxe5 13. Bxc5 {Diego comenta que el peón negro aislado en c6 le
+pareció débil, cuando lo cierto es que hace una labor magnífica
+fiscalizando la casilla d5. Hay que distinguir el veredicto estático - c6 es
+aislado y por tanto débil - del dinámico: c6 es difícil de atacar y tiene
+una fácil defensa, o sea que no tiene nada de débil.} Re8 ({Por supuesto no
+hay nada que objetar a la jugada de las negras, pero el sacrificio de caballo
+hecho por las blancas es tan flojo que las negras podrían permitirse el lujo
+de ignorar la amenaza sobre f8. Tras} 13... Nh5 14. Bxf8 Bxf8 {el juego blanco
+carece de perspectivas. Sus torres no disponen de columnas abiertas y los
+peones blancos no forman una masa compacta ni siquiera pueden avanzar y por
+ello no representan ningún peligro para las negras. Mientras, las piezas
+negras ejercen una gran actividad. Un ejemplo de los peligros que acechan a
+las blancas: tras} 15. O-O {ya es decisiva} Bxh3 $1 16. gxh3 Nf4 17. f3 Qh4 18.
+Qh2 Rxb2 19. Qxb2 Nxh3+ 20. Kg2 Nf4+ 21. Kg1 Bc5+ {con mate en pocas.}) 14.
+Bxa7 Rb7 15. Be3 {[#] Diego tendría que saber que el valor de los peones es
+menor cuantas más piezas haya en el tablero. Rara vez en un final pueden
+equipararse tres peones al valor de un alfil, quizá sí de un caballo. Mucho
+menos en el medio juego y cuando el balance material es alfil y tres peones
+contra pareja de alfiles, como es el caso. Por si fuera poco, d3 es débil y
+las blancas no tienen objetivos de ataque. La posición, con las columnas a y
+b semiabiertas recuerda vagamente al Gambito Volga, con la diferencia de que
+las negras ¡tienen pieza de más!} Nd7 ({Una buena jugada, aunque se podría
+jugar más agresivo con} 15... Nh5 16. O-O Nf4) 16. O-O f5 $1 {Con damas en el
+tablero no hay peones que valgan, las negras se lanzan al ataque.} ({Otro buen
+plan, más posicional, sería} 16... Nf8 {con idea de Ce6}) 17. exf5 ({Es
+preferible} 17. f3 {manteniendo la posición cerrada en el flanco de rey.})
+17... gxf5 18. f4 $2 {Esto ya es un error decisivo. Diego condena esta jugada
+por la pérdida del peón pero lo cierto es que abre el juego a las piezas
+negras. Cuanto más jueguen las piezas menor valor tendrán los peones} ({
+Las blancas no pueden mirar hacia otro lado: si} 18. Rab1 f4 19. Bd2 f3 $1 {
+el ataque negro se acelera.}) ({Por ello era adecuado} 18. f3 {tratando de
+mantener el juego cerrado, aunque la ventaja negra es muy grande.}) 18... exf4
+19. Bxf4 {[#] Imaginemos esta misma posición con el rey blanco en h1. No se
+perdería el peón de b2, pero las negras tendrían gran ventaja con cualquier
+jugada natural, como mover el caballo. Los peones blancos no dominan espacio,
+no fiscalizan el centro,¡ni siquiera pasan de medio campo! Así las cosas, en
+pocas jugadas serán presa fácil de las piezas enemigas.} Qb6+ 20. Kh2 ({
+Claro que si} 20. Rf2 {sigue} Bd4) 20... Qxb2 21. Qxb2 Rxb2 {[#] La partida
+está decidida, los peones irán cayendo como fruta madura. Ni el mismísimo
+Carlsen habría podido levantar este muerto ante el amigo Francisco García,
+que ha jugado una buena partida.} 22. Rae1 Rxe1 23. Rxe1 Kf7 24. Ne2 Rxa2 25.
+Ng3 Nc5 26. Bd6 Nxd3 27. Re7+ Kg6 28. Rc7 Ba6 29. Rxc6 Bb7 30. Nxf5 Kxf5 {
+Una partida que no hace justicia en modo alguno a la fuerza de Diego, pero que
+pone de manifiesto un claro desequilibrio entre su fuerza táctica - notable -
+y su olfato posicional, que está muy verde. También deja entrever una mala
+preparación de aperturas y un mal enfoque psicológico, al pensar que se
+puede ganar a un rival por el simple hecho de tener más elo.} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "2016.07.30"]
+[Round "?"]
+[White "Guia Semiabiertas"]
+[Black "?"]
+[Result "*"]
+[ECO "C68"]
+[Annotator "De la Riva,Oscar"]
+[PlyCount "20"]
+
+1. e4 e5 {[#]} 2. Nf3 (2. f4 {[#]} exf4 (2... d5) 3. Nf3 g5 (3... d6) (3... d5)
+(3... Be7) (3... Ne7)) (2. d4 {[#]} exd4 3. Qxd4 (3. c3 d5) 3... Nc6 4. Qe3 Nf6
+5. Nc3 Bb4 6. Bd2 {[#]} O-O 7. O-O-O Re8 8. Qg3 Nxe4 $1) (2. Nc3 {[#]} Nf6 (
+2... Nc6) (2... Bc5) 3. f4 (3. Bc4) (3. g3) 3... d5) (2. Bc4 {[#]} Nf6 3. d3
+Nc6 (3... c6) (3... Bc5)) 2... Nc6 (2... f5 {[#]} 3. Nxe5 Qf6 4. d4 d6 5. Nc4
+fxe4 6. Nc3 {[#]}) (2... d5 {[#]} 3. Nxe5 (3. exd5 e4 4. Qe2) 3... Bd6 4. d4
+dxe4 5. Bc4 Bxe5 6. Qh5) (2... d6 {[#]} 3. d4 Nf6 (3... exd4 4. Nxd4 Nf6 5. Nc3
+Be7 6. Bf4 {[%cal Gd1d2] [#]} (6. Be2 O-O)) 4. Nc3 Nbd7 {[%cal Gf1c4]}) (2...
+Nf6 {[#]} 3. Nxe5 (3. d4 Nxe4 4. Bd3 d5 5. Nxe5 {[%cal Gb8d7,Gf8d6]} Nd7 (5...
+Bd6)) 3... d6 4. Nf3 Nxe4 5. d4 (5. Nc3 Nxc3 6. dxc3 {[%cal Gc1e3,Ge3f4]}) 5...
+d5 6. Bd3 Be7 {[#]}) 3. Bb5 {[#]} (3. Bc4 {[#]} Bc5 (3... Nf6 4. d3 (4. Ng5 d5
+5. exd5 Na5 6. Bb5+ c6)) 4. c3 (4. b4 {[#]} Bxb4 5. c3 Ba5 6. d4 d6 7. Qb3 Qd7
+{[%cal Ga5b6] [#]}) 4... Nf6 5. d3 (5. d4 exd4 6. cxd4 (6. e5) 6... Bb4+ 7. Bd2
+Bxd2+ 8. Nbxd2 d5) 5... O-O 6. O-O {[#]}) (3. Nc3 Nf6 {[#]} 4. Bb5 (4. d4 exd4
+5. Nxd4 Bb4 6. Nxc6 bxc6 7. Bd3 O-O 8. O-O d5 9. exd5 cxd5 {[%csl Gc1]} 10. Bg5
+c6 {[%cal Gd1f3,Gc3a4,Gc3e2] [#]}) 4... Bb4 (4... Nd4) 5. O-O O-O 6. d3 Bxc3 7.
+bxc3 d6 8. Bg5 Qe7 {[%cal Gc6d8] [#]}) (3. d4 {[#]} exd4 4. Nxd4 Nf6 (4... Bc5
+{[#]}) 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2 Nd5 8. c4 {[%cal Gd5b6,Gc8a6] [#]} Ba6 (
+8... Nb6)) (3. c3 {[#]} Nf6 4. d4 Nxe4 5. d5 Ne7 6. Nxe5 Ng6 {[#]}) 3... a6 (
+3... f5) (3... d6) (3... Nf6 4. O-O (4. d3 Bc5 5. Bxc6 (5. c3)) 4... Nxe4 5. d4
+Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 {[#]}) 4. Ba4 (4. Bxc6 {[#]} dxc6)
+4... Nf6 (4... d6) 5. O-O (5. d3) 5... Be7 (5... Nxe4) (5... b5 6. Bb3 Bc5) 6.
+Re1 b5 7. Bb3 O-O 8. c3 d6 (8... d5 {[#]}) 9. h3 {[%cal Gc8b7,Gc6a5,Gc6b8] [#]}
+Bb7 (9... Na5) (9... Nb8) 10. d4 Re8 *
+
+[Event "Biel GM 48th"]
+[Site "Biel"]
+[Date "2015.07.21"]
+[Round "2"]
+[White "Rapport, Richard"]
+[Black "Adams, Michael"]
+[Result "*"]
+[ECO "C36"]
+[WhiteElo "2671"]
+[BlackElo "2740"]
+[PlyCount "32"]
+[EventDate "2015.07.20"]
+[EventRounds "10"]
+[EventCountry "SUI"]
+[EventCategory "19"]
+
+1. e4 e5 2. f4 exf4 3. Nf3 d5 (3... g5 4. Nc3 Bg7 5. d4 d6 6. g3 g4 7. Nh4 f3
+8. Be3 Nc6 9. Qd2 Nge7 10. O-O-O $44 {Ponomariov,R (2712)-Sargissian,G (2702)
+Huai'an CHN 2016}) 4. exd5 Nf6 5. Be2 $5 Nxd5 6. c4 (6. O-O Bd6 7. c4 Ne7 8. d4
+c6 9. Nc3 O-O 10. Bd3 Ng6 $13) 6... Ne7 (6... Nf6 7. d4 Bd6 8. c5 Be7 9. Nc3
+Be6 10. Bxf4 Nd5 $13 {Nakamura,H (2775)-Tomashevsky,E (2738) Moscow RUS 2012.})
+7. Nc3 $5 (7. d4 Ng6 8. h4 Be7 $1 9. h5 Nh4 $13 {Bruere,M-Lovejoy,D corr. 1993}
+) 7... Ng6 8. h4 Be7 9. h5 Nh4 10. Nd5 $5 Nc6 11. d4 Nxg2+ 12. Kf1 Ne3+ 13.
+Nxe3 fxe3 14. d5 Nb4 15. a3 Na6 16. Bxe3 (16. h6 g6 17. Qd4 Bf6 18. Qxe3+ Qe7
+19. Qxe7+ Kxe7 20. Ra2 Nc5 21. Bf4 Bf5 $17) 16... O-O $15 *
+
+[Event "8th RUS-CHN Summit Men Rapid"]
+[Site "St Petersburg RUS"]
+[Date "2012.07.07"]
+[Round "1"]
+[White "Nepomniachtchi, I."]
+[Black "Li Chao2"]
+[Result "*"]
+[ECO "C22"]
+[WhiteElo "2718"]
+[BlackElo "2687"]
+[Annotator "De la Riva,Oscar"]
+[PlyCount "27"]
+[EventDate "2012.07.07"]
+[EventType "team (rapid)"]
+[EventRounds "10"]
+[EventCountry "RUS"]
+[SourceTitle "The Week in Chess 922"]
+[Source "Mark Crowther"]
+[SourceDate "2012.07.09"]
+
+1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qe3 Nf6 5. Nc3 Bb4 6. Bd2 O-O 7. O-O-O Re8
+8. Qg3 d6 (8... Nxe4 $5 {Seguramente lo mejor es aceptar el peón:} 9. Nxe4
+Rxe4 10. Bf4 (10. c3 Be7 $15) 10... Qf6 $1 11. Nh3 d6 $15 {La posición clave
+para analizar, pero parece favorable para las negras.}) 9. a3 Bxc3 10. Bxc3 Bd7
+11. f3 Rb8 12. Ne2 b5 13. Nf4 a5 14. Nd5 $14 *
+
+[Event "Warszawa"]
+[Site "?"]
+[Date "2013.??.??"]
+[Round "?"]
+[White "Jobava, Baadur"]
+[Black "Mamedyarov, Shakhriyar"]
+[Result "*"]
+[ECO "C29"]
+[WhiteElo "2695"]
+[BlackElo "2757"]
+[Annotator "De la Riva,Oscar"]
+[PlyCount "20"]
+[EventDate "2013.??.??"]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5 4. fxe5 Nxe4 5. Nf3 Bc5 6. Qe2 (6. d4 Bb4 7. Bd2
+c5 $5) 6... Bf5 $5 (6... Bf2+ 7. Kd1 Nxc3+ 8. dxc3 {Es otra variante
+interesante.}) 7. Nd1 Nc6 $5 $146 (7... d4) 8. d3 Qe7 $1 9. Ne3 Be6 10. c3 $2 (
+10. dxe4 $5 dxe4 11. Nd2 O-O-O 12. Nxe4 Qh4+ 13. Nf2 Nd4 14. Qd1 Nb3 15. axb3
+Rxd1+ 16. Nexd1 Rd8 $13) 10... O-O-O $1 $15 {Con una iniciativa excelente para
+las negras.} *
+
+[Event "1st Silk Road Rapid 2016"]
+[Site "Hancheng CHN"]
+[Date "2016.07.20"]
+[Round "4.2"]
+[White "Hou Yifan"]
+[Black "Muzychuk, M."]
+[Result "*"]
+[ECO "C24"]
+[WhiteElo "2653"]
+[BlackElo "2545"]
+[Annotator "De la Riva,Oscar"]
+[PlyCount "21"]
+[EventDate "2016.07.19"]
+[EventType "tourn (rapid)"]
+[EventRounds "10"]
+[EventCountry "CHN"]
+[EventCategory "12"]
+
+1. e4 e5 2. Bc4 Nf6 3. d3 c6 4. Nf3 d5 5. Bb3 Bd6 6. exd5 cxd5 7. O-O O-O (7...
+Nc6 8. Bg5 Be6 9. Nc3 Bc7 $13) 8. Bg5 $1 {Las blancas presionan el centro
+negro.} e4 (8... Bc7 9. Nc3 $1 {[%cal Gc3d5]}) (8... Be6 9. Nc3 $1 {[%cal
+Gc3d5]}) 9. dxe4 dxe4 10. Nfd2 Bf5 11. Nc3 $16 {[%cal Gd2e4,Gd2c4] Las negras
+tienen problemas con el peón e4.} *
+
+[Event "IMSA Blitz 2016"]
+[Site "Huai'an CHN"]
+[Date "2016.02.29"]
+[Round "20.8"]
+[White "Mamedov, Rau"]
+[Black "Ivanchuk, V."]
+[Result "*"]
+[ECO "C41"]
+[WhiteElo "2650"]
+[BlackElo "2710"]
+[Annotator "De la Riva,Oscar"]
+[PlyCount "32"]
+[EventDate "2016.02.28"]
+[EventType "swiss (blitz)"]
+[EventRounds "30"]
+[EventCountry "CHN"]
+[SourceTitle "The Week in Chess 1112"]
+[Source "Mark Crowther"]
+[SourceDate "2016.02.29"]
+
+1. e4 e5 2. Nc3 d6 3. Nf3 Nf6 4. d4 Nbd7 5. Bc4 Be7 6. O-O O-O 7. a4 a5 (7...
+c6 {[%cal Gb7b6,Ga7a6] Es otro plan.}) 8. Ba2 c6 9. Bg5 Qc7 10. Bh4 Re8 11. Qe2
+(11. Re1 {Es más habitual, para Qd2.}) 11... exd4 12. Nxd4 Nc5 {[%csl Gc5] La
+idea de a5, poder colocar el caballo en c5 con garantías.} 13. Qf3 Be6 14.
+Nxe6 fxe6 15. Bg3 Kh8 16. Qe2 e5 $13 *
+
+[Event "Shamkir"]
+[Site "?"]
+[Date "2016.??.??"]
+[Round "?"]
+[White "Karjakin, Sergey"]
+[Black "Harikrishna, Penteala"]
+[Result "*"]
+[ECO "C42"]
+[WhiteElo "2779"]
+[BlackElo "2763"]
+[PlyCount "39"]
+[EventDate "2016.??.??"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Nc3 Nxc3 6. dxc3 Be7 7. Be3 O-O
+8. Qd2 {El plan estándar. Las blancas desarrollan el flanco de dama para
+enrocar largo y después inician acciones en el flanco de rey o el centro
+según el plan de las negras.} Nd7 9. O-O-O c5 $5 (9... c6 10. Kb1 (10. c4 Re8
+11. Bd3 Ne5 $5 12. Nxe5 dxe5 13. Qe2 Qa5 14. Kb1 f5 15. Bd2 Qc7 16. f3 Bf6 17.
+Bc3 Be6 $13 {Kryvoruchko,Y (2711)-Kuzubov,Y (2640) Ukraine (ch) 2015}) 10... d5
+11. h4 Nf6 12. Ng5 Ne4 13. Qe1 Bf5 14. Bd3 Nd6 $13 {Fedorchuk,S (2641)-Kuzubov,
+Y (2640) Lvov 2015}) 10. Bd3 Nf6 11. Rhe1 Be6 (11... d5 $5 12. c4 d4 13. Bg5
+Be6 14. c3 b5 $132) 12. Bg5 h6 $2 {Grave error que pasa por alto la siguiente
+combinación.} (12... d5 $142 13. Qf4 Re8 14. Qh4 h6 15. Bxh6 $5 gxh6 16. Rxe6
+fxe6 17. Qg3+ Kf8 (17... Kh8 $2 18. Ne5 Rf8 19. Ng6+ Kg8 20. Nxe7+ Kf7 21. Ng6
+$16) 18. Qf4 Bd6 19. Qxh6+ Kg8 20. Qg5+ Kf8 $11) 13. Bxh6 $1 c4 (13... gxh6 $2
+14. Qxh6 Qd7 15. Ng5 $18) 14. Bxg7 $3 cxd3 15. Qg5 (15. Qh6 Nh7 16. Rxd3 $18)
+15... Ne4 16. Qh6 Bg5+ 17. Nxg5 Qxg5+ 18. Qxg5 Nxg5 19. Bxf8 dxc2 20. Rxd6 $18
+*
+
+[Event "EU-chT (Men) 20th"]
+[Site "Reykjavik"]
+[Date "2015.11.16"]
+[Round "4.1"]
+[White "Jobava, Baadur"]
+[Black "Saric, Ivan"]
+[Result "*"]
+[ECO "C44"]
+[WhiteElo "2668"]
+[BlackElo "2652"]
+[Annotator "Pavlovic,M"]
+[PlyCount "43"]
+[EventDate "2015.11.13"]
+[EventType "team-swiss"]
+[EventRounds "9"]
+[EventCountry "ISL"]
+[SourceTitle "CBM 170"]
+[Source "ChessBase"]
+[SourceDate "2016.01.15"]
+[WhiteTeam "Georgia"]
+[BlackTeam "Croatia"]
+[WhiteTeamCountry "GEO"]
+[BlackTeamCountry "CRO"]
+
+1. e4 e5 2. Nf3 Nc6 3. c3 Nf6 4. d4 Nxe4 5. d5 Ne7 6. Nxe5 Ng6 7. Qe2 Qe7 8.
+Qxe4 Qxe5 9. Qxe5+ Nxe5 10. Bf4 Bd6 (10... d6 11. Na3 Be7 12. Nc4 Nxc4 13. Bxc4
+Bd7 14. Kd2 O-O 15. Rhe1 Rfe8 16. a4 a6 17. a5 Bf6 18. Bd3 h6 19. b4 Kf8 20.
+Rac1 {Con una ligera iniciativa de las blancas. Velimirovic,D (2510)-Malaniuk,
+V (2600) Becici 1993.}) 11. Bg3 f5 12. Nd2 O-O 13. f4 $5 {Una interesante idea
+del máximo especialista actual de la Ponziani.} Ng6 14. O-O-O Bxf4 (14... b6
+$5 15. Nc4 Bxf4+ 16. Bxf4 Nxf4 17. d6 $1 c5 $5 18. Ne5 Re8 19. g3 $13) 15. d6
+$1 cxd6 (15... c6 16. Bxf4 Nxf4 17. g3 Ne6 18. Bc4 Kh8 19. Rhe1 $44) 16. Bxf4
+Nxf4 17. g3 Nh5 18. Nc4 d5 19. Nd6 {[%csl Gd6]} Nf6 20. Bg2 Ne4 21. Rxd5 Nxd6
+22. Rxd6 $14 {Con una excelente compensación por el peón.} *
+
+[Event "8th Tal Memorial"]
+[Site "Moscow RUS"]
+[Date "2013.06.17"]
+[Round "4.1"]
+[White "Morozevich, A."]
+[Black "Kramnik, V."]
+[Result "*"]
+[ECO "C47"]
+[WhiteElo "2760"]
+[BlackElo "2803"]
+[Annotator "De la Riva,Oscar"]
+[PlyCount "34"]
+[EventDate "2013.06.13"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "RUS"]
+[EventCategory "22"]
+[SourceTitle "The Week in Chess 971"]
+[Source "Mark Crowther"]
+[SourceDate "2013.06.17"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 exd4 5. Nxd4 Bb4 6. Nxc6 bxc6 7. Bd3 O-O
+8. O-O d5 9. exd5 cxd5 10. Bg5 c6 11. Qf3 {La más popular hoy en día, pero
+en general es una línea que lleva a la igualdad.} Bd6 12. h3 Rb8 13. b3 Be5
+14. Bf4 Bxc3 15. Bxb8 Bxa1 16. Rxa1 Bg4 17. hxg4 Qxb8 $11 *
+
+[Event "Ultimate Blitz Challenge"]
+[Site "Saint Louis USA"]
+[Date "2016.04.28"]
+[Round "1.2"]
+[White "Kasparov, G."]
+[Black "So, W."]
+[Result "*"]
+[ECO "C45"]
+[WhiteElo "2812"]
+[BlackElo "2773"]
+[Annotator "De la Riva,Oscar"]
+[PlyCount "39"]
+[EventDate "2016.04.28"]
+[EventType "tourn (blitz)"]
+[EventRounds "18"]
+[EventCountry "USA"]
+[EventCategory "22"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2 Nd5 8.
+c4 Ba6 (8... Nb6 {Es la otra variante.}) 9. b3 g6 {9...g5 y sobretodo 9...
+0-0-0 también tienen sus adeptos.} 10. Ba3 c5 $6 {Kasparov vuelve al ruedo
+unos cuantos años más tarde y está más al día que su joven rival que no
+acierta con la mejor continuación.} (10... Nb4 $5 {Lo más crítico.} 11. Bb2
+Bg7 12. a3 Nd5 13. Nd2 O-O 14. O-O-O Rfe8 $13 {Solodovnichenko,Y (2587)
+-Heimann,A (2578) Drancy FRA 2016}) 11. g3 Bg7 12. f4 Nb4 13. Bg2 Rd8 14. Nc3
+O-O 15. Bb2 (15. O-O-O $5) 15... d5 16. a3 d4 17. axb4 dxc3 18. Bxc3 cxb4 19.
+Bb2 Bc8 20. O-O $14 *
+
+[Event "FIDE World Cup 2013"]
+[Site "Tromso NOR"]
+[Date "2013.08.19"]
+[Round "3.3"]
+[White "Caruana, F."]
+[Black "Malakhov, V."]
+[Result "*"]
+[ECO "C45"]
+[WhiteElo "2796"]
+[BlackElo "2707"]
+[PlyCount "30"]
+[EventDate "2013.08.11"]
+[EventType "k.o."]
+[EventRounds "7"]
+[EventCountry "NOR"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nb3 Bb6 6. Nc3 Nf6 7. Qe2 (7. Bg5
+$5 {También es muy interesante.}) 7... d6 (7... O-O 8. Be3 Re8 9. f3 d5 10.
+O-O-O Be6 11. Qf2 $13 {Caruana,F (2775)-Naiditsch,A (2700) Dortmund 2012}) 8.
+Be3 Be6 9. O-O-O O-O (9... Qe7 10. g3 O-O-O 11. Bg2 Kb8 12. Bxb6 axb6 13. Nd4
+Nxd4 14. Rxd4 $14 {Caruana,F (2796)-Malakhov,V (2707) Tromso 2013}) 10. g3 Re8
+11. Bg2 Bg4 12. Bf3 Bxf3 13. Qxf3 Bxe3+ 14. Qxe3 a6 15. Rhe1 b5 $13 *
+
+[Event "9th Masters Final 2016"]
+[Site "Bilbao ESP"]
+[Date "2016.07.14"]
+[Round "2.3"]
+[White "Karjakin, Sergey"]
+[Black "Giri, A."]
+[Result "*"]
+[ECO "C50"]
+[WhiteElo "2773"]
+[BlackElo "2785"]
+[Annotator "De la Riva,Oscar"]
+[PlyCount "25"]
+[EventDate "2016.07.13"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[EventCategory "22"]
+[SourceTitle "The Week in Chess 1132"]
+[Source "Mark Crowther"]
+[SourceDate "2016.07.18"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 {Las negras retrasan el avance del
+peón d para romper en el centro. Es una de las variantes más de moda.} 5. d3
+O-O 6. c3 d5 $5 (6... d6 7. Re1 {para seguir con Bg5 también es muy frecuente.
+}) 7. exd5 Nxd5 8. a4 (8. Nbd2 Nb6 9. Bb5 Bd6 10. Re1 Bg4 11. h3 Bh5 12. Ne4
+Re8 13. Bg5 f6 14. Be3 $13 {,M (2855)-Aronian,L (2792) Leuven BEL 2016}) 8...
+a6 (8... a5 9. Nbd2 Nb6 10. Bb5 Bd6 11. Re1 Bg4 12. Ne4 Na7 13. h3 Bh5 14. d4
+Nxb5 15. axb5 exd4 16. Nxd6 Bxf3 17. Qxf3 Qxd6 18. Rd1 (18. Bf4 $5) 18... Rfe8
+19. Bf4 {Y las blancas mantienen una ligera iniciativa. Giri,A (2782)-Aronian,
+L (2792) Leuven BEL 2016}) 9. a5 b5 10. axb6 Nxb6 11. Bb3 Bg4 12. Qe2 Kh8 13.
+Be3 $14 *
+
+[Event "GCT Blitz Paris 2016"]
+[Site "Paris FRA"]
+[Date "2016.06.12"]
+[Round "14.3"]
+[White "Carlsen, M."]
+[Black "Kramnik, V."]
+[Result "*"]
+[ECO "C65"]
+[WhiteElo "2855"]
+[BlackElo "2812"]
+[Annotator "De la Riva,Oscar"]
+[PlyCount "30"]
+[EventDate "2016.06.11"]
+[EventType "tourn (blitz)"]
+[EventRounds "18"]
+[EventCountry "FRA"]
+[EventCategory "22"]
+[SourceTitle "The Week in Chess 1127"]
+[Source "Mark Crowther"]
+[SourceDate "2016.06.13"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 $5 {Una de las líneas
+"anti-Berlinesa" más de moda. Veamos unos ejemplos de Magnus Carlsen.} dxc6 6.
+h3 (6. Qe2 {¡Rizando el rizo en el orden de jugadas!} Qe7 7. Nbd2 Bg4 8. h3
+Bh5 9. a3 Nd7 10. b4 Bd6 11. Nc4 $36 {Carlsen,M (2855)-So,W (2770) Bilbao 2016}
+) 6... Nd7 (6... Be6 7. Nc3 Qd6 8. Na4 Bb6 9. O-O O-O 10. b3 h6 11. Bb2 Nd7 12.
+Nxb6 axb6 13. d4 $14 {Carlsen,M (2855)-Aronian,L (2792) Paris FRA 2016}) (6...
+O-O 7. Nc3 Re8 8. Be3 Bxe3 9. fxe3 Nd7 10. O-O Nf8 11. Qe1 f6 12. g4 Ng6 13.
+Qg3 h6 14. Rf2 Qe7 15. Raf1 Be6 $13 {Carlsen,M (2855)-Nakamura,H (2787) Paris
+FRA 2016}) 7. Be3 O-O 8. Qd2 Re8 9. Nc3 a5 10. Bxc5 Nxc5 11. O-O-O f6 12. Qe3
+Qe7 13. d4 exd4 14. Nxd4 Bd7 15. Rhe1 b5 $13 *
+
+[Event "?"]
+[Site "?"]
+[Date "1921.??.??"]
+[Round "?"]
+[White "Reti, R."]
+[Black "?"]
+[Result "1/2-1/2"]
+[Annotator "Illescas,Miguel"]
+[SetUp "1"]
+[FEN "7K/8/k1P5/7p/8/8/8/8 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1921.??.??"]
+[SourceTitle "Studies 2000"]
+[Source "ChessBase"]
+[SourceDate "2000.10.30"]
+
+{[#]} 1. Kg7 $1 h4 2. Kf6 $1 Kb6 (2... h3 3. Ke7 h2 4. c7) 3. Ke5 $1 h3 (3...
+Kxc6 4. Kf4) 4. Kd6 h2 5. c7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "1928.??.??"]
+[Round "?"]
+[White "Reti, R."]
+[Black "?"]
+[Result "1/2-1/2"]
+[Annotator "Illescas,Miguel"]
+[SetUp "1"]
+[FEN "8/6p1/k1P2p1p/7K/8/8/8/8 w - - 0 1"]
+[PlyCount "13"]
+[EventDate "1928.??.??"]
+[SourceTitle "Studies 2000"]
+[Source "ChessBase"]
+[SourceDate "2000.10.30"]
+
+{[#]} 1. Kg6 Kb6 (1... h5 2. Kxg7 $1 h4 3. Kxf6) (1... f5 2. Kxg7 f4 3. Kf6 Kb6
+(3... f3 4. Ke7) 4. Ke5 f3 5. Kd6 f2 6. c7 f1=Q 7. c8=Q) 2. Kxg7 f5 (2... h5 3.
+Kxf6 h4 4. Ke5) 3. Kf6 $1 f4 4. Ke5 f3 5. Kd6 f2 6. c7 f1=Q 7. c8=Q 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2015.07.25"]
+[Round "?"]
+[White "Illescas (sobre Reti)"]
+[Black "?"]
+[Result "1/2-1/2"]
+[Annotator "Illescas,Miguel"]
+[SetUp "1"]
+[FEN "8/1B4p1/pkP2p1p/7K/8/8/8/8 w - - 0 1"]
+[PlyCount "14"]
+
+{BLANCAS JUEGAN Y LOGRAN TABLAS  MEDIA 4 A 20} {[#]} 1. Kg6 $2 (1. Bxa6 $3 Kxa6
+(1... Kxc6 2. Kg6) 2. Kg6 Kb6 3. Kxg7 f5 (3... h5 4. Kxf6 h4 5. Ke5 $3 h3 6.
+Kd6 h2 7. c7 Kb7 8. Kd7 h1=Q 9. c8=Q+) 4. Kf6 f4 5. Ke5 f3 6. Kd6 f2 7. c7 f1=Q
+8. c8=Q $11) 1... a5 (1... h5 2. Bxa6 (2. Kxh5 $2 a5 3. Kg6 a4 4. Bc8 a3 5. Be6
+Kxc6) (2. Kxg7)) (1... f5 2. Bxa6 (2. Kxf5 $2 a5) (2. Kxg7)) 2. Kxg7 a4 $1 (
+2... f5 $2 3. Kf6 f4 4. Ke5 f3 {[#]} 5. Kd6 (5. Bc8 $2 Kxc6 $19) 5... f2 6. Ba6
+$1 (6. c7 $2 f1=Q 7. c8=Q Qf6+ 8. Kd5 Qf7+ 9. Kd6 Qxb7 $19) 6... Kxa6 7. c7
+f1=Q 8. c8=Q+ $11 {[#]}) (2... h5 3. Kxf6 h4 4. Bc8 a4) 3. Bc8 Kc7 $3 {[#]} (
+3... a3 4. Be6 h5 (4... f5 5. Kf6 f4 6. Ke5 $3 f3 7. Kd6 $11) 5. Kxf6 h4 {[#]}
+6. Ke5 h3 7. Kd6 $1 h2 8. c7) (3... Kxc6 4. Kxf6) 4. Be6 f5 $3 (4... h5 5. Kxf6
+h4 6. Kg5) 5. Kxh6 (5. Bxf5 a3 6. Be6 h5 $19) 5... f4 6. Bd5 a3 7. Kg5 f3 $19
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2016.??.??"]
+[Round "?"]
+[White "Illescas"]
+[Black "?"]
+[Result "0-1"]
+[Annotator "Illescas,Miguel"]
+[SetUp "1"]
+[FEN "1r5N/k5Kp/2P5/8/2P5/8/8/8 b - - 0 1"]
+[PlyCount "11"]
+
+{[#]} 1... Rxh8 $1 (1... h5 2. Ng6 Rb1 3. Kh6 Rh1 4. Kg5 Kb6 5. Nh4 $11) 2.
+Kxh8 h5 3. Kg7 h4 4. Kf6 {[#]} Kb8 $1 5. Ke5 h3 6. Kd6 Kc8 $1 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1950.??.??"]
+[Round "?"]
+[White "Ulanov"]
+[Black "?"]
+[Result "1/2-1/2"]
+[Annotator "Illescas,Miguel"]
+[SetUp "1"]
+[FEN "7K/2p5/2P5/3k4/8/P7/P7/8 w - - 0 1"]
+[PlyCount "17"]
+
+{[#]} 1. Kg7 Kxc6 2. Kf6 Kd5 3. Kf5 c5 {[#]} 4. Kg4 $3 (4. Kf4 Kd4 5. a4 c4 6.
+Kf3 Kd3 7. a5 c3 8. a6 c2 9. a7 c1=Q 10. a8=Q Qh1+) 4... Kd4 5. a4 $1 c4 6. a5
+c3 (6... Kc5 7. Kf3) 7. a6 c2 8. a7 c1=Q 9. a8=Q 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "1952.??.??"]
+[Round "?"]
+[White "Boman, R."]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Illescas,Miguel"]
+[SetUp "1"]
+[FEN "3N4/2p1k3/8/1pP1K3/8/6B1/6p1/8 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1952.??.??"]
+[SourceTitle "Studies 2000"]
+[Source "ChessBase"]
+[SourceDate "2000.10.30"]
+
+{[#]} 1. Nc6+ $1 (1. Bf2 Kxd8 2. Kd5 (2. c6 b4 3. Kd4 Ke7) 2... c6+ $1 {[#]} 3.
+Ke4 (3. Kxc6 b4 4. Kb7 b3 5. c6 b2 6. c7+ Ke7) 3... Kd7 4. Kf3 Ke6 5. Kxg2 b4
+6. Kf3 b3 7. Bd4 Kd5 $11) 1... Kd7 2. Nb8+ Kc8 3. Bf2 $1 Kxb8 4. c6 $1 b4 {[#]}
+5. Ke4 $1 (5. Kd4 $2 Ka7 $1 6. Kc4+ Ka6 7. Kxb4 g1=Q 8. Bxg1) 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1934.??.??"]
+[Round "?"]
+[White "Zachodjakin, G."]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Illescas,Miguel"]
+[SetUp "1"]
+[FEN "2N5/3k1K2/8/B6p/n7/8/1P6/8 w - - 0 1"]
+[PlyCount "15"]
+[EventDate "1934.??.??"]
+[SourceTitle "Studies 2000"]
+[Source "ChessBase"]
+[SourceDate "2000.10.30"]
+
+{[#]} 1. Nb6+ (1. Ne7 Nxb2 $11) 1... Kc6 $5 (1... Nxb6 2. Bxb6 h4 3. Kg6 Kc6 4.
+Bg1 $1 Kb5 5. Kg5 h3 6. Kg4 Kb4 7. Kxh3 Kb3 8. Bd4) 2. Nxa4 Kb5 3. Bc3 $1 (3.
+Bd8 $2 Kxa4 4. Kg6 Kb3 5. Bf6 h4) 3... Kxa4 {[#]} 4. Ke6 $1 h4 (4... Kb3 5. Kf5
+) 5. Kd5 $1 h3 {[#]} (5... Kb3 6. Ke4) 6. Kc4 $1 h2 7. Bb4 h1=Q 8. b3# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "2005.??.??"]
+[Round "?"]
+[White "Smyslov"]
+[Black "Bush intenta cazar a Fischer"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/pp4p1/2p1k1P1/4p1P1/8/8/6PP/B4K1n w - - 0 0"]
+[PlyCount "21"]
+
+{[#]} 1. Ke2 Ng3+ 2. hxg3 a5 3. Kf3 Kd5 {[#]} 4. Kg4 Ke4 5. Kh5 a4 6. Bb2 c5 7.
+g4 c4 8. Bc3 a3 9. Be1 a2 10. Bh4 a1=Q 11. g3 *
+
+[Event "Candidates Tournament"]
+[Site "Bled/Zagreb/Belgrade"]
+[Date "1959.??.??"]
+[Round "?"]
+[White "Fischer, Robert James"]
+[Black "Smyslov, Vassily"]
+[Result "0-1"]
+[ECO "B87"]
+[PlyCount "96"]
+[EventDate "1959.09.07"]
+[EventType "tourn"]
+[EventRounds "28"]
+[EventCountry "CRO"]
+[SourceTitle "Candidates"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bc4 {Smyslov escribió:
+"Fischer preparó esta afilada línea del teórico soviético Sozin para el
+Torneo de Candidatos. En realidad, la primera vez que apareció esta variante
+fue en Schlechter-Lasker, ¡encuentro del Campeonato del Mundo!".} Be7 7. O-O
+a6 8. Bb3 b5 9. f4 ({Después "Bobby" introdujo la línea moderna principal} 9.
+Qf3) 9... O-O 10. f5 {Demasiado directa. Ahora el negro puede ganar un peón.}
+({La teoría moderna considera} 10. e5) 10... b4 11. Nce2 ({El sacrificio de
+pieza no puede ser realista, de acuerdo con Smyslov.} 11. fxe6 bxc3 12. exf7+
+Kh8 13. bxc3 Bg4 14. Qe1 Qc8) 11... e5 12. Nf3 {Diagram [#]} Bb7 ({Smyslov
+puede ganar un peón de manera más cómoda.} 12... Nxe4 13. Bd5 Bb7 14. Bxb7
+Qb6+ 15. Kh1 Qxb7) 13. Ng3 Nxe4 14. Nxe4 Bxe4 15. Qe1 $1 Bxf3 ({El blanco
+podría tener buena compensación por el peón después de} 15... Bxf5 16. Nxe5
+dxe5 17. Rxf5 Nc6 18. Be3) ({No era claro} 15... Qb6+ 16. Kh1 Qb7 17. Qg3 Nd7
+18. Bh6 Bf6 19. Rad1 Kh8 20. Be3) 16. Rxf3 Nc6 17. Qe4 {El blanco trata de
+conseguir bloqueo en las casillas blancas. Pero fue más dinámico el estilo
+de Gligoric y Ragozin del viejo gran libro del torneo.} (17. c3 bxc3 (17... Bf6
+18. Qe4 Rc8 19. Rh3) 18. bxc3 d5 (18... Bf6 19. Ba3) 19. Qd1 d4 20. Rh3 dxc3
+21. Qh5) 17... Nd4 18. Rh3 Bf6 19. Bd5 Rc8 20. c3 bxc3 21. bxc3 Nb5 22. Bd2 Rc5
+{Diagram [#]} 23. Kh1 ({No era urgente. Posiblemente era mejor} 23. Rd1) 23...
+Qd7 24. Bb3 $2 ({Smyslov explica la justificación táctica de su último
+movimiento} 24. c4 Nc7 25. Bb4 Nxd5 26. Bxc5 Nf4) ({Pero parecía ser más
+lógico} 24. Rb1) ({O la devolución del sacrificio de Smyslov} 24. Rf1 Rfc8
+25. c4 Nc7 26. Bb7 Rb8 27. Be3 Rxc4 28. Qxc4 Rxb7) 24... d5 25. Qf3 Nd6 $1 26.
+Rf1 ({Una vez Smyslov tuvo aquí justificación táctica} 26. Bxd5 Re8 27. Bb3
+e4) 26... Ne4 27. Qh5 h6 {Diagram [#]} 28. Bxh6 gxh6 29. Bc2 ({Era necesario
+calcular} 29. Qxh6 Rd8 ({Smyslov erróneamente recomendó aquí} 29... Rfc8 30.
+Bc2 Bg7 31. Qh7+ Kf8 32. Bxe4 dxe4 33. f6 Bxf6 34. Rh6 Bg7 35. Rg6 $1 {pasó
+por alto esta clásica clavada. ¡Ahora gana el blanco!}) 30. Bc2 Bg7 31. Qh7+
+Kf8 32. Bxe4 dxe4 33. f6 Bxf6 34. Rh6 Qc6 $1 {ahora la debilidad de la última
+fila detiene el ataque blanco.}) 29... Bg5 30. f6 Rb8 $1 31. Bxe4 dxe4 32. Rg3
+{Diagram [#]} Qf5 $1 {Esta defensa táctica detiene el ataque blanco. Era
+equivocado} (32... Kf8 33. Rxg5) 33. Kg1 Qg6 34. Qe2 Rc6 {Ahora el blanco
+vuelve a tener la pieza pero, por contra, el negro comienza su ataque.} 35. h4
+Rxf6 36. Rxf6 Qxf6 37. Qh5 ({No funcionaba} 37. hxg5 Qf4 38. Qg4 h5 $1) 37...
+Qf4 38. Kh2 Kg7 $1 39. hxg5 hxg5 40. Qxg5+ Qxg5 41. Rxg5+ Kf6 42. Rh5 Rb1 {
+Diagram [#] Smyslov escribió que el final de torres está fácilmente ganado
+para él, pues el rey de Fischer está cortado.} 43. Kg3 Rf1 $1 44. Rh4 Kf5 45.
+Rh5+ Ke6 46. Rh6+ f6 47. Rh4 e3 48. Re4 f5 $1 {Otro detalle táctico. Smyslov
+usó muchos en la partida.} 0-1
+
+[Event "Monte Carlo"]
+[Site "Monte Carlo 3/269"]
+[Date "1967.??.??"]
+[Round "?"]
+[White "Fischer, R.."]
+[Black "Smyslov, V.."]
+[Result "1/2-1/2"]
+[ECO "C69"]
+[PlyCount "79"]
+[EventDate "1967.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O f6 6. d4 Bg4 {Por alguna
+extraña razón Vasil Vasilich amaba esta mala jugada. Cuando le pregunté por
+ello en Copenhage 1980, donde ambos ganamos el Politiken Open, dijo que esta
+jugada le parecía segura.} 7. dxe5 {Era un nuevo camino, preparado por
+"Bobby" Fischer. En La Habana 1966 lo jugó con gran éxito} (7. c3 Bxf3 8.
+Qxf3 exd4 9. cxd4 Qxd4 10. Nc3 $14) 7... Qxd1 8. Rxd1 fxe5 ({Otro modo es} 8...
+Bxf3 9. gxf3 fxe5 10. f4 (10. Be3 {N} Bd6 11. Nd2 Ne7 12. Nc4 O-O-O 13. Rd3 $1
+b5 (13... Ng6 14. Bg5 $1 Rd7 15. Rad1 h6 16. Nxd6+ cxd6 17. Rxd6 $18) 14. Na5
+Bb4 15. Nb3 Rxd3 16. cxd3 Ng6 $11 17. Kf1 $1 Rf8 18. Ke2 Nf4+ (18... Nh4 19.
+Rg1 Rf7 20. Rg3 $14) 19. Bxf4 Rxf4 20. Rg1 $1 Rh4 $2 (20... g6 21. Rg4 $14) 21.
+Rxg7 Rxh2 22. a3 Bd6 23. f4 $1 exf4 24. d4 {con ganancia de pareja de peones
+centrales. Fischer, R. - Rubinetti, J.  / Buenos Aires 1970.}) 10... Nf6 11.
+Nc3 Bd6 12. f5 g6 13. Bg5 Nh5 14. fxg6 hxg6 15. Rd3 Kf7 16. Nd1 Nf4 17. Bxf4
+exf4 18. Nc3 Rh5 19. h3 Rah8 20. Kg2 Rg5+ 21. Kf1 Rc5 22. Rad1 Be5 {con mucho
+mejor final. Janata, M. - Smyslov, V. (2620) / Lugano 1968.}) 9. Rd3 {Diagram 
+[#]} ({Más débil parece ser} 9. Nbd2 O-O-O 10. Re1 Bd6 11. h3 Bh5 $5 (11...
+Bxf3) 12. g4 Bf7 13. Nf1 Rf8 $5 $146 (13... h6) (13... h5) 14. Ng3 Be6 15. Kg2
+g6 16. Bd2 h5 {con muy buen juego, Timman, J. (2625) - Beliavsky, A. (2710) /
+Groningen (m/2)  1997.}) 9... Bxf3 ({El camino más lógico fue usado por dos
+grandes clásicos de la Española.} 9... Bd6 10. Nbd2 Nf6 11. Nc4 Nxe4 (11...
+O-O 12. Nfxe5 Be2 13. Re3 Bxc4 14. Nxc4 Bc5 (14... Ng4) 15. Re1 b5 $5 ({
+Era mejor} 15... Rad8) 16. Be3 Bxe3 17. Nxe3 Nxe4 18. Ng4 Rfe8 19. f3 Nd6 20.
+Ne5 c5 21. Kf2 {El blanco mantiene la ventaja, Socko, B. (2631) - Beliavsky, A.
+(2619) / Dresde (ol) 2008.}) 12. Ncxe5 (12. Nfxe5 Be6 $11) 12... Bxf3 13. Nxf3
+O-O 14. Be3 b5 (14... c5) 15. c4 $5 (15. Rc1) 15... Rab8 16. Rc1 bxc4 17. Rd4
+Rfe8 {con buen final, Fisher, R. - Spassky, B. / Reykjavik (m/16)  1972.}) 10.
+Rxf3 Nf6 11. Nc3 Bb4 ({No era malo} 11... Bc5 12. Bg5 Rd8) 12. Bg5 Bxc3 13.
+bxc3 ({El final de torres no es muy simpático después de} 13. Rxc3 Nxe4 14.
+Re3 Nxg5 15. Rxe5+ Kf7 16. Rxg5 Rad8) 13... Rf8 ({era posible} 13... Ke7 14.
+Rd1 Rad8) 14. Bxf6 {¡A Fischer con frecuencia le gustaba cambiar alfiles por
+caballos!} ({Era preferible} 14. Rf5 Nd7 15. Rd1 h6 16. Be3 Ke7 17. f4) 14...
+Rxf6 15. Rxf6 gxf6 16. Rd1 Ke7 $1 17. Rd3 {Diagram [#] '+/-' Gligoric, S.
+Smyslov me dijo que él se había reído cuando vio esta evaluación de
+Gligoric en un libro. Aquí me explicó la posición con la futura evaluación
+favorita de Ulf Andersson: ¡Aquí estoy salvado!} Rf8 ({No hay un gran riesgo
+en el final de peones, pues la estructura blanca en el flanco de dama está
+dañada.} 17... Rd8 18. Rxd8 Kxd8 19. f3 c5 20. Kf2 Ke7 21. Kg3 Kf7) 18. Kf1 a5
+19. g4 ({¿Por qué no...?} 19. Rh3 Rf7 20. Ke2 Rg7 21. g3 Ke6 22. Ke3 c5 23.
+f4) 19... Rg8 $1 {Diagram [#]} 20. h3 $2 {Pasiva, era más lógica} (20. Rh3
+Rxg4 (20... Rg7 21. f3 Kf8 22. Ke2 Re7 23. Rh5 Kg7 24. g5) 21. Rxh7+ Ke6 22. f3
+Rf4 23. Ke2) 20... b5 21. Ke2 Ke6 22. Kf3 Rb8 ({Era mejor fijar primero el
+flanco de rey.} 22... Rh8 23. h4 Rg8 24. Kg3 h6) 23. Ke3 c5 $2 {Debilitando la
+estructura por momentos.} (23... Rg8 $11) 24. c4 $1 bxc4 25. Ra3 ({El blanco
+podía tener ligeros problemas tras} 25. Rd5 Rb2 26. Kd2 Rxa2 27. Rxc5 Kd7 28.
+Rxc4 Ra1) 25... Rb5 26. Kd2 ({Era posible la inmediata} 26. h4) 26... Kd6 27.
+Rf3 ({Ofrecía pequeñas chances} 27. h4 h6 28. Rf3 Ke6 29. Rf5) 27... Ke6 28.
+Kc1 (28. h4) 28... Rb8 29. Ra3 Rb5 30. Rc3 (30. h4) 30... Kd6 31. a3 Rb8 32.
+Rxc4 h5 $1 33. f3 Kc6 34. Rc3 Rd8 $1 $15 35. Rd3 Rh8 36. Kd2 $2 (36. c4 $11)
+36... c4 {Diagram [#]} 37. Re3 $6 ({Era mucho más preciso} 37. Rd5 hxg4 38.
+hxg4 Rh3 39. a4 Rxf3 40. g5 fxg5 41. Rxe5 g4 42. Rxa5 g3 43. Rg5) 37... Kc5 38.
+Re2 hxg4 39. hxg4 Rh1 $2 ({El blanco podía haber tenido algunas dificultades
+tras la correcta} 39... Rh3 $1 40. Rf2 (40. Ke3 Rh1 41. Rg2 Ra1) 40... Rg3 41.
+Ke3 Rg1) 40. Rg2 1/2-1/2
+
+[Event "Palma de Mallorca Interzonal"]
+[Site "Palma de Mallorca ESP"]
+[Date "1970.11.10"]
+[Round "2"]
+[White "Vasily Smyslov"]
+[Black "Robert James Fischer"]
+[Result "0-1"]
+[ECO "A36"]
+[PlyCount "87"]
+[EventDate "1970.11.09"]
+
+1. c4 g6 2. Nc3 Bg7 3. g3 c5 4. Bg2 Nc6 5. b3 e6 6. Bb2 Nge7 7. Na4 Bxb2 8.
+Nxb2 O-O 9. e3 d5 10. cxd5 Nxd5 11. Ne2 b6 12. d4 Ba6 13. dxc5 {[#]} Qf6 14.
+Nc4 Nc3 15. Nxc3 Qxc3+ 16. Kf1 Rfd8 17. Qc1 Bxc4+ 18. bxc4 Qd3+ 19. Kg1 Rac8
+20. cxb6 axb6 21. Qb2 Na5 {[#]} 22. h4 Nxc4 23. Qf6 Qf5 24. Qxf5 gxf5 25. h5
+Rd2 26. Rc1 Rc5 27. Rh4 Ne5 28. Rxc5 bxc5 29. Ra4 c4 30. h6 Kf8 31. Ra8+ Ke7
+32. Rc8 Rxa2 33. Bf1 Rc2 34. Kg2 {[#]} Ng4 35. Kg1 Rxf2 36. Bxc4 Rf3 37. Kg2
+Rxe3 38. Rh8 Nxh6 39. Rxh7 Ng4 {[#]} 40. Bb5 Rb3 41. Bc6 Rb2+ 42. Kg1 Ne5 43.
+Ba8 Rb8 44. Bh1 0-1
+
+[Event "Tel Aviv"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "?"]
+[White "Pfeger"]
+[Black "Domnitz"]
+[Result "1-0"]
+[Annotator "Illescas Cordoba, Miguel"]
+[SetUp "1"]
+[FEN "rk1n1n1r/pp2R2p/2p2Rp1/2N5/1PP3B1/8/P5PP/6K1 w - - 0 1"]
+[PlyCount "3"]
+[EventDate "1964.??.??"]
+
+{1} 1. Rxb7+ $1 {Se gana con muchas jugadas pero la textual es la más rápida
+y a la vez elegante. Mate en dos.} (1. Rff7 $18) 1... Nxb7 2. Na6# 1-0
+
+[Event "New York"]
+[Site "?"]
+[Date "1965.??.??"]
+[Round "?"]
+[White "Bisguier, A."]
+[Black "Fischer, Robert James"]
+[Result "0-1"]
+[Annotator "Illescas Cordoba, Miguel"]
+[SetUp "1"]
+[FEN "2r5/p4pk1/8/4bR2/3pP1Pp/P5P1/1P2R1PK/2r4N b - - 0 2"]
+[PlyCount "1"]
+[EventDate "1965.??.??"]
+
+{1} 2... Rxh1+ $1 (2... Rxh1+ $1 3. Kxh1 Rc1+ 4. Kh2 hxg3+ 5. Kh3 Rh1#) 0-1
+
+[Event "Hungary"]
+[Site "?"]
+[Date "1963.??.??"]
+[Round "?"]
+[White "Hradeczky"]
+[Black "Bessenay"]
+[Result "0-1"]
+[Annotator "Illescas Cordoba, Miguel"]
+[SetUp "1"]
+[FEN "r7/1pp1k3/p3q3/3pb2r/P2Q1p2/8/1PB1R1PP/4R2K b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1963.??.??"]
+
+{1} 1... Rxh2+ $1 2. Kxh2 Rh8+ 3. Kg1 Bxd4+ 0-1
+
+[Event "Sombor"]
+[Site "?"]
+[Date "1966.??.??"]
+[Round "?"]
+[White "Dely, Peter"]
+[Black "Kerkhoff"]
+[Result "0-1"]
+[Annotator "Illescas Cordoba, Miguel"]
+[SetUp "1"]
+[FEN "r4b2/2p3p1/p1p1k1p1/7r/2N1P1n1/4B1P1/PPP3P1/R4RK1 b - - 0 1"]
+[PlyCount "3"]
+[EventDate "1966.??.??"]
+
+{1} 1... Bc5 $1 (1... Nxe3 $2 2. Nxe3 Bc5 3. Rae1) (1... Bd6 2. Rfd1 Bxg3 3.
+Kf1) 2. Bxc5 (2. Rfe1 Rah8 3. Kf1 Bxe3 4. Nxe3 Nxe3+ 5. Rxe3 Rh1+) 2... Rah8 (
+2... Rah8 3. Rf6+ gxf6 4. Kf1 Rxc5) 0-1
+
+[Event "USSR"]
+[Site "?"]
+[Date "1965.??.??"]
+[Round "?"]
+[White "Goldstein"]
+[Black "Tomilin"]
+[Result "1-0"]
+[Annotator "Illescas Cordoba, Miguel"]
+[SetUp "1"]
+[FEN "r1bq1rk1/ppp1bp1p/2n4Q/8/2BpN3/8/PPP2PPP/RN3RK1 w - - 0 1"]
+[PlyCount "11"]
+[EventDate "1965.??.??"]
+
+{2} 1. Nf6+ $1 Bxf6 2. Bd3 {y las negras abandonaron ante} Re8 3. Bxh7+ Kh8 4.
+Bg6+ Kg8 5. Qh7+ Kf8 6. Qxf7# 1-0
+
+[Event "Baku"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "?"]
+[White "Antosin"]
+[Black "Rabar"]
+[Result "1-0"]
+[Annotator "Illescas Cordoba, Miguel"]
+[SetUp "1"]
+[FEN "2r2rn1/pp3p1p/5qpk/2p1Q3/3pPNP1/3P1R2/PPP4P/R5K1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1964.??.??"]
+
+{2} 1. Ne6 $1 {y las negras se rindieron. Si} Qxe5 (1... Qxf3 2. Qg5#) (1...
+Qh4 2. Qg7#) 2. Rh3+ Qh5 3. g5# 1-0
+
+[Event "Sverige"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "?"]
+[White "Nordstrom"]
+[Black "Vennerstrom"]
+[Result "0-1"]
+[Annotator "Illescas Cordoba, Miguel"]
+[SetUp "1"]
+[FEN "2kr3r/pp2Pppp/2q5/P1p5/5QP1/3bP2P/1P1B1P2/2KR3R b - - 0 1"]
+[PlyCount "3"]
+[EventDate "1964.??.??"]
+
+{2} 1... Rd4 $3 2. exd4 (2. Qe5 Qa4 3. Qxc5+ Kb8 4. exd4 Qa1#) (2. Qxf7 Qa4 3.
+e8=Q+ Rxe8 4. Qxe8+ Qxe8 5. exd4 Qa4 $1) 2... Qa4 0-1
+
+[Event "DDR"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "?"]
+[White "Hennings"]
+[Black "Walther"]
+[Result "1-0"]
+[Annotator "Illescas Cordoba, Miguel"]
+[SetUp "1"]
+[FEN "3b2k1/3b4/1p3pPK/p1p1p3/P1P5/1P2B3/2B5/8 w - - 0 1"]
+[PlyCount "3"]
+[EventDate "1964.??.??"]
+
+{2} 1. Bg5 $3 (1. g7 $2 f5 $1) (1. Be4 $2 Be6 $1) 1... Be7 (1... fxg5 2. g7 Kf7
+3. Bh7) 2. g7 (2. g7 f5 3. Bxe7 $18) 1-0
+
+[Event "USSR"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "?"]
+[White "Taimanov, Mark E"]
+[Black "NN"]
+[Result "1-0"]
+[Annotator "Illescas Cordoba, Miguel"]
+[SetUp "1"]
+[FEN "2r1r1k1/1R4bp/p5p1/2pqn3/8/2B5/1PQ1B1PP/5RK1 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1964.??.??"]
+
+{2} 1. Bc4 $3 ({También es buena} 1. Rxg7+ $1 Kxg7 2. Bc4 $1) 1... Qxc4 2.
+Rxg7+ $1 (2. Bxe5 $2 Qxf1+ $1 3. Kxf1 Rxe5) 2... Kh8 (2... Kxg7 3. Bxe5+) 3.
+Bxe5 Qxc2 4. Rf8+ $3 Rxf8 5. Rxg6+ 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1929.??.??"]
+[Round "?"]
+[White "Estudio de Grigoriev"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Illescas Cordoba, Miguel"]
+[SetUp "1"]
+[FEN "8/8/1p6/8/k7/3K4/5P2/8 w - - 0 1"]
+[PlyCount "15"]
+[EventDate "1929.??.??"]
+
+{3} 1. Kd4 $1 (1. f4 $2 Kb5 $1 2. Kd4 Kc6 $1) 1... Kb5 (1... b5 2. f4 b4 3. f5
+b3 4. Kc3 $1 Ka3 5. f6 b2 6. f7 b1=Q 7. f8=Q+ Ka4 (7... Ka2 8. Qa8#) 8. Qa8+
+Kb5 9. Qb7+) 2. Kd5 $1 (2. f4 Kc6 $11) 2... Ka6 $5 (2... Ka4 3. f4 b5 4. f5 b4
+5. Kc4 $1 b3 6. Kc3 $1 Ka3 7. f6 {como en la variante 1...b5}) 3. f4 Kb7 4. f5
+Kc7 5. Ke6 $1 Kd8 6. Kf7 $3 b5 7. f6 b4 8. Kg7 {etc.} 1-0
+
+[Event "Corr."]
+[Site "?"]
+[Date "1966.??.??"]
+[Round "?"]
+[White "Devine"]
+[Black "Bujse"]
+[Result "1-0"]
+[Annotator "Illescas Cordoba, Miguel"]
+[SetUp "1"]
+[FEN "r6r/pkp2P2/1pp4p/8/5Ppn/2PNR3/P1P2P1P/3R2K1 w - - 0 1"]
+[PlyCount "5"]
+[EventDate "1966.??.??"]
+
+{3} 1. Nc5+ $1 bxc5 (1... Kc8 2. Re8+) 2. Rb1+ Ka6 (2... Kc8 3. Re8+ Kd7 4.
+Rd1#) 3. c4 $1 (3. c4 Nf3+ 4. Kh1 Rab8 5. Ra3#) 1-0
+
+[Event "USSR"]
+[Site "?"]
+[Date "1965.??.??"]
+[Round "?"]
+[White "Mjasnikov"]
+[Black "Cistjakov"]
+[Result "1-0"]
+[Annotator "Illescas Cordoba, Miguel"]
+[SetUp "1"]
+[FEN "5r1k/pp1R4/2p2q1p/6p1/8/1BQ3PP/PP2rP2/6K1 w - - 0 1"]
+[PlyCount "7"]
+[EventDate "1965.??.??"]
+
+{3} 1. Rd8 $3 {y las negras abandonaron ante} Re1+ (1... Qxc3 2. Rxf8+ Kg7 3.
+Rf7+ Kh8 4. bxc3) (1... Kh7 2. Rxf8 Qxf8 3. Qd3+ $1 Kg7 4. Qxe2) (1... Rxf2 $4
+2. Rxf8+) (1... Kg7 2. Rxf8 Qxc3 3. Rf7+) 2. Kg2 $1 Kh7 3. Rxf8 Qxf8 4. Qxe1
+1-0
+
+[Event "BRD"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "?"]
+[White "Kossel"]
+[Black "Kording"]
+[Result "0-1"]
+[Annotator "Illescas Cordoba, Miguel"]
+[SetUp "1"]
+[FEN "6k1/p7/2pb4/3p1np1/3P2qp/2P2QP1/PP2N1K1/4B3 b - - 0 1"]
+[PlyCount "5"]
+[EventDate "1964.??.??"]
+
+{3} 1... h3+ $1 (1... Qxf3+ 2. Kxf3 h3 3. g4 h2 4. Kg2 Ne3+ 5. Kh1 Nxg4 6. Bg3)
+2. Kf2 Qxf3+ 3. Kxf3 Ne3 $3 (3... Ne3 4. g4 h2 5. Ng3 Bxg3) 0-1
+
+[Event "Hungary"]
+[Site "?"]
+[Date "1963.??.??"]
+[Round "?"]
+[White "Honfi"]
+[Black "Csanadi"]
+[Result "1-0"]
+[Annotator "Illescas Cordoba, Miguel"]
+[SetUp "1"]
+[FEN "r4rk1/pb1q1ppp/2N1p3/2Rn4/3P4/3BPQ2/1P3PPP/2R3K1 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "1963.??.??"]
+
+{4} 1. Bxh7+ $1 ({Buenas, pero no tan fuertes son} 1. Qh3) ({o} 1. Ne5) 1...
+Kxh7 2. Qh3+ $1 Kg8 (2... Kg6 $2 3. Ne5+) 3. Rxd5 $1 Bxc6 (3... Qxd5 4. Ne7#) (
+3... Qc7 4. Rh5 g6 (4... f5 5. Rh8+ Kf7 6. Ne5+) 5. Rh8+ Kg7 6. Rh7+ Kg8 7. Qh6
+) (3... exd5 4. Qxd7) 4. Rxd7 Bxd7 5. Qf3 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Estudio - Platov Hermanos"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Illescas Cordoba, Miguel"]
+[SetUp "1"]
+[FEN "8/4B2p/8/3p3P/8/3Pk1K1/p7/6N1 w - - 0 1"]
+[PlyCount "25"]
+[EventDate "1924.??.??"]
+
+{5} 1. Bf6 d4 2. Ne2 $1 a1=Q (2... Kxe2 3. Bxd4 Kxd3 4. Ba1 $18) 3. Nc1 $3 $18
+(3. Bxd4+ Qxd4 4. Nxd4 Kxd4 5. Kf4 Kxd3 6. Kg5 Ke4 7. Kh6 Kf5 8. Kxh7 Kf6 $1
+$11) 3... Qxc1 (3... Qa5 4. Bxd4+ Kxd4 5. Nb3+) (3... Kd2 4. Nb3+) (3... Qc3 4.
+Bg5#) (3... h6 4. Be5 $3) 4. Bg5+ Kxd3 5. Bxc1 Kc2 6. Bf4 d3 7. Kg4 d2 8. Bxd2
+Kxd2 9. Kg5 Ke3 10. Kh6 Kf4 11. Kxh7 Kg5 12. h6 Kf6 13. Kg8 1-0
+
