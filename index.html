@@ -8,21 +8,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <!-- Librería pgn-viewer (la mejor para variantes) -->
     <link rel="stylesheet" href="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
     <script src="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js"></script>
-    <!-- PGN Viewer (con soporte de variantes) -->
-    <script src="https://cdn.jsdelivr.net/npm/pgn-viewer@2.4.2/dist/pgn-viewer.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pgn-viewer@2.4.2/dist/pgn-viewer.css">
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <style>
         *{margin:0;padding:0;box-sizing:border-box;}
         body{font-family:'Inter',sans-serif;background:#1e1e2f;color:#e3e3e8;scroll-behavior:smooth;}
         body::before{content:"";position:fixed;top:0;left:0;width:100%;height:100%;background:radial-gradient(circle at 20%30%,#2a2a3a,#12121a);z-index:-2;}
         .wrapper{max-width:1440px;margin:0 auto;padding:0 24px;}
-        .card,.evento-card,.horario-card,.directiva-card,.testimonial-card,.ranking-card,.calendario-card{background:rgba(30,30,45,0.85);backdrop-filter:blur(4px);border:1px solid rgba(255,255,255,0.08);border-radius:20px;padding:24px;transition:0.2s;box-shadow:0 4px 12px rgba(0,0,0,0.2);}
+        .card,.evento-card,.horario-card,.directiva-card,.testimonial-card,.recurso-card,.ranking-card,.calendario-card{background:rgba(30,30,45,0.85);backdrop-filter:blur(4px);border:1px solid rgba(255,255,255,0.08);border-radius:20px;padding:24px;transition:0.2s;box-shadow:0 4px 12px rgba(0,0,0,0.2);}
         .card:hover,.evento-card:hover,.ranking-card:hover{border-color:rgba(212,175,55,0.4);transform:translateY(-2px);background:rgba(35,35,55,0.9);}
         h1,h2,h3,.section-title h2{font-family:'Merriweather',serif;font-weight:700;}
         .section-title{text-align:center;margin-bottom:48px;}
@@ -60,35 +56,29 @@
         .ranking-table th{color:#d4af37;}
         .calendario-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;}
         .calendario-item{background:rgba(0,0,0,0.3);border-left:4px solid #d4af37;padding:16px;border-radius:12px;}
-        /* Estilos para pgn-viewer */
-        .pgn-viewer {
-            background: rgba(22,22,29,0.95);
-            border-radius: 24px;
-            border: 1px solid rgba(212,175,55,0.25);
-            padding: 20px;
-            margin: 40px 0;
-        }
-        .pgn-viewer .pv-game {
-            background: transparent;
-        }
-        .pgn-viewer .pv-board {
-            background: #1e1e2f;
-        }
-        .pgn-viewer .pv-move-list {
-            background: #0f0f17;
-            color: #ddd;
-            border-radius: 12px;
-        }
-        .pgn-viewer .pv-move {
-            color: #ddd;
-        }
-        .pgn-viewer .pv-move.active {
-            background: #d4af37;
-            color: #000;
-        }
-        .pgn-viewer .pv-variation {
-            color: #d4af37;
-            font-style: italic;
+        .visor-card{background:rgba(22,22,29,0.95);border-radius:24px;overflow:hidden;border:1px solid rgba(212,175,55,0.25);margin:40px 0;display:flex;flex-direction:column;}
+        .visor-header{background:#16161e;padding:16px 24px;border-bottom:1px solid #2c2c3a;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;flex-shrink:0;}
+        .visor-body{display:flex;flex-wrap:wrap;height:600px;overflow:hidden;}
+        .sidebar-games{width:260px;background:#12121a;border-right:1px solid #2c2c3a;overflow-y:auto;height:100%;}
+        .game-item{padding:14px 16px;border-bottom:1px solid rgba(255,255,255,0.05);cursor:pointer;transition:0.2s;}
+        .game-item:hover{background:#2a2a3a;}
+        .game-item.active{background:#d4af3722;border-left:3px solid #d4af37;}
+        .board-container{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px;min-width:300px;height:100%;overflow:hidden;}
+        #mainBoard{width:100%;max-width:380px;margin:0 auto;}
+        .notation-panel{width:340px;background:#12121a;border-left:1px solid #2c2c3a;display:flex;flex-direction:column;height:100%;}
+        .notation-header{padding:16px;border-bottom:1px solid #2c2c3a;flex-shrink:0;}
+        .moves-scroll{flex:1;overflow-y:auto;padding:16px;font-size:0.85rem;min-height:0;}
+        .move-wrap{margin-bottom:14px;}
+        .move-btn{display:inline-block;background:#25232e;padding:4px 10px;border-radius:20px;margin:0 4px 8px 0;cursor:pointer;transition:0.2s;font-weight:500;}
+        .move-btn.active{background:#d4af37;color:#000;}
+        .comment-text{font-size:0.75rem;color:#aaa;font-style:italic;background:rgba(0,0,0,0.3);padding:8px 10px;margin:6px 0 6px 20px;border-left:3px solid #d4af37;border-radius:0 8px 8px 0;}
+        .vbtn{background:#2c2c3a;border:1px solid #4a4a5a;color:#ddd;border-radius:8px;padding:6px 14px;cursor:pointer;transition:0.2s;}
+        .vbtn:hover{background:#d4af37;color:#000;}
+        @media (max-width: 860px) {
+            .visor-body{height:auto;flex-direction:column;}
+            .sidebar-games{width:100%;height:200px;}
+            .board-container{height:auto;padding:20px;}
+            .notation-panel{width:100%;height:350px;}
         }
         .whatsapp-float{position:fixed;bottom:28px;right:28px;background:#25D366;width:54px;height:54px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.8rem;color:white;z-index:99;box-shadow:0 2px 12px rgba(0,0,0,0.3);}
         .back-to-top{position:fixed;bottom:28px;left:28px;background:#2c2c3a;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;opacity:0;transition:0.2s;z-index:99;border:1px solid #d4af37;}
@@ -122,12 +112,37 @@
     <div class="grid-2" id="eventos"><div class="evento-card"><h3>🏆 COPA LA SERENA 2026</h3><p>15-17 agosto · Abierto a todas las categorías · Sistema Suizo a 7 rondas · Premios exclusivos.</p><i class="fas fa-trophy" style="color:#d4af37"></i></div><div class="evento-card"><h3>📌 CLUB MATE DE CABALLO</h3><p>Club Deportivo Social y Cultural · RUT 65.031.564-2 · Av. del Mar 245, La Serena.</p><i class="fas fa-map-marker-alt"></i></div></div>
     <div class="grid-2" id="horarios" style="margin:48px 0;"><div class="horario-card"><h3>📅 Horario Regular</h3><div style="display:flex;justify-content:space-between;"><span>Lun y Mié</span><span>18:00-20:00</span></div><div><span>Mar y Jue</span><span>19:00-21:00 (Avanzado)</span></div><div><span>Sábados</span><span>10:00-13:00 (Infantil)</span></div></div><div class="horario-card"><h3>⚡ Entrenamiento Élite</h3><div><span>Viernes (Táctica)</span><span>18:00-20:00</span></div><div><span>Domingos (Simultáneas)</span><span>10:00-13:00</span></div></div></div>
     <section id="directiva"><div class="section-title"><h2>Directiva Técnica</h2></div><div class="grid-4"><div class="directiva-card"><i class="fas fa-user-tie" style="font-size:2rem;color:#d4af37"></i><h3>Juan Pérez</h3><p>Presidente</p></div><div class="directiva-card"><i class="fas fa-brain" style="font-size:2rem;color:#d4af37"></i><h3>María González</h3><p>Secretaria</p></div><div class="directiva-card"><i class="fas fa-chess-queen" style="font-size:2rem;color:#d4af37"></i><h3>Carlos López</h3><p>Director Técnico</p></div><div class="directiva-card"><i class="fas fa-chalkboard-user" style="font-size:2rem;color:#d4af37"></i><h3>Ana Soto</h3><p>Coordinadora</p></div></div></section>
-    <section id="ranking"><div class="section-title"><h2>Ranking ELO Interno</h2></div><div class="ranking-card"><table class="ranking-table"><thead><tr><th>#</th><th>Jugador</th><th>ELO</th><th>Partidas</th><th>Victorias</th></tr></thead><tbody><tr><th>1</th><td>Gonzalo Fuentes</td><td>2450</td><td>34</td><td>28</td></tr><tr><th>2</th><td>Valentina Ríos</td><td>2380</td><td>30</tr><td>24</td></tr><tr<th>3</th><td>Sebastián Mardones</td><td>2310</td><td>28</td><td>20</td></tr><tr<th>4</th><td>Camila Toledo</td><td>2255</td><td>32</td><td>22</td></tr><tr<th>5</th><td>Ricardo Álamos</td><td>2190</td><td>26</td><td>18</td></tr></tbody></table></div></section>
+    <section id="ranking"><div class="section-title"><h2>Ranking ELO Interno</h2></div><div class="ranking-card"><table class="ranking-table"><thead><tr><th>#</th><th>Jugador</th><th>ELO</th><th>Partidas</th><th>Victorias</th></tr></thead><tbody><tr><th>1</th><td>Gonzalo Fuentes</td><td>2450</td><td>34</td><td>28</td></tr><tr<th>2</th><td>Valentina Ríos</td><td>2380</td><td>30</td><td>24</td></tr><tr<th>3</th><td>Sebastián Mardones</td><td>2310</td><td>28</td><td>20</td></tr><tr<th>4</th><td>Camila Toledo</td><td>2255</td><td>32</td><td>22</td></tr><tr<th>5</th><td>Ricardo Álamos</td><td>2190</td><td>26</td><td>18</td></tr></tbody></table></div></section>
     <div class="calendario-card" style="margin:48px 0;"><div class="section-title"><h2>Calendario 2026</h2></div><div class="calendario-grid"><div class="calendario-item"><div class="fecha">📅 15-17 Ago</div><div><strong>Copa La Serena</strong></div></div><div class="calendario-item"><div class="fecha">📅 10-12 Jul</div><div><strong>Torneo Relámpago</strong></div></div><div class="calendario-item"><div class="fecha">📅 5 Sep</div><div><strong>Simultánea GM</strong></div></div><div class="calendario-item"><div class="fecha">📅 20-22 Nov</div><div><strong>Campeonato Clausura</strong></div></div></div></div>
     <div class="grid-3" style="margin-bottom:48px;"><div class="testimonial-card"><i class="fas fa-quote-left" style="color:#d4af37"></i><p>"Seriedad y nivel técnico, el mejor club."</p><strong>- Rodrigo M.</strong></div><div class="testimonial-card"><i class="fas fa-quote-left" style="color:#d4af37"></i><p>"Mi hijo mejoró su estrategia."</p><strong>- Claudia F.</strong></div><div class="testimonial-card"><i class="fas fa-quote-left" style="color:#d4af37"></i><p>"Organización de élite."</p><strong>- Eduardo R.</strong></div></div>
 
-    <!-- NUEVO VISOR PROFESIONAL CON VARIANTES NAVEGABLES -->
-    <div id="visor" class="pgn-viewer"></div>
+    <!-- VISOR ORIGINAL RESTAURADO -->
+    <div class="visor-card" id="visor">
+        <div class="visor-header">
+            <div><i class="fas fa-chess-board" style="color:#d4af37"></i> <strong style="color:white">Analizador de Partidas</strong></div>
+            <div style="display:flex;gap:10px;">
+                <button id="vPrevCap" class="vbtn"><i class="fas fa-arrow-left"></i> Partida ant.</button>
+                <button id="vNextCap" class="vbtn">Partida sig. <i class="fas fa-arrow-right"></i></button>
+                <label class="vbtn" style="background:#d4af37;color:#000;cursor:pointer"><i class="fas fa-upload"></i> Cargar PGN <input type="file" id="pgnUp" accept=".pgn" style="display:none"></label>
+            </div>
+        </div>
+        <div class="visor-body">
+            <div class="sidebar-games" id="gameList"></div>
+            <div class="board-container">
+                <div id="mainBoard" class="chess-board"></div>
+                <div style="margin-top:20px; display:flex; gap:8px;">
+                    <button class="vbtn" id="vFirst"><i class="fas fa-backward-step"></i></button>
+                    <button class="vbtn" id="vPrev"><i class="fas fa-caret-left"></i></button>
+                    <button class="vbtn" id="vNext"><i class="fas fa-caret-right"></i></button>
+                    <button class="vbtn" id="vLast"><i class="fas fa-forward-step"></i></button>
+                </div>
+            </div>
+            <div class="notation-panel">
+                <div class="notation-header"><h4 id="curTitle" style="color:#d4af37">Partida ejemplo</h4><span style="font-size:0.7rem;"><i class="fas fa-keyboard"></i> ← → / PageUp/Down</span></div>
+                <div class="moves-scroll" id="notationGrid"></div>
+            </div>
+        </div>
+    </div>
 
     <!-- SECCIÓN REVISTA PEÓN DE REY (120 al 179) -->
     <section id="revista">
@@ -159,56 +174,47 @@
     document.getElementById('newsletterForm').addEventListener('submit',(e)=>{e.preventDefault();document.getElementById('newsMensaje').innerHTML='✅ Suscripción realizada.';e.target.reset();setTimeout(()=>document.getElementById('newsMensaje').innerHTML='',3000);});
     document.getElementById('torneoForm').addEventListener('submit',(e)=>{e.preventDefault();document.getElementById('torneoMensaje').innerHTML='✅ Inscripción registrada.';e.target.reset();setTimeout(()=>document.getElementById('torneoMensaje').innerHTML='',4000);});
 
-    // ========== VISOR PROFESIONAL CON VARIANTES (pgn-viewer) ==========
-    let currentViewer = null;
-
-    function cargarPartidaEnVisor(pgnText) {
-        const container = document.getElementById('visor');
-        if (currentViewer) {
-            // Limpiar contenedor antes de crear nuevo visor
-            container.innerHTML = '';
-        }
-        try {
-            currentViewer = PGNViewer(container, {
-                pgn: pgnText,
-                boardSize: '400px',
-                theme: 'dark',
-                pieceStyle: 'cburnett',
-                arrowButtons: true,
-                showResult: true,
-                showGameSelector: false,
-                figcaption: false
-            });
-            // Desplazar al visor
-            container.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            // Efecto de destello
-            container.style.transition = 'box-shadow 0.3s';
-            container.style.boxShadow = '0 0 0 2px #d4af37, 0 0 0 4px rgba(212,175,55,0.5)';
-            setTimeout(() => { container.style.boxShadow = ''; }, 1000);
-        } catch (err) {
-            console.error("Error cargando partida:", err);
-            alert("Error al cargar la partida. Verifica el formato PGN.");
-        }
+    // ========== VISOR ORIGINAL CON COMENTARIOS ==========
+    let board=null, game=new Chess(), db=[], currentGameIdx=0, moveIdx=-1, history=[], comments={};
+    const DEMO_PGN = `[Event "Clase Magistral"]\n[White "GM Panno"]\n[Black "Alumno"]\n\n1. e4 { Apertura central } 1... c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 { Siciliana Najdorf } 6. Be3 e5 7. Nb3 Be6 8. f3 Be7 9. Qd2 O-O 10. O-O-O Nbd7 11. g4 b5 12. g5 b4 13. Ne2 Ne8 14. f4 exf4 15. Bxf4 d5 16. exd5 Bxd5 17. Nbd4 Bxg5+ 18. Kb1 Bxf4 19. Qxf4 Nb6 20. Qg3 Nd5 21. Nxd5 Qxd5 22. c4 Qd6 23. Bh3 Rfc8 24. Bxe6 fxe6 25. Qg6 Qf8 26. Qxe6+ Kh8 27. Nf5 Qe8 28. Qxe8 Rxe8 29. Nd6 Rf8 30. Rhe1 Rf6 31. Re6 Rxe6 32. Nxe6 Nc5 33. Nxc5 Rxc5 34. Rxd7 Rxc4 35. b3 Rc5 36. Rxb7 a5 37. Kb2 Rc3 38. Rb6 Rc5 39. Rxa6 Rc3 40. Ra8+ Kh7 41. a4 Rxb3+ 42. Kxb3 g5 43. a5 Kh6 44. a6 Kh5 45. a7 Kh4 46. a8=Q Kg3 47. Qg8 Kf2 48. Qxg5 Ke3 49. Qg3+ Ke4 50. Qe1+ Kd5 51. Qd1+ Ke6 52. Qg4+ Kf6 53. Qd4+ Kg6 54. Qg4+ Kf6 55. Qd4+ Kg6 56. Qg4+ Kf6 57. Qd4+ Kg6 58. Qg4+ 1/2-1/2`;
+    function initBoard(){ board = Chessboard('mainBoard', { position: 'start', pieceTheme: 'https://lichess1.org/assets/piece/cburnett/{piece}.svg', draggable: false }); $(window).resize(board.resize); }
+    function processPGN(pgn){
+        let parts=[], regex=/\[Event\s+"[^"]*"\]/g, lastIndex=0, match;
+        while((match=regex.exec(pgn))!==null){ let start=match.index; if(lastIndex!==0) parts.push(pgn.substring(lastIndex,start)); lastIndex=start; }
+        if(lastIndex<pgn.length) parts.push(pgn.substring(lastIndex));
+        if(parts.length===0 && pgn.trim()) parts=[pgn];
+        db=[]; parts.forEach(p=>{if(p.trim()) db.push({title:extractTitle(p),pgn:p});});
+        if(db.length===0) db.push({title:"Partida de ejemplo",pgn:DEMO_PGN});
+        renderGameList(); loadGame(0);
     }
+    function extractTitle(pgn){ let w=(pgn.match(/\[White\s+"([^"]*)"\]/)||[,"Blancas"])[1]; let b=(pgn.match(/\[Black\s+"([^"]*)"\]/)||[,"Negras"])[1]; return `${w} vs ${b}`; }
+    function renderGameList(){ let listDiv=document.getElementById('gameList'); listDiv.innerHTML=db.map((g,i)=>`<div class="game-item ${i===currentGameIdx?'active':''}" onclick="loadGame(${i})"><i class="fas fa-chess"></i> ${g.title}</div>`).join(''); }
+    function parseComments(pgn){ let res={}, body=pgn.replace(/\[.*?\]/g,''), tokens=body.match(/(\{[^}]*\})|([A-Za-z0-9\+\-\=\#]+)/g), mIdx=-1; if(tokens) tokens.forEach(t=>{ if(t.startsWith('{')){ let comment=t.slice(1,-1); if(res[mIdx]) res[mIdx]+=' '+comment; else res[mIdx]=comment; } else if(!/^[0-9]/.test(t)) mIdx++; }); return res; }
+    function loadGame(idx){ currentGameIdx=idx; renderGameList(); game.load_pgn(db[idx].pgn); document.getElementById('curTitle').innerText=db[idx].title; history=game.history({verbose:true}); comments=parseComments(db[idx].pgn); moveIdx=-1; game.reset(); board.start(); renderNotation(); updateNavButtons(); }
+    function renderNotation(){ let html=''; for(let i=0;i<history.length;i+=2){ let num=Math.floor(i/2)+1,w=history[i],b=history[i+1]; html+=`<div class="move-wrap"><span style="color:#666;width:24px;display:inline-block;">${num}.</span><span class="move-btn ${moveIdx===i?'active':''}" onclick="jumpTo(${i})">${w.san}</span> `; if(b) html+=`<span class="move-btn ${moveIdx===i+1?'active':''}" onclick="jumpTo(${i+1})">${b.san}</span>`; if(comments[i]) html+=`<div class="comment-text">${comments[i]}</div>`; if(comments[i+1]) html+=`<div class="comment-text">${comments[i+1]}</div>`; html+=`</div>`; } document.getElementById('notationGrid').innerHTML=html; let active=document.querySelector('.move-btn.active'); if(active) active.scrollIntoView({behavior:'smooth',block:'nearest'}); }
+    function jumpTo(i){ if(i<0){ moveIdx=-1; game.reset(); board.start(); renderNotation(); return; } if(i>=history.length) return; moveIdx=i; game.reset(); for(let j=0;j<=i;j++) game.move(history[j].san); board.position(game.fen()); renderNotation(); }
+    function updateNavButtons(){ document.getElementById('vPrevCap').disabled=(currentGameIdx===0); document.getElementById('vNextCap').disabled=(currentGameIdx===db.length-1); }
+    document.addEventListener('keydown',(e)=>{ let ignore=document.activeElement.tagName==='INPUT'||document.activeElement.tagName==='TEXTAREA'; if(ignore) return; if(e.key==='ArrowLeft'){ e.preventDefault(); if(moveIdx>=0) jumpTo(moveIdx-1); } if(e.key==='ArrowRight'){ e.preventDefault(); if(moveIdx<history.length-1) jumpTo(moveIdx+1); } if(e.key==='PageUp'){ e.preventDefault(); if(currentGameIdx>0) loadGame(currentGameIdx-1); } if(e.key==='PageDown'){ e.preventDefault(); if(currentGameIdx<db.length-1) loadGame(currentGameIdx+1); } if(e.key==='Home'){ e.preventDefault(); jumpTo(-1); } if(e.key==='End'){ e.preventDefault(); jumpTo(history.length-1); } });
+    document.getElementById('vNext').onclick=()=>{ if(moveIdx<history.length-1) jumpTo(moveIdx+1); };
+    document.getElementById('vPrev').onclick=()=>{ if(moveIdx>=0) jumpTo(moveIdx-1); else jumpTo(-1); };
+    document.getElementById('vFirst').onclick=()=>jumpTo(-1);
+    document.getElementById('vLast').onclick=()=>jumpTo(history.length-1);
+    document.getElementById('vNextCap').onclick=()=>{ if(currentGameIdx<db.length-1) loadGame(currentGameIdx+1); };
+    document.getElementById('vPrevCap').onclick=()=>{ if(currentGameIdx>0) loadGame(currentGameIdx-1); };
+    document.getElementById('pgnUp').onchange=(e)=>{ let file=e.target.files[0]; if(!file) return; let reader=new FileReader(); reader.onload=ev=>processPGN(ev.target.result); reader.readAsText(file); };
+    $(document).ready(()=>{ initBoard(); processPGN(DEMO_PGN); });
+    window.loadGame=loadGame;
 
-    async function cargarRevista(numero) {
-        const url = `pdr-${numero}.pgn`;
-        try {
-            const resp = await fetch(url);
-            if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-            const pgnText = await resp.text();
-            cargarPartidaEnVisor(pgnText);
-        } catch (err) {
-            alert(`No se pudo cargar la revista nº ${numero}. Verifica que el archivo existe: ${url}`);
-        }
-    }
-
-    // Generar botones del 120 al 179
+    // ========== REVISTA PEÓN DE REY (botones 120 al 179) ==========
+    const BASE_PGN_URL = "pdr-";
+    const EXT = ".pgn";
+    const INICIO = 120;
+    const FIN = 179;
     function generarBotonesRevista() {
         const cont = document.getElementById('revistaButtons');
         if (!cont) return;
         cont.innerHTML = '';
-        for (let i = 120; i <= 179; i++) {
+        for (let i = INICIO; i <= FIN; i++) {
             const btn = document.createElement('button');
             btn.textContent = i;
             btn.className = 'vbtn';
@@ -218,15 +224,33 @@
             cont.appendChild(btn);
         }
     }
-
-    // Cargar partida de ejemplo al iniciar
-    function cargarEjemplo() {
-        const ejemplo = `[Event "Partida de Ejemplo con Variantes"]\n[White "Instructor"]\n[Black "Alumno"]\n\n1. e4 e5 2. Nf3 (2. d4 exd4 3. Qxd4 Nc6 { Apertura Escocesa } 4. Qd1 Nf6) Nc6 3. Bb5 { Ruy López } a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 (9. d4 Bg4 10. d5 Na5 11. Bc2 c6) Nb8 10. d4 Nbd7 *`;
-        cargarPartidaEnVisor(ejemplo);
+    async function cargarRevista(num) {
+        const url = `${BASE_PGN_URL}${num}${EXT}`;
+        const statusDiv = document.getElementById('visor-status');
+        try {
+            if (statusDiv) statusDiv.innerText = `Cargando revista nº ${num}...`;
+            const resp = await fetch(url);
+            if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+            const texto = await resp.text();
+            if (typeof processPGN === 'function') {
+                processPGN(texto);
+                if (statusDiv) statusDiv.innerText = `✅ Revista nº ${num} cargada. Use ← → para navegar.`;
+                const visorElement = document.getElementById('visor');
+                if (visorElement) {
+                    visorElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    visorElement.style.transition = 'box-shadow 0.3s';
+                    visorElement.style.boxShadow = '0 0 0 2px #d4af37, 0 0 0 4px rgba(212,175,55,0.5)';
+                    setTimeout(() => { visorElement.style.boxShadow = ''; }, 1000);
+                }
+            } else {
+                alert("Error: visor no listo");
+            }
+        } catch (err) {
+            alert(`No se pudo cargar nº ${num}. Verifica que el archivo existe:\n${url}`);
+            if (statusDiv) statusDiv.innerText = `❌ Error: nº ${num}`;
+        }
     }
-
     if (document.getElementById('revistaButtons')) generarBotonesRevista();
-    cargarEjemplo();
 </script>
 </body>
 </html>
